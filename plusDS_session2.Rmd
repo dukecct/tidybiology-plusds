@@ -21,15 +21,7 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 ```{r load_data, message=FALSE, warning=FALSE, include=FALSE}
-#df input
-file_name <- "heart.Rds" #set this 
-file_label <- "Heart Disease Dataset" #set this 
-dataframe_name <- "heart" #set this 
-path_to_data <- here::here("data", file_name)
-data <- readRDS(path_to_data)
-heart <- data #set this name, makes it available in the learnr chunks
-#heart_joined
-#patient_hx
+source(here::here("code", "healthcare.R")) #loads dataset-specific variables
 
 #set.seed(42)
 df_input <- data # df MUST contain at least one character and one numeric variable
