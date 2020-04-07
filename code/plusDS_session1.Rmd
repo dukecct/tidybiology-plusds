@@ -43,7 +43,7 @@ knitr::include_graphics(url)
 - Technology facilitates no delay in access to data    
   
 ## How do you make better health care decisions? {.build}
-**Data-driven** decision making  
+**Data-driven** decision making!  
   
 ```{r hierarchy, echo=FALSE, fig.cap="", out.height = '100%'}
 url <- "https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg"

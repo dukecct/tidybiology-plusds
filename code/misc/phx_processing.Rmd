@@ -25,7 +25,18 @@ heart$family_history <- sample(fam_hist, nrow(heart), replace = TRUE) # exercise
 # You could also show how to clean up names by standardising
 ```
 
-# Define drugs
+Making a new dataframe
+```{r new df}
+heart <- heart %>% 
+          mutate(health_status = case_when(
+            fbs == "elevated" & chol > 240 ~ "Diabetic & High Cholesterol",
+            fbs == "elevated" ~ "Diabetic",
+            chol > 240 ~ "High Cholesterol",
+            TRUE ~ "Normal blood sugar and cholesterol"
+          ))
+```
+
+# Define drugs & fun()
 ```{r}
 #trestbps (high bp)
 high_trestbps <- c("felodipine", "isradipine", "amlodipine", NA)
@@ -42,84 +53,57 @@ high_exang <- c("aspirin", "nitrates", "Metoprolol", "Acebutolol", NA)
 #target
 #3 of the above
 
-```
-
-
-
-```{r}
 #functions
-high_filler <- function(high_var, drug_class) {}
+fill_trestbps <- function(var) {
+  if (var > 120) {
+    sample(high_trestbps, 1)
+  } else {
+    NA
+  }
+}
+fill_chol <- function(var) {
+  if (var > 240) {
+    sample(high_chol, 1)
+  } else {
+    NA
+  }
+}
+fill_fbs <- function(var) {
+  if (var == "elevated") {
+    sample(high_fbs, 1)
+  } else {
+    NA
+  }
+}
+fill_exang <- function(var) {
+  if (var == 1) {
+    sample(high_exang, 1)
+  } else {
+    NA
+  }
+}
 
 heart <- heart %>% 
-   mutate(drug_trestpbs = map_if(heart$trestbps > 120, sample(high_trestbps, 1)))
-
-heart %>% count(drug_trestpbs, sort = TRUE)
+   mutate(drug_trestpbs = map_chr(trestbps, fill_trestbps), 
+          drug_chol = map_chr(chol, fill_chol), 
+          drug_fbs = map_chr(fbs, fill_fbs), 
+          drug_exang = map_chr(exang, fill_exang)) %>% 
+   unite("medication_hx", starts_with("drug"), sep = ", ", remove = TRUE, na.rm = TRUE)
 ```
 
-Making a new dataframe
-```{r new df}
-heart <- heart %>% 
-          mutate(health_status = case_when(
-            fbs == "elevated" & chol > 240 ~ "Diabetic & High Cholesterol",
-            fbs == "elevated" ~ "Diabetic",
-            chol > 240 ~ "High Cholesterol",
-            TRUE ~ "Normal blood sugar and cholesterol"
-          ))
-
-```
-
-All of the following code is adapted from Akshay's code to add names/addresses
+#Quick checks
 ```{r}
 heart %>% count(health_status) 
-
-meds <- tibble::tribble(
-   ~Drug, ~Status,
-   "metformin", "Diabetes",
-   "insulin", "Diabetes",
-   "sulfonylurea", "Diabetes",
-   "atorvastatin", "High Cholesterol",
-   "simvastatin", "High Cholesterol",
-   "lovastatin", "High Cholesterol",
-   NA, "Diabetes",
-   NA, "High Cholesterol"
-)
+heart %>% count(medication_hx, sort = TRUE)
 
 ```
 
-
+#make final df
 ```{r}
-diabetic<- heart %>% filter(health_status == "Diabetic")
-highchol <- heart %>% filter(health_status == "High Cholesterol")
 
-healthy<- heart %>% filter(health_status == "Normal blood sugar and cholesterol")
+phx <- heart %>% 
+   select(patient_id, family_history, health_status, medication_hx)
 
-healthy$medication <- NA
- 
-diabetic$medication <- meds %>% 
-                       filter(Status == "Diabetes") %>% 
-                       sample_n(nrow(diabetic), replace = TRUE) %>% 
-                       mutate(Drug = str_to_title(Drug)) %>% 
-                       pull(Drug)
-
-highchol$medication <- meds %>% 
-                       filter(Status == "High Cholesterol") %>% 
-                       sample_n(nrow(highchol), replace = TRUE) %>% 
-                       mutate(Drug = str_to_title(Drug)) %>% 
-                       pull(Drug)
-
-drug1 <- bind_rows(highchol, diabetic)
-
-phx<- bind_rows(healthy, drug1)
-
-phx <- phx %>% select(-healthy)
-
-patient_hx <- patient_hx %>% 
-                select(health_status, family_history, medication) %>% 
-                rowid_to_column() %>% 
-                rename(patientid = rowid)
-
-#write_csv(phx, "phx.csv")
-
-
+write_csv(phx, "phx.csv")
 ```
 

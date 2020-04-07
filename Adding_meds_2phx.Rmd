@@ -1,0 +1,68 @@
+---
+title: "adding meds to phx"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+getwd()
+
+read.csv("heart_mod_2.csv")
+```
+
+All of the following code is adapted from Akshay's code to add names/addresses
+
+```{r}
+heart_mod_2 %>% count(health_status) 
+# diabetic 153, high cholesterol 420, normal 452
+
+meds <- tibble::tribble(
+   ~Drug, ~Status,
+   "metformin", "Diabetes",
+   "insulin", "Diabetes",
+   "sulfonylurea", "Diabetes",
+   "atorvastatin", "High Cholesterol",
+   "simvastatin", "High Cholesterol",
+   "lovastatin", "High Cholesterol",
+   NA, "Diabetes",
+   NA, "High Cholesterol"
+)
+
+```
+
+
+```{r}
+diabetic<- heart_mod_2 %>% filter(health_status == "Diabetic")
+highchol <- heart_mod_2 %>% filter(health_status == "High Cholesterol")
+
+healthy<- heart_mod_2 %>% filter(health_status == "Normal blood sugar and cholesterol")
+
+healthy$medication <- NA
+ 
+diabetic$medication <- meds %>% 
+                       filter(Status == "Diabetes") %>% 
+                       sample_n(153, replace = TRUE) %>% 
+                       mutate(Drug = str_to_title(Drug)) %>% 
+                       pull(Drug)
+
+highchol$medication <- meds %>% 
+                       filter(Status == "High Cholesterol") %>% 
+                       sample_n(420, replace = TRUE) %>% 
+                       mutate(Drug = str_to_title(Drug)) %>% 
+                       pull(Drug)
+
+drug1 <- bind_rows(highchol, diabetic)
+
+phx<- bind_rows(healthy, drug1)
+
+phx <- phx %>% select(-healthy)
+
+write_csv(phx, "phx.csv")
+
+
+```
+
