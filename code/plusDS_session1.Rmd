@@ -157,7 +157,7 @@ question("Which of these are numbers?",
 ## Which of these will work?
 Suppose `one <- 1`
 ```{r one_quiz, echo=FALSE}
-question("Which of these are numbers?",
+question("Which of these will work?",
   answer("log(1)", correct = TRUE),
   answer('log("1")', message = "You cannot log transform a word (string)"),
   answer('log("one")', message = "You cannot log transform a word (string)"),
@@ -228,14 +228,14 @@ You can also save a part of the dataframe as an object for later use
   
 In the code chunk below:  
 1. On the first line, write the R code to save a single column to a new object   
-2. On the second line, type the object name #this will print out the new object  
+2. On the second line, type the object name - this will print out the new object  
 3. Run the code  
   
 ```{r create_exercise, exercise=TRUE}
 
 ```
 
-# R <br>Integrated Developer Environment
+# R <br>Integrated Development Environment
 Any questions?
 
 ## R
@@ -251,7 +251,7 @@ knitr::include_graphics(url)
 <font size = "1">Photo by [Photo by Evan Hein on Unsplash](https://unsplash.com/@evanheinphoto)</font>
 
 ## Rstudio
-Integrated Developer Environment
+Integrated Development Environment
 
 ```{r r_de, echo=FALSE, fig.cap="", out.height = '100%'}
 url <- "https://source.unsplash.com/XuDPnpox8tc/300×200"
@@ -308,7 +308,7 @@ The other functions, data sets, and help pages are grouped into collections know
 **Functions are the power of using R**
 
 ## Packages contain functions, documentation, data
-  
+
 <center><iframe src="https://dplyr.tidyverse.org"></iframe></center>
 
 ## CRAN
