@@ -1,0 +1,201 @@
+---
+title: "kaggle_heart_dataset"
+author: "Akshay Bareja"
+date: "3/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(babynames)
+```
+
+Import data
+
+data source - https://www.kaggle.com/johnsmith88/heart-disease-dataset
+
+The `target` variable refers to the presence of heart disease in the patient. It is integer valued 0 = no disease and 1 = disease.
+```{r import heart.csv}
+heart <- read_csv("heart.csv")
+```
+
+Simple EDA
+
+```{r simple eda}
+dim(heart) # 1025 14
+
+glimpse(heart) # every vriable is a dbl
+```
+
+Turn `sex` variable into a factor
+
+```{r sex to factor}
+heart %>% 
+  mutate(sex = case_when(
+    sex == 1 ~ "male",
+    sex == 0 ~ "female"
+  )) -> heart
+
+heart$sex <- as_factor(heart$sex)
+
+```
+
+Some simple plots
+
+```{r some simple plots}
+heart %>% 
+  ggplot(aes(chol, fill = sex)) +
+  geom_density(alpha = 0.5) +
+  theme_bw() +
+  labs(
+    x = "Serum Cholesterol (mg/dl)",
+    y = "Density",
+    fill = "",
+    title = "Distribution of Serum Cholesterol in Men and Women"
+  ) +
+  scale_x_continuous(expand = c(0.005, 0.005)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  geom_vline(data = filter(heart, sex == "male"), aes(xintercept = median(chol)), colour = "red", size = 1.25, linetype  = 2) +
+  geom_vline(data = filter(heart, sex == "female"), aes(xintercept = median(chol)), colour = "blue", size = 1.25, linetype = 2) 
+
+heart %>% 
+  ggplot(aes(age, chol, colour = sex)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  theme_bw() +
+  labs(
+    x = "Age (years)",
+    y = "Serum Cholesterol (mg/dl)",
+    colour = "",
+    title = "Serum Cholesterol Levels across Different Ages"
+  ) +
+  annotate("segment",
+           x = 64,
+           xend = 66.5,
+           y = 564,
+           yend = 564) +
+  annotate("text",
+           x = 56.7,
+           y = 553,
+           label = "This woman developed \nheart disease")
+
+# TIL that women have higher cholesterol than men!
+```
+
+Adding more columns
+
+What about making up first and last names for each patient? This can help you demonstrate how to use the Stringr package
+
+```{r making up names}
+# set.seed(42)
+# heart %>% count(sex) # 713 males and 312 females
+# 
+# males <- heart %>% filter(sex == "male")
+# females <- heart %>% filter(sex == "female")
+# 
+# males$first_name <- babynames %>% 
+#                       filter(sex == "M") %>% 
+#                       filter(n > mean(n)) %>% 
+#                       sample_n(713) %>% 
+#                       mutate(name = str_to_title(name)) %>% 
+#                       pull(name)
+# 
+# females$first_name <- babynames %>% 
+#                         filter(sex == "F") %>% 
+#                         filter(n > mean(n)) %>% 
+#                         sample_n(312) %>% 
+#                         mutate(name = str_to_title(name)) %>% 
+#                         pull(name)
+# 
+# heart <- bind_rows(males, females)
+# heart <- sample_n(heart, 1025)
+# 
+# heart$surname <- c(rep("Moore", 50), rep("Gordon", 50), rep("Shelley", 50), rep("Ranaldo", 50), rep("Kaplan", 50), rep("Hubley", 50), rep("McNew", 50), rep("Malkmus", 50), rep("Kannberg", 50), rep("West", 50), rep("Young", 50), rep("Mangum", 50), rep("Butler", 50), rep("Cox", 50), rep("Portner", 50), rep("Lennox", 50), rep("Murphy", 50), rep("Boucher", 50), rep("Apple", 50), rep("Deal", 50), rep("Power", 25))
+# 
+# heart <- heart %>% unite("Name", c(first_name, surname), sep = " ")
+# heart <- sample_n(heart, 1025)
+# heart <- heart %>% select(Name, everything())
+# 
+# heart %>% filter(str_detect(Name, "Moore")) # using Stringr to choose all the memebers of the Moore family
+# 
+# write_csv(heart, "heart_mod.csv")
+```
+
+Now create another dataframe you can use for join demonstrations 
+
+```{r for joins}
+# address <- tibble::tribble(
+#   ~Surname, ~Address,
+#   "Moore", "100 Narnia lane",
+#   "Gordon", "20 Gotham road",
+#   "Shelley", "1002 Aurora boulevard",
+#   "Ranaldo", "62 Solaris avenue",
+#   "Kaplan", "1947 Middle Earth place",
+#   "Hubley", "1789 Azeroth junction",
+#   "McNew", "1859 Parks road",
+#   "Malkmus", "1905 Naboo way",
+#   "Kannberg", "1776 Liberty road",
+#   "West", "2001 Odyssey way",
+#   "Young", "1917 Tatooine lane",
+#   "Mangum", "42 Frogstar World B",
+#   "Butler", "1215 Magna place",
+#   "Cox", "1861 Lincoln boulevard",
+#   "Portner", "32 Panda place",
+#   "Lennox", "969 Methuselah junction",
+#   "Murphy", "1953 Crick ave",
+#   "Boucher", "1860 Huxley lane",
+#   "Apple", "1 Infinity loop",
+#   "Deal", "21 Jump street",
+#   "Power", "8.5 Fellini way",
+#   "James", "15 Monmouth avenue",
+#   "Adams", "6 Quincy boulevard"
+# )
+
+# write_csv(address, "address.csv")
+
+# address <- read_csv("address.csv")
+# 
+# heart %>% 
+#   separate(Name, into = c("first_name", "second_name")) %>% 
+#   left_join(address, by = c("second_name" = "Surname"))
+```
+
+Adding some more variables
+
+```{r adding variables}
+# Create a "family_history" variable
+fam_hist <- c("Aunt", "aunt", "Auntie", "auntie", "Father", "father", "Uncle", "uncle", "Grandmother", "grandmother", "Grandfather", "grandfather", "Mother", "mother")
+
+heart$family_history <- sample(fam_hist, 1025, replace = TRUE) # exercise idea: use Stringr to identify patients whose grandPARENTS have heart disease
+
+# You could also show how to clean up names by standardising
+```
+
+Making a new dataframe
+
+```{r new df}
+heart <- heart %>% 
+          mutate(health_status = case_when(
+            fbs == 1 ~ "Diabetic",
+            chol > 240 ~ "High Cholesterol",
+            fbs == 1 & chol > 240 ~ "Diabetic & High Cholesterol",
+            TRUE ~ "Normal blood sugar and cholesterol"
+          ))
+
+write_csv(heart, "heart_mod_2.csv")
+
+drug <- tribble(
+  ~Status, ~Drug,
+  "Diabetic", "Metformin, Sulfonylureas, Insulin",
+  "High Cholesterol", "Atorvastatin, Simvastatin, Lovastatin",
+  "Diabetic & High Cholesterol", "Metformin, Sulfonylureas, Insulin, Atorvastatin, Simvastatin, Lovastatin"    
+)
+
+write_csv(drug, "drug.csv")
+
+heart_drug <- heart %>% 
+                left_join(drug, by = c("health_status" = "Status"))
+```
+
+
