@@ -1,0 +1,698 @@
+---
+title: "Tidybiology +DS: Session 2 "
+subtitle: "An Introduction to Biological Data Science in R"
+author: "Matthew Hirschey, Ph.D."
+date: "April 8-9, 2020"
+output: 
+  ioslides_presentation:
+    widescreen: true
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(tidyverse)
+library(knitr)
+library(here)
+library(twitterwidget)
+library(rlang)
+library(patchwork)
+library(ggrepel)
+knitr::opts_chunk$set(echo = FALSE, 
+                      fig.align="center")
+```
+
+```{r load_data, message=FALSE, warning=FALSE, include=FALSE}
+source(here::here("code", "healthcare.R")) #loads dataset-specific variables
+source(here::here("code", "bespoke.R")) #loads custom objects
+```
+
+# Welcome back
+
+# "The simple graph has brought more information to the data analyst’s mind than any other device."  -- John Tukey
+
+## Visualize Data with
+```{r ggplot_logo, echo=FALSE, fig.cap="", out.height = '100%'}
+url <- "https://github.com/tidyverse/ggplot2/raw/master/man/figures/logo.png"
+knitr::include_graphics(url)
+```
+<font size = "1">[https://ggplot2.tidyverse.org](https://ggplot2.tidyverse.org)</font>
+
+## A basic plot using `ggplot` in R
+We ended the last class with:
+
+```{r ggplot_basic, echo=TRUE, eval=FALSE}
+#need to parameterize this; embed rmd here?; but still need to parameterize that doc.
+ggplot(heart, aes(x = sex, y = chol)) +
+  geom_point(color = "darkblue", size = 3) +
+  labs(x = "sex", 
+       y = "Cholesterol", 
+       title = "Cholesterol values from the heart disease dataset", 
+       caption = "Data from Kaggle | Plot from @matthewhirschey") +
+  theme_minimal() +
+  NULL
+```
+
+## which built this...
+```{r ggplot_basic2, echo=FALSE}
+#need to parameterize this; embed rmd here?; but still need to parameterize that doc.
+ggplot(heart, aes(x = sex, y = chol)) +
+  geom_point(color = "darkblue", size = 3) +
+  labs(x = "sex", y = "Cholesterol", title = "Cholesterol values from the heart disease dataset", caption = "Data from Kaggle | Plot from @matthewhirschey") +
+  theme_minimal() +
+  NULL
+```
+
+# Basic ggplot2
+Any questions from last week?
+
+## Basics of a ggplot code {.build}
+
+Below is an example of the most basic form of the ggplot code  
+  
+`ggplot(data = dataframe) +`   
+  `geom(mapping = aes(x, y))`  
+  
+Take a moment to look back at the code template.  You can see that in that code we assigned a `dataset` and the information we needed to `map` it to a type of plot
+
+## Basics of a ggplot code {.build}
+  
+`ggplot(data = `r dataframe_name`) +`  
+`geom_point(mapping=aes(x = `r df_numeric1_name`, y = `r df_numeric2_name`))`  
+  
+```{r simple_plot, echo = FALSE, warning = FALSE}
+df_input %>% 
+  ggplot(aes(!!sym(df_numeric1_name), !!sym(df_numeric2_name))) +
+  geom_point() 
+```
+
+## Build a `ggplot` {.build}
+- "Initialize" a plot with `ggplot()`  
+  
+`ggplot(data = `r dataframe_name`) +`  
+  
+- Add layers with `geom_functions`  
+  
+`geom_point(mapping=aes(x = `r df_numeric1_name`, y = `r df_numeric2_name`))`  
+
+## Notes on `ggplot` style {.build}
+- Generally, different people have **strong** opinions about style and data visualization  
+  
+- Data visualization is a rich and complex area of study and is beyond the scope of this introductory course  
+  
+**That being said, here are a few style tips:**    
+- While you can put the `+` at the beginning of the next line, it is generally put at the end of the previous line    
+  
+- Arguments do not need to be explicit: this chunk of code is equivalent to the previous chunk (data, mappings)
+`ggplot(`r dataframe_name`) +`    
+`geom_point(aes(x = `r df_numeric2_name`, y = `r df_numeric2_name`))`  
+
+## How are these two plots similar?
+```{r double_plot, echo = FALSE, warning = FALSE}
+plot1 <- df_input %>% 
+  ggplot(aes(!!sym(df_numeric1_name), !!sym(df_numeric2_name))) +
+  geom_point() 
+
+plot2 <- df_input %>% 
+  ggplot(aes(!!sym(df_numeric1_name), !!sym(df_numeric2_name))) +
+  geom_smooth() 
+
+plot1 + plot2
+```
+
+## The `geom` is different between these plots
+`geom` is short for geometric object, which is the visual object used to represent the data  
+    
+`plot1 <- `r dataframe_name` %>%`   
+  `ggplot(aes(`r df_numeric1_name`, `r df_numeric2_name`)) +`  
+  `geom_point()`   
+  
+`plot2 <- `r dataframe_name` %>%`   
+  `ggplot(aes(`r df_numeric1_name`, `r df_numeric2_name`)) +`  
+  `geom_smooth()`   
+
+## Choosing your (geom)itries
+Different data types require different plot types.  
+  
+When plotting your data, it is often helpful to take a glimpse at the data you intend to plot to know what kinds of variables you will be working with
+
+`glimpse(`r dataframe_name`)`
+```{r glimpse_again, exercise=TRUE}
+
+```
+
+## Geoms 
+So now that you know your variable types, how do you know what geoms to use??  
+  
+Use the following resources to match your data type to the appropriate `geoms`
+
+----
+<a href="https://rstudio.com/resources/cheatsheets">https://rstudio.com/resources/cheatsheets/</a><br>
+<center><iframe src="https://rstudio.com/resources/cheatsheets"></iframe></center>
+
+----
+<a href="https://www.data-to-viz.com/">https://www.data-to-viz.com/</a><br>
+<center><iframe src="https://www.data-to-viz.com/"></iframe></center>
+
+## Change this scatterplot code to draw boxplots {.smaller} 
+`ggplot(`r dataframe_name`) + geom_point(aes(x=`r df_char1_name`,y=`r df_numeric1_name`))`  
+```{r boxplot_activity, exercise = TRUE}
+
+```
+  
+Use the cheatsheet. Try your best guess.  
+
+## What will this code do?
+  
+`ggplot(`r dataframe_name`) +`   
+`geom_boxplot(aes(x=`r df_char1_name`,y=`r df_numeric1_name`)) +`  
+`geom_point(aes(x=`r df_char1_name`,y=`r df_numeric1_name`))`  
+
+## Try including two `geoms` for yourself
+```{r 2geom_activity, exercise = TRUE}
+
+```
+  
+**Each new geom adds a new layer**  
+
+## Aesthetics
+Everything up to this point gets you a basic graph; but what about colors, shapes and overall style?  
+  
+You can change 5 basic aesthetics  
+1. **Color**- changes the outline color of your datapoints  
+2. **Size** - choose the size of the datapoint  
+3. **Shape** - choose a pre-defined shape  
+4. **Alpha**- changes the transparency of each point  
+5. **Fill**- changes the fill color of your points  
+  
+Go to code/  
+Open 04_ggplot2.Rmd  
+Complete the exercise.    
+  
+## Mapping these aesthetics to data
+Beyond simply changing the size or color of the variables in your plot, you can encode more information by mapping these values to data in your data set.  
+  
+Go to code/  
+Open 05_aes.Rmd  
+Complete the exercise.  
+  
+## Global vs Local {.build}
+In ggplot2, we have the options to set mappings globally or locally. Setting a mapping globally means to set those values in the original ggplot function.  
+  
+Example: Earlier in class you made this graph:
+
+`ggplot(`r dataframe_name`) +`  
+  `geom_jitter(aes(x=`r df_char1_name`, y=`r df_numeric1_name`))+`  
+  `geom_boxplot(aes(x=`r df_char1_name`, y=`r df_numeric1_name`))`  
+  
+## Global vs Local
+```{r global_v_local_concepts, echo = FALSE, warning = FALSE}
+ggplot(df_input) +
+  geom_jitter(aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_boxplot(aes(!!sym(df_char1_name), !!sym(df_numeric1_name)))
+```
+
+## Global vs Local
+However, if we map our x and y values in the ggplot function we find that we generate the same graph  
+  
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot()`  
+```{r global_v_local, echo = FALSE, warning = FALSE}
+ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot()
+```
+
+## Global vs Local {.build}
+This is because when you set the aes mappings in the original `ggplot` function you are setting the `aes` **globally**.  
+This means all the functions afterwards will inherit that mapping. So in our example, this means that both the jitter and boxplot geoms know to graph the same information  
+  
+You can also set aes values **locally** within the geom function. Doing so will only change the values in that geom
+
+## Global vs Local
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`))`      
+```{r global_v_local1, echo = FALSE, warning = FALSE}
+ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name)))
+```
+
+## Global vs Local {.build}
+```{r global_v_local2, echo=FALSE}
+mean <- mean(df_numeric2_vec)
+sd <- sd(df_numeric2_vec)
+```
+
+Data can also be set locally or globally. For this example, let's filter our original data first using the `dplyr::filter` function
+  
+`df_filter <- `r dataframe_name` %>% filter(`r df_numeric2_name` > `r round(mean + 2*sd)`)`  
+  
+*this number is two standard deviations above the `mean` value of `r df_numeric2_name`
+
+## Global vs Local {.build}
+Now, let's identify only the `r dataframe_about` in our data that are outliers, more than 2SD above the mean, by setting data locally in a new geom  
+  
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`)) +`   
+`geom_label(data=df_filter, aes(label=`r df_id_name`))`  
+
+## Global vs Local {.build}
+```{r global_v_local3, echo = FALSE, warning = FALSE}
+df_filter <- df_input %>% filter(!!sym(df_numeric2_name) > round(mean + 2*sd))
+
+ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name))) +
+  geom_label_repel(data = df_filter, aes(label = !!sym(df_id_name)))
+```
+
+## Global vs Local {.build}
+You notice we have to indicate the new dataset, but because it has the same x and y values, we did not need to set those mappings  
+  
+Go to code/  
+Open 06_global_v_local.Rmd  
+Complete the exercise to practice mapping locally and globally.   
+
+## Labels and Legends
+Several options exist to change the default labels and legends. Recall, this code:  
+  
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`))`   
+
+## Labels and Legends {.build}
+```{r labs, echo = FALSE, warning = FALSE}
+original_plot <- ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name)))
+original_plot
+```
+  
+But it has two problems:  
+1. The x-axis label is redundant  
+2. The figure legend is also redundant  
+
+## Change labels using `labs`
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`)) +`  
+`labs(x ="") #blank quotes removes the label`
+
+## Change labels using `labs`
+Gave us this plot:  
+```{r labs_fix, echo = FALSE, warning = FALSE}
+ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name))) +
+  labs(x = "")
+```
+
+## Change legend using `guides`
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`)) +`  
+`labs(x ="") #blank quotes removes the label +`  
+`guides(color = "none")`
+
+## Change legend using `guides` 
+```{r guides, echo = FALSE, warning = FALSE}
+lab_plot <- ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name))) +
+  labs(x = "") + 
+  guides(color = "none")
+original_plot + lab_plot
+```
+
+## Faceting {.build}
+Faceting allows you to create multiple graphs side by side in one panel. Especially useful when you want to see the data together, but not on top of eachother  
+  
+For example:  
+  
+`ggplot(`r dataframe_name`) +`  
+`geom_point(aes(x=`r df_char1_name`, y=`r df_numeric1_name`)) +`  
+`facet_grid(cols = vars(`r df_char2_name`))`
+
+## Faceting
+```{r facetting, echo = FALSE, warning = FALSE}
+ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_point() +
+  facet_grid(cols = vars(!!sym(df_char2_name)))
+```
+  
+*This is especially useful for exploratory data analysis
+
+## Themes {.build}
+You can change almost everything you see on your chart, but a lot of the things you may look to change are part of the "theme"  
+  
+Here we are going to change some features about our title text:  
+  
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`)) +`  
+`labs(title = "My first plot") +`  
+`theme(plot.title = element_text(face = "bold", size = 12))` 
+
+## Themes {.build}
+```{r themes, echo = FALSE, warning = FALSE}
+theme1 <- ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name))) +
+  labs(title = "My first plot") +
+  theme(plot.title = element_text(face = "bold", size = 12)) 
+original_plot + theme1
+```
+
+## Themes {.build}
+Next, let's change the aesthetics of our legend box  
+  
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`)) +`  
+`labs(title = "My first plot") +`  
+`theme(plot.title = element_text(face = "bold", size = 12),`  
+`legend.background = element_rect(fill="gray", colour="black"))`   
+
+## Themes {.build}
+```{r themes2, echo = FALSE, warning = FALSE}
+theme2 <- ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name))) +
+  labs(title = "My first plot") +
+  theme(plot.title = element_text(face = "bold", size = 12), 
+        legend.background = element_rect(fill="gray", colour="black")
+  ) 
+theme1 + theme2
+```
+
+## Themes {.build}
+Finally, let's change the legend position  
+  
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`)) +`  
+`labs(title = "My first plot") +`  
+`theme(plot.title = element_text(face = "bold", size = 12),`  
+`legend.background = element_rect(fill="gray", colour="black"),`  
+`legend.position = "bottom"))` 
+
+## Themes {.build}
+```{r themes3, echo = FALSE, warning = FALSE}
+theme3 <- ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name))) +
+  labs(title = "My first plot") +
+  theme(plot.title = element_text(face = "bold", size = 12), 
+        legend.background = element_rect(fill="gray", colour="black"),
+        legend.position = "bottom"
+  ) 
+theme2 + theme3
+```
+
+## Themes {.build}
+Pre-Set themes also exist as an easy way to change the entire theme of your graph quickly. They can also be combined with custom theme settings  
+
+`ggplot(`r dataframe_name`, aes(x=`r df_char1_name`, y=`r df_numeric1_name`) +`  
+`geom_jitter() +`    
+`geom_boxplot(aes(color = `r df_char1_name`)) +`  
+`labs(title = "My first plot") +`  
+`theme_minimal()`  
+
+## Themes {.build}
+```{r themes4, echo = FALSE, warning = FALSE}
+theme4 <- ggplot(df_input, aes(!!sym(df_char1_name), !!sym(df_numeric1_name))) +
+  geom_jitter() +
+  geom_boxplot(aes(color = !!sym(df_char1_name))) +
+  labs(title = "My first plot") +
+  theme_minimal()
+theme1 + theme4
+```
+
+## Saving plots using `ggsave` {.build}
+
+If you make a plot there are a few ways to save it, though the simplest is to use `ggsave`  
+
+`ggsave("ggsaveexample.png", plot = last_plot())`  
+
+You can change the type of file you save or the size.  
+  
+`ggsave("ggsaveexample.pdf", plot = my_awesome_object, width = 6, height = 6, units = "cm")`  
+
+## Saving plots using ggsave
+Where does it save??  
+  
+`getwd()`
+
+## Putting it all together
+Go to code/  
+Open 07_ggplot_together.Rmd  
+Complete the exercise to put all these ggplot skills to work.  
+
+# R <br> Importing
+Any questions?
+
+## Importing data into R {.build}
+
+The `readr` package (found in the `tidyverse` collection) contains a number of useful functions of the form `read_*` to import data. For example, if you have a `.csv` file, you would use the `read_csv` function  
+  
+The dataset provided to you is a cleaned R-specific document. But you will never find this in 'the wild'.  
+  
+Most often, you will need to find a data file (such as csv), and import it
+
+## Importing data into R {.build}
+For the purpose of this class, we have generated a **simulated** dataset of `r dataframe_join_about` to accompany the `r dataframe_name` dataset.  
+
+To import the `r dataframe_join_file_name` file into RStudio, run the following:  
+  
+``r dataframe_join_name` <- read_csv(here::here("data", "`r dataframe_join_file_name`"))`
+
+Go to code/  
+Open 08_import_and_join.Rmd  
+Complete the exercise to import this new dataset.  
+
+## Importing data into R {.build}
+
+You can also use the `readr` package to import data from a URL
+
+For example, to load a dataset from the (very useful) Tidy Tuesday series, run the following
+
+```{r import_url, echo = TRUE, warning = FALSE, message = FALSE, eval = TRUE}
+url <- "https://raw.githubusercontent.com/matthewhirschey/tidybiology-plusds/master/data/phx.csv"
+patient_hx <- read_csv(url)
+
+```
+
+## Combining datasets {.build}
+
+There are many times when you have two or more overlapping datasets that you would like to combine
+
+The `dplyr` package has a number of `*_join` functions for this purpose
+
+```{r left_join, echo=FALSE, fig.cap="", out.height='50%'}
+url <- "https://github.com/matthewhirschey/tidybiology-plusds/raw/master/media/dplyr-joins.png"
+knitr::include_graphics(url)
+```
+
+
+## `left_join` {.build}
+
+Returns all rows from a, and all columns from a and b
+
+Rows in a with no match in b will have NA values in the new columns
+
+If there are multiple matches between a and b, all combinations of the matches are returned
+
+## `left_join` example {.build}
+
+Take a look at the variables in each dataset - `r dataframe_name` and `r dataframe_join_name`  
+
+You will notice that both datasets contain common variable - `r df_id_name`. This can therefore serve as a common variable to join on. Let's join on this:  
+  
+`left_join` `r dataframe_name` with `r dataframe_join_name` and assign the output to a new object called ``r dataframe_name`_join_left`
+
+Go to code/  
+Open 08_import_and_join.Rmd  
+Complete the exercise to join the two datasets.  
+  
+Now you have one dataset with additional useful information
+
+## `right_join`
+```{r right_join, echo=FALSE, fig.cap="", out.height='66%'}
+url <- "https://github.com/matthewhirschey/tidybiology-plusds/raw/master/media/dplyr-joins.png"
+knitr::include_graphics(url)
+```
+
+
+## `right_join` {.build}
+Returns all rows from b, and all columns from a and b
+
+Rows in b with no match in a will have NA values in the new columns
+
+If there are multiple matches between a and b, all combinations of the matches are returned
+  
+This is conceptually equivalent to a `left_join`, but can be useful when stringing together multiple steps using %>% 
+
+## `inner_join`
+```{r inner_join, echo=FALSE, fig.cap="", out.height='66%'}
+url <- "https://github.com/matthewhirschey/tidybiology-plusds/raw/master/media/dplyr-joins.png"
+knitr::include_graphics(url)
+```
+
+## `inner_join` {.build}
+Returns all rows from a where there are matching values in b, and all columns from a and b
+
+If there are multiple matches between a and b, all combination of the matches are returned
+
+## `full_join`
+```{r full_join, echo=FALSE, fig.cap="", out.height='66%'}
+url <- "https://github.com/matthewhirschey/tidybiology-plusds/raw/master/media/dplyr-joins.png"
+knitr::include_graphics(url)
+```
+
+## `full_join` {.build}
+Returns all rows and all columns from both a and b  
+
+Where there are no matching values, returns NA for the one missing  
+
+# R <br>Strings
+Any questions?
+
+```{r dataimport, include=FALSE}
+#heart_joined <- read_csv("phx.csv")
+```
+## 
+
+## Dealing with strings! {.build}
+
+How do we deal with character strings in R? 
+
+* Sort? 
+* Select? 
+* Change?
+
+## Counting {.build}
+
+`str_count()` is a function we can use to count the number of rows that match a particular pattern
+
+<div class= "red2"> Example </div>
+In this code:  
+- string we want to evaluate is `heart_mod_2$health_status`  
+- pattern we want to count `"High Cholesterol"`  
+
+`str_count(heart_joined$health_status, "High Cholesterol")`
+
+## Counting
+`str_count(heart_joined$health_status, "High Cholesterol")`
+
+```{r str_count example, echo= FALSE, warning = FALSE}
+#str_count(heart_joined$health_status, "High Cholesterol")
+
+```
+
+
+## A note about string patterns
+
+When using a stringr function, you may get an output saying a string pattern doesn't exist. If you know for sure it does, <div class="blue"> double check capitalization </div>  
+
+a good place to add `str_to_lower()` or `str_to_upper()` example or just change regex to be `"^(F|f)ather"` 
+
+## What about subsets of strings? {.build}
+
+We can use the same function to detect patterns within larger strings.
+
+Let's look for how many patients take a statin of any kind using
+`str_count(heart_joined$medication, "statin")` 
+
+## What about subsets of strings? 
+`str_count(heart_joined$medication, "statin")`  
+What does the ouput mean?
+```{r str_count expanded, echo= FALSE, warning=FALSE}
+#str_count(heart_joined$medication, "statin")
+
+```
+
+## You could do an exercise here
+
+like how many people listed having an `"auntie"` in their health history vs an `"aunt"`
+
+
+## Using Regular Expressions
+
+How many patients have a father with a history of disease, but we don't want to include grandfathers in the results. 
+
+We can use **Regular Expressions**, aka **Regex**, to solve this
+
+## Using Regular Expressions
+<div class="red2"> Example </div>
+Use a `^` symbol to indicate we want this pattern to appear at the beginning of the word, and `(F|f)` to say we would accept either capital or lowercase f in the first spot:  
+  
+`str_count(heart_joined$family_history, "^(F|f)ather")` 
+
+```{r regex1, echo=FALSE, warning=FALSE, message=FALSE}
+#str_count(heart_joined$family_history, "^(F|f)ather")
+
+```
+## Where do I find the RegEx I need??
+
+cheatsheet or website here
+
+## Logic Evaluation {.build}
+We can use `str_detect()` to logically evaluate a character string.
+
+What do you think the output would look like?
+
+It would be logical, or `TRUE`/`FALSE`
+
+## Logic Evaluation 
+<div class= "red2"> Example </div> We want to determine only patients with diabetes using the following code   
+`str_detect(heart_joined$health_status, "Diabetic")` 
+```{r strdetect example, warning=FALSE, echo=FALSE}
+#str_detect(heart_joined$health_status, "Diabetic")
+```
+
+## Modifiying strings with `str_replace()` {.build}
+In the health_status column we have  
+-`"Diabetic"`  
+-`"High Cholesterol"`  
+-`"Normal blood sugar and cholesterol"`  
+but we want to simplify healthy individuals to `"Normal"`
+
+`str_replace(heart_joined$health_status, "Normal blood sugar and cholesterol", "normal")`
+
+```{r str_replace, warning=FALSE, echo=FALSE}
+#str_replace(heart_joined$health_status, "Normal blood sugar and cholesterol", "normal")
+```
+
+## Modifiying strings with `str_replace()` {.build}
+We use this function to actually modify the `health_status` column by assigning it using   
+
+`heart_joined$health_status <-`  
+       `str_replace(heart_joined$health_status, "Normal blood sugar and cholesterol", "normal")`
+
+```{r str_replace in col, warning = FALSE, echo=FALSE}
+#heart_joined$health_status <- 
+#  str_replace(heart_joined$health_status, "Normal blood sugar and cholesterol", "normal")
+
+#head(heart_joined$health_status)
+```
+
+
+## Using `stringr` with `dplyr` {.build}
+We can use `stringr` functions in tandem with `dplyr` functions.
+
+<div class= "red2"> Example </div> We want to make a logical variable (`TRUE`/`FALSE`) that tells us if a patient has a normal health history using  
+
+`heart_mod_2 <- mutate(heart_joined, healthy = str_detect(health_status, "normal"))` 
+
+```{r stringr with dplyr, echo=FALSE, warning=FALSE}
+#heart_joined2 <- mutate(heart_joined, healthy = str_detect(health_status, "normal"))
+
+#head(heart_joined2$healthy)
+```
+
+
+
