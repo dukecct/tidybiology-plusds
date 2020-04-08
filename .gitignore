@@ -5,5 +5,8 @@
 /tmp
 /admin
 .DS_Store
+code/.DS_Store
 *.Rproj
 *.html
+code/plusDS_session1_files
+code/plusDS_session2_files
