@@ -810,8 +810,8 @@ The code chunk above takes all the elements of the column `r colnames(df_numeric
 
 ## `summarise()` and `summarize()` {.build}
 
-`summarize()` produces a new dataframe that aggregates that values of a column based on a certain condition.
-
+`summarize()` is one of the key functions in `dplyr`. It produces a new dataframe that aggregates that values of a column based on a certain condition.  
+  
 For example, to calculate the mean `r colnames(df_numeric_select)`, run the following
 
 ``r dataframe_name` %>%`      
@@ -823,8 +823,8 @@ For example, to calculate the mean `r colnames(df_numeric_select)`, run the foll
 
 ## `group_by()` {.build}
 
-`group_by()` and `summarize()` can be used in combination to summarize by groups
-
+`group_by()` and `summarize()` are a powerful combination of functions to summarize by groups  
+  
 ``r dataframe_name` %>%`  
   `group_by(`r colnames(df_character_select)`) %>%`  
   `summarise(mean(`r colnames(df_numeric_select)`))`  
@@ -832,7 +832,8 @@ For example, to calculate the mean `r colnames(df_numeric_select)`, run the foll
 ```{r groupby_exercise, exercise=TRUE}
 
 ```
-
+  
+*remember this pair!
 ## Saving a new dataset as an object
 
 If you'd like to save the output of your wrangling as an object, you will need to use the `<-` operator
