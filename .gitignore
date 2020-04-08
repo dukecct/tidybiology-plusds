@@ -7,3 +7,5 @@
 .DS_Store
 *.Rproj
 *.html
+/plusDS_session1_files
+/plusDS_session2_files
