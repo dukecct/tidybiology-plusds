@@ -1,1026 +1,1026 @@
-age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,target,health_status,family_history,medication
-52,male,0,125,212,0,1,168,0,1,2,2,3,0,Normal blood sugar and cholesterol,Mother,NA
-70,male,0,145,174,0,1,125,1,2.6,0,0,3,0,Normal blood sugar and cholesterol,grandmother,NA
-61,male,0,148,203,0,1,161,0,0,2,1,3,0,Normal blood sugar and cholesterol,mother,NA
-71,female,0,112,149,0,1,125,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-34,female,1,118,210,0,1,192,0,0.7,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-34,female,1,118,210,0,1,192,0,0.7,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-60,male,2,140,185,0,0,155,0,3,1,0,2,0,Normal blood sugar and cholesterol,Mother,NA
-67,female,0,106,223,0,1,142,0,0.3,2,2,2,1,Normal blood sugar and cholesterol,aunt,NA
-45,male,0,104,208,0,0,148,1,3,1,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-42,female,2,120,209,0,1,173,0,0,1,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-44,male,2,130,233,0,1,179,1,0.4,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-44,male,0,120,169,0,1,144,1,2.8,0,0,1,0,Normal blood sugar and cholesterol,aunt,NA
-57,male,0,130,131,0,1,115,1,1.2,1,1,3,0,Normal blood sugar and cholesterol,mother,NA
-50,male,2,129,196,0,1,163,0,0,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-46,male,2,150,231,0,1,147,0,3.6,1,0,2,0,Normal blood sugar and cholesterol,aunt,NA
-51,male,3,125,213,0,0,125,1,1.4,2,1,2,1,Normal blood sugar and cholesterol,uncle,NA
-57,male,2,128,229,0,0,150,0,0.4,1,1,3,0,Normal blood sugar and cholesterol,uncle,NA
-42,male,0,140,226,0,1,178,0,0,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-41,male,1,135,203,0,1,132,0,0,1,0,1,1,Normal blood sugar and cholesterol,father,NA
-38,male,2,138,175,0,1,173,0,0,2,4,2,1,Normal blood sugar and cholesterol,Auntie,NA
-49,male,2,120,188,0,1,139,0,2,1,3,3,0,Normal blood sugar and cholesterol,Auntie,NA
-55,male,0,140,217,0,1,111,1,5.6,0,0,3,0,Normal blood sugar and cholesterol,Uncle,NA
-55,male,0,140,217,0,1,111,1,5.6,0,0,3,0,Normal blood sugar and cholesterol,Uncle,NA
-56,male,3,120,193,0,0,162,0,1.9,1,0,3,1,Normal blood sugar and cholesterol,Uncle,NA
-67,male,2,152,212,0,0,150,0,0.8,1,0,3,0,Normal blood sugar and cholesterol,grandmother,NA
-57,male,1,154,232,0,0,164,0,0,2,1,2,0,Normal blood sugar and cholesterol,uncle,NA
-29,male,1,130,204,0,0,202,0,0,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-29,male,1,130,204,0,0,202,0,0,2,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-37,female,2,120,215,0,1,170,0,0,2,0,2,1,Normal blood sugar and cholesterol,Father,NA
-62,female,0,160,164,0,0,145,0,6.2,0,3,3,0,Normal blood sugar and cholesterol,Father,NA
-61,male,0,140,207,0,0,138,1,1.9,2,1,3,0,Normal blood sugar and cholesterol,mother,NA
-59,male,0,140,177,0,1,162,1,0,2,1,3,0,Normal blood sugar and cholesterol,auntie,NA
-63,male,0,140,187,0,0,144,1,4,2,2,3,0,Normal blood sugar and cholesterol,Grandmother,NA
-52,male,1,134,201,0,1,158,0,0.8,2,1,2,1,Normal blood sugar and cholesterol,Father,NA
-52,male,1,134,201,0,1,158,0,0.8,2,1,2,1,Normal blood sugar and cholesterol,auntie,NA
-50,male,2,140,233,0,1,163,0,0.6,1,1,3,0,Normal blood sugar and cholesterol,Grandmother,NA
-49,male,2,118,149,0,0,126,0,0.8,2,3,2,0,Normal blood sugar and cholesterol,auntie,NA
-46,male,2,150,231,0,1,147,0,3.6,1,0,2,0,Normal blood sugar and cholesterol,Mother,NA
-38,male,2,138,175,0,1,173,0,0,2,4,2,1,Normal blood sugar and cholesterol,Mother,NA
-37,female,2,120,215,0,1,170,0,0,2,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-44,male,1,120,220,0,1,170,0,0,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-62,female,0,124,209,0,1,163,0,0,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-63,male,0,140,187,0,0,144,1,4,2,2,3,0,Normal blood sugar and cholesterol,grandfather,NA
-44,male,0,120,169,0,1,144,1,2.8,0,0,1,0,Normal blood sugar and cholesterol,father,NA
-45,female,0,138,236,0,0,152,1,0.2,1,0,2,1,Normal blood sugar and cholesterol,Father,NA
-76,female,2,140,197,0,2,116,0,1.1,1,0,2,1,Normal blood sugar and cholesterol,mother,NA
-43,female,2,122,213,0,1,165,0,0.2,1,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-52,male,3,118,186,0,0,190,0,0,1,0,1,1,Normal blood sugar and cholesterol,Uncle,NA
-40,male,0,152,223,0,1,181,0,0,2,0,3,0,Normal blood sugar and cholesterol,Grandmother,NA
-54,male,0,110,206,0,0,108,1,0,1,1,2,0,Normal blood sugar and cholesterol,Grandfather,NA
-44,male,0,110,197,0,0,177,0,0,2,1,2,0,Normal blood sugar and cholesterol,Aunt,NA
-53,male,0,142,226,0,0,111,1,0,2,0,3,1,Normal blood sugar and cholesterol,Mother,NA
-43,male,0,120,177,0,0,120,1,2.5,1,0,3,0,Normal blood sugar and cholesterol,father,NA
-29,male,1,130,204,0,0,202,0,0,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-44,male,0,120,169,0,1,144,1,2.8,0,0,1,0,Normal blood sugar and cholesterol,Aunt,NA
-60,female,3,150,240,0,1,171,0,0.9,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-52,male,2,138,223,0,1,169,0,0,2,4,2,1,Normal blood sugar and cholesterol,father,NA
-57,male,0,140,192,0,1,148,0,0.4,1,0,1,1,Normal blood sugar and cholesterol,auntie,NA
-60,female,3,150,240,0,1,171,0,0.9,2,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-41,male,1,135,203,0,1,132,0,0,1,0,1,1,Normal blood sugar and cholesterol,grandmother,NA
-50,male,2,129,196,0,1,163,0,0,2,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-41,male,1,110,235,0,1,153,0,0,2,0,2,1,Normal blood sugar and cholesterol,auntie,NA
-63,female,0,124,197,0,1,136,1,0,1,0,2,0,Normal blood sugar and cholesterol,aunt,NA
-61,male,3,134,234,0,1,145,0,2.6,1,2,2,0,Normal blood sugar and cholesterol,Father,NA
-34,male,3,118,182,0,0,174,0,0,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-47,male,0,112,204,0,1,143,0,0.1,2,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-40,male,0,110,167,0,0,114,1,2,1,0,3,0,Normal blood sugar and cholesterol,grandmother,NA
-41,male,0,110,172,0,0,158,0,0,2,0,3,0,Normal blood sugar and cholesterol,Father,NA
-40,male,3,140,199,0,1,178,1,1.4,2,0,3,1,Normal blood sugar and cholesterol,Aunt,NA
-41,male,1,120,157,0,1,182,0,0,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-51,male,2,100,222,0,1,143,1,1.2,1,0,2,1,Normal blood sugar and cholesterol,Father,NA
-56,male,0,132,184,0,0,105,1,2.1,1,1,1,0,Normal blood sugar and cholesterol,auntie,NA
-45,female,1,112,160,0,1,138,0,0,1,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-56,male,1,120,240,0,1,169,0,0,0,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-39,female,2,94,199,0,1,179,0,0,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-54,male,0,110,239,0,1,126,1,2.8,1,1,3,0,Normal blood sugar and cholesterol,mother,NA
-44,male,0,110,197,0,0,177,0,0,2,1,2,0,Normal blood sugar and cholesterol,mother,NA
-63,male,0,140,187,0,0,144,1,4,2,2,3,0,Normal blood sugar and cholesterol,aunt,NA
-64,male,3,110,211,0,0,144,1,1.8,1,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-42,male,2,130,180,0,1,150,0,0,2,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-40,male,0,110,167,0,0,114,1,2,1,0,3,0,Normal blood sugar and cholesterol,father,NA
-56,male,1,130,221,0,0,163,0,0,2,0,3,1,Normal blood sugar and cholesterol,auntie,NA
-58,male,0,100,234,0,1,156,0,0.1,2,1,3,0,Normal blood sugar and cholesterol,father,NA
-50,male,0,144,200,0,0,126,1,0.9,1,0,3,0,Normal blood sugar and cholesterol,Father,NA
-62,female,0,124,209,0,1,163,0,0,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-34,male,3,118,182,0,0,174,0,0,2,0,2,1,Normal blood sugar and cholesterol,grandmother,NA
-64,male,3,170,227,0,0,155,0,0.6,1,0,3,1,Normal blood sugar and cholesterol,uncle,NA
-38,male,2,138,175,0,1,173,0,0,2,4,2,1,Normal blood sugar and cholesterol,father,NA
-41,male,1,120,157,0,1,182,0,0,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-57,female,1,130,236,0,0,174,0,0,1,1,2,0,Normal blood sugar and cholesterol,grandfather,NA
-64,male,3,110,211,0,0,144,1,1.8,1,0,2,1,Normal blood sugar and cholesterol,Father,NA
-39,female,2,94,199,0,1,179,0,0,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-54,male,2,150,232,0,0,165,0,1.6,2,0,3,1,Normal blood sugar and cholesterol,Mother,NA
-49,male,2,118,149,0,0,126,0,0.8,2,3,2,0,Normal blood sugar and cholesterol,Father,NA
-56,male,1,120,236,0,1,178,0,0.8,2,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-64,male,3,170,227,0,0,155,0,0.6,1,0,3,1,Normal blood sugar and cholesterol,Aunt,NA
-49,male,2,118,149,0,0,126,0,0.8,2,3,2,0,Normal blood sugar and cholesterol,Grandfather,NA
-67,male,2,152,212,0,0,150,0,0.8,1,0,3,0,Normal blood sugar and cholesterol,Mother,NA
-38,male,2,138,175,0,1,173,0,0,2,4,2,1,Normal blood sugar and cholesterol,Mother,NA
-60,male,2,140,185,0,0,155,0,3,1,0,2,0,Normal blood sugar and cholesterol,Auntie,NA
-44,male,1,130,219,0,0,188,0,0,2,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-39,female,2,138,220,0,1,152,0,0,1,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-42,male,2,130,180,0,1,150,0,0,2,0,2,1,Normal blood sugar and cholesterol,Father,NA
-45,female,1,112,160,0,1,138,0,0,1,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-35,male,0,120,198,0,1,130,1,1.6,1,0,3,0,Normal blood sugar and cholesterol,Grandmother,NA
-35,female,0,138,183,0,1,182,0,1.4,2,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-38,male,3,120,231,0,1,182,1,3.8,1,0,3,0,Normal blood sugar and cholesterol,grandmother,NA
-44,male,2,120,226,0,1,169,0,0,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-54,male,2,150,232,0,0,165,0,1.6,2,0,3,1,Normal blood sugar and cholesterol,grandmother,NA
-48,male,0,122,222,0,0,186,0,0,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-45,male,0,104,208,0,0,148,1,3,1,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-67,male,0,120,237,0,1,71,0,1,1,0,2,0,Normal blood sugar and cholesterol,Uncle,NA
-58,male,2,132,224,0,0,173,0,3.2,2,2,3,0,Normal blood sugar and cholesterol,Mother,NA
-43,male,0,110,211,0,1,161,0,0,2,0,3,1,Normal blood sugar and cholesterol,Mother,NA
-39,female,2,138,220,0,1,152,0,0,1,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-54,male,0,110,206,0,0,108,1,0,1,1,2,0,Normal blood sugar and cholesterol,Aunt,NA
-66,male,0,160,228,0,0,138,0,2.3,2,0,1,1,Normal blood sugar and cholesterol,mother,NA
-57,male,0,132,207,0,1,168,1,0,2,0,3,1,Normal blood sugar and cholesterol,grandmother,NA
-44,male,1,130,219,0,0,188,0,0,2,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-41,female,1,105,198,0,1,168,0,0,2,1,2,1,Normal blood sugar and cholesterol,grandfather,NA
-45,female,1,130,234,0,0,175,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-35,male,1,122,192,0,1,174,0,0,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-41,female,1,130,204,0,0,172,0,1.4,2,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-64,male,3,110,211,0,0,144,1,1.8,1,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-58,male,2,132,224,0,0,173,0,3.2,2,2,3,0,Normal blood sugar and cholesterol,mother,NA
-40,male,0,152,223,0,1,181,0,0,2,0,3,0,Normal blood sugar and cholesterol,Grandfather,NA
-52,male,2,138,223,0,1,169,0,0,2,4,2,1,Normal blood sugar and cholesterol,father,NA
-67,male,0,120,237,0,1,71,0,1,1,0,2,0,Normal blood sugar and cholesterol,Uncle,NA
-35,male,1,122,192,0,1,174,0,0,2,0,2,1,Normal blood sugar and cholesterol,grandmother,NA
-46,female,1,105,204,0,1,172,0,0,2,0,2,1,Normal blood sugar and cholesterol,auntie,NA
-51,male,2,94,227,0,1,154,1,0,2,1,3,1,Normal blood sugar and cholesterol,Auntie,NA
-52,female,2,136,196,0,0,169,0,0.1,1,0,2,1,Normal blood sugar and cholesterol,mother,NA
-44,male,1,120,220,0,1,170,0,0,2,0,2,1,Normal blood sugar and cholesterol,Father,NA
-40,male,3,140,199,0,1,178,1,1.4,2,0,3,1,Normal blood sugar and cholesterol,uncle,NA
-59,male,0,140,177,0,1,162,1,0,2,1,3,0,Normal blood sugar and cholesterol,Father,NA
-53,female,2,128,216,0,0,115,0,0,2,0,0,1,Normal blood sugar and cholesterol,auntie,NA
-53,female,2,128,216,0,0,115,0,0,2,0,0,1,Normal blood sugar and cholesterol,grandfather,NA
-37,female,2,120,215,0,1,170,0,0,2,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-54,female,2,110,214,0,1,158,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-60,male,0,130,206,0,0,132,1,2.4,1,2,3,0,Normal blood sugar and cholesterol,Mother,NA
-38,male,2,138,175,0,1,173,0,0,2,4,2,1,Normal blood sugar and cholesterol,aunt,NA
-44,male,2,120,226,0,1,169,0,0,2,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-41,male,1,120,157,0,1,182,0,0,2,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-50,male,0,144,200,0,0,126,1,0.9,1,0,3,0,Normal blood sugar and cholesterol,Auntie,NA
-57,male,0,110,201,0,1,126,1,1.5,1,0,1,1,Normal blood sugar and cholesterol,uncle,NA
-59,male,3,134,204,0,1,162,0,0.8,2,2,2,0,Normal blood sugar and cholesterol,Mother,NA
-53,female,2,128,216,0,0,115,0,0,2,0,0,1,Normal blood sugar and cholesterol,grandmother,NA
-48,male,0,122,222,0,0,186,0,0,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-62,male,2,130,231,0,1,146,0,1.8,1,3,3,1,Normal blood sugar and cholesterol,mother,NA
-43,female,2,122,213,0,1,165,0,0.2,1,0,2,1,Normal blood sugar and cholesterol,grandmother,NA
-57,female,1,130,236,0,0,174,0,0,1,1,2,0,Normal blood sugar and cholesterol,Uncle,NA
-58,male,2,112,230,0,0,165,0,2.5,1,1,3,0,Normal blood sugar and cholesterol,auntie,NA
-48,male,1,110,229,0,1,168,0,1,0,0,3,0,Normal blood sugar and cholesterol,grandfather,NA
-58,male,2,105,240,0,0,154,1,0.6,1,0,3,1,Normal blood sugar and cholesterol,aunt,NA
-51,male,2,110,175,0,1,123,0,0.6,2,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-54,female,2,110,214,0,1,158,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,mother,NA
-46,female,2,142,177,0,0,160,1,1.4,0,0,2,1,Normal blood sugar and cholesterol,father,NA
-66,male,0,160,228,0,0,138,0,2.3,2,0,1,1,Normal blood sugar and cholesterol,Aunt,NA
-59,male,1,140,221,0,1,164,1,0,2,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-67,male,0,120,237,0,1,71,0,1,1,0,2,0,Normal blood sugar and cholesterol,Uncle,NA
-52,male,3,118,186,0,0,190,0,0,1,0,1,1,Normal blood sugar and cholesterol,uncle,NA
-58,male,0,146,218,0,1,105,0,2,1,1,3,0,Normal blood sugar and cholesterol,Mother,NA
-58,male,2,132,224,0,0,173,0,3.2,2,2,3,0,Normal blood sugar and cholesterol,Mother,NA
-59,male,0,110,239,0,0,142,1,1.2,1,1,3,0,Normal blood sugar and cholesterol,Grandfather,NA
-51,male,2,110,175,0,1,123,0,0.6,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-42,female,2,120,209,0,1,173,0,0,1,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-51,male,2,110,175,0,1,123,0,0.6,2,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-62,female,0,160,164,0,0,145,0,6.2,0,3,3,0,Normal blood sugar and cholesterol,Grandfather,NA
-40,male,0,110,167,0,0,114,1,2,1,0,3,0,Normal blood sugar and cholesterol,aunt,NA
-66,male,0,160,228,0,0,138,0,2.3,2,0,1,1,Normal blood sugar and cholesterol,Auntie,NA
-49,male,2,120,188,0,1,139,0,2,1,3,3,0,Normal blood sugar and cholesterol,Mother,NA
-71,female,0,112,149,0,1,125,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,Father,NA
-46,female,1,105,204,0,1,172,0,0,2,0,2,1,Normal blood sugar and cholesterol,auntie,NA
-61,male,0,140,207,0,0,138,1,1.9,2,1,3,0,Normal blood sugar and cholesterol,Grandmother,NA
-58,male,0,100,234,0,1,156,0,0.1,2,1,3,0,Normal blood sugar and cholesterol,grandfather,NA
-46,male,2,150,231,0,1,147,0,3.6,1,0,2,0,Normal blood sugar and cholesterol,grandmother,NA
-41,female,1,105,198,0,1,168,0,0,2,1,2,1,Normal blood sugar and cholesterol,Auntie,NA
-41,female,1,130,204,0,0,172,0,1.4,2,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-52,male,2,138,223,0,1,169,0,0,2,4,2,1,Normal blood sugar and cholesterol,father,NA
-62,female,0,124,209,0,1,163,0,0,2,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-54,female,2,160,201,0,1,163,0,0,2,1,2,1,Normal blood sugar and cholesterol,mother,NA
-57,male,2,150,168,0,1,174,0,1.6,2,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-67,male,2,152,212,0,0,150,0,0.8,1,0,3,0,Normal blood sugar and cholesterol,uncle,NA
-65,female,0,150,225,0,0,114,0,1,1,3,3,0,Normal blood sugar and cholesterol,aunt,NA
-67,male,0,120,229,0,0,129,1,2.6,1,2,3,0,Normal blood sugar and cholesterol,grandfather,NA
-57,male,2,150,168,0,1,174,0,1.6,2,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-52,male,0,112,230,0,1,160,0,0,2,1,2,0,Normal blood sugar and cholesterol,father,NA
-65,female,0,150,225,0,0,114,0,1,1,3,3,0,Normal blood sugar and cholesterol,auntie,NA
-39,female,2,138,220,0,1,152,0,0,1,0,2,1,Normal blood sugar and cholesterol,grandmother,NA
-52,male,3,118,186,0,0,190,0,0,1,0,1,1,Normal blood sugar and cholesterol,Father,NA
-43,male,0,110,211,0,1,161,0,0,2,0,3,1,Normal blood sugar and cholesterol,Mother,NA
-38,male,2,138,175,0,1,173,0,0,2,4,2,1,Normal blood sugar and cholesterol,Aunt,NA
-44,male,1,130,219,0,0,188,0,0,2,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-60,female,3,150,240,0,1,171,0,0.9,2,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-58,female,0,130,197,0,1,131,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-41,male,2,130,214,0,0,168,0,2,1,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-48,male,1,110,229,0,1,168,0,1,0,0,3,0,Normal blood sugar and cholesterol,mother,NA
-57,male,2,128,229,0,0,150,0,0.4,1,1,3,0,Normal blood sugar and cholesterol,Father,NA
-58,male,0,128,216,0,0,131,1,2.2,1,3,3,0,Normal blood sugar and cholesterol,Father,NA
-35,male,1,122,192,0,1,174,0,0,2,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-41,male,0,110,172,0,0,158,0,0,2,0,3,0,Normal blood sugar and cholesterol,Father,NA
-57,male,2,150,168,0,1,174,0,1.6,2,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-59,male,0,135,234,0,1,161,0,0.5,1,0,3,1,Normal blood sugar and cholesterol,grandmother,NA
-57,male,1,154,232,0,0,164,0,0,2,1,2,0,Normal blood sugar and cholesterol,father,NA
-54,male,0,140,239,0,1,160,0,1.2,2,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-46,female,2,142,177,0,0,160,1,1.4,0,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-71,female,0,112,149,0,1,125,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-35,female,0,138,183,0,1,182,0,1.4,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-46,female,2,142,177,0,0,160,1,1.4,0,0,2,1,Normal blood sugar and cholesterol,auntie,NA
-45,female,1,130,234,0,0,175,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-41,female,1,130,204,0,0,172,0,1.4,2,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-43,male,0,120,177,0,0,120,1,2.5,1,0,3,0,Normal blood sugar and cholesterol,uncle,NA
-54,male,0,110,206,0,0,108,1,0,1,1,2,0,Normal blood sugar and cholesterol,Uncle,NA
-44,male,1,120,220,0,1,170,0,0,2,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-49,male,2,120,188,0,1,139,0,2,1,3,3,0,Normal blood sugar and cholesterol,Uncle,NA
-60,male,0,130,206,0,0,132,1,2.4,1,2,3,0,Normal blood sugar and cholesterol,auntie,NA
-41,female,1,105,198,0,1,168,0,0,2,1,2,1,Normal blood sugar and cholesterol,grandfather,NA
-49,male,2,120,188,0,1,139,0,2,1,3,3,0,Normal blood sugar and cholesterol,Grandmother,NA
-61,male,0,148,203,0,1,161,0,0,2,1,3,0,Normal blood sugar and cholesterol,grandmother,NA
-59,male,0,140,177,0,1,162,1,0,2,1,3,0,Normal blood sugar and cholesterol,Auntie,NA
-58,male,1,125,220,0,1,144,0,0.4,1,4,3,1,Normal blood sugar and cholesterol,Uncle,NA
-61,male,0,148,203,0,1,161,0,0,2,1,3,0,Normal blood sugar and cholesterol,father,NA
-58,male,2,112,230,0,0,165,0,2.5,1,1,3,0,Normal blood sugar and cholesterol,Grandmother,NA
-62,female,0,160,164,0,0,145,0,6.2,0,3,3,0,Normal blood sugar and cholesterol,Mother,NA
-62,female,0,124,209,0,1,163,0,0,2,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-63,female,0,124,197,0,1,136,1,0,1,0,2,0,Normal blood sugar and cholesterol,aunt,NA
-53,female,0,138,234,0,0,160,0,0,2,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-76,female,2,140,197,0,2,116,0,1.1,1,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-50,female,2,120,219,0,1,158,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,Father,NA
-64,male,3,170,227,0,0,155,0,0.6,1,0,3,1,Normal blood sugar and cholesterol,mother,NA
-44,male,2,140,235,0,0,180,0,0,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-59,male,3,134,204,0,1,162,0,0.8,2,2,2,0,Normal blood sugar and cholesterol,Father,NA
-48,male,1,110,229,0,1,168,0,1,0,0,3,0,Normal blood sugar and cholesterol,grandmother,NA
-67,female,0,106,223,0,1,142,0,0.3,2,2,2,1,Normal blood sugar and cholesterol,aunt,NA
-58,male,0,100,234,0,1,156,0,0.1,2,1,3,0,Normal blood sugar and cholesterol,Father,NA
-59,male,0,140,177,0,1,162,1,0,2,1,3,0,Normal blood sugar and cholesterol,grandfather,NA
-48,male,0,122,222,0,0,186,0,0,2,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-39,female,2,94,199,0,1,179,0,0,2,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-67,male,0,120,237,0,1,71,0,1,1,0,2,0,Normal blood sugar and cholesterol,Grandmother,NA
-58,female,0,130,197,0,1,131,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-42,female,2,120,209,0,1,173,0,0,1,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-56,male,0,132,184,0,0,105,1,2.1,1,1,1,0,Normal blood sugar and cholesterol,Uncle,NA
-53,female,0,138,234,0,0,160,0,0,2,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-41,male,2,130,214,0,0,168,0,2,1,0,2,1,Normal blood sugar and cholesterol,father,NA
-54,female,2,160,201,0,1,163,0,0,2,1,2,1,Normal blood sugar and cholesterol,auntie,NA
-34,male,3,118,182,0,0,174,0,0,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-58,male,0,146,218,0,1,105,0,2,1,1,3,0,Normal blood sugar and cholesterol,aunt,NA
-44,male,2,140,235,0,0,180,0,0,2,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-43,male,0,120,177,0,0,120,1,2.5,1,0,3,0,Normal blood sugar and cholesterol,Auntie,NA
-40,male,3,140,199,0,1,178,1,1.4,2,0,3,1,Normal blood sugar and cholesterol,auntie,NA
-64,male,0,145,212,0,0,132,0,2,1,2,1,0,Normal blood sugar and cholesterol,grandmother,NA
-61,male,0,148,203,0,1,161,0,0,2,1,3,0,Normal blood sugar and cholesterol,mother,NA
-59,male,1,140,221,0,1,164,1,0,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-38,male,2,138,175,0,1,173,0,0,2,4,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-63,female,1,140,195,0,1,179,0,0,2,2,2,1,Normal blood sugar and cholesterol,Auntie,NA
-63,female,1,140,195,0,1,179,0,0,2,2,2,1,Normal blood sugar and cholesterol,grandfather,NA
-66,male,0,112,212,0,0,132,1,0.1,2,1,2,0,Normal blood sugar and cholesterol,Uncle,NA
-64,male,0,145,212,0,0,132,0,2,1,2,1,0,Normal blood sugar and cholesterol,uncle,NA
-55,female,0,128,205,0,2,130,1,2,1,1,3,0,Normal blood sugar and cholesterol,Aunt,NA
-55,male,0,140,217,0,1,111,1,5.6,0,0,3,0,Normal blood sugar and cholesterol,aunt,NA
-50,female,2,120,219,0,1,158,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-61,male,3,134,234,0,1,145,0,2.6,1,2,2,0,Normal blood sugar and cholesterol,aunt,NA
-58,male,2,132,224,0,0,173,0,3.2,2,2,3,0,Normal blood sugar and cholesterol,uncle,NA
-38,male,3,120,231,0,1,182,1,3.8,1,0,3,0,Normal blood sugar and cholesterol,Auntie,NA
-69,female,3,140,239,0,1,151,0,1.8,2,2,2,1,Normal blood sugar and cholesterol,Aunt,NA
-45,female,1,130,234,0,0,175,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-61,male,0,138,166,0,0,125,1,3.6,1,1,2,0,Normal blood sugar and cholesterol,Uncle,NA
-52,male,0,125,212,0,1,168,0,1,2,2,3,0,Normal blood sugar and cholesterol,Father,NA
-58,female,0,130,197,0,1,131,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,auntie,NA
-65,male,0,120,177,0,1,140,0,0.4,2,0,3,1,Normal blood sugar and cholesterol,mother,NA
-44,male,2,120,226,0,1,169,0,0,2,0,2,1,Normal blood sugar and cholesterol,Father,NA
-71,female,0,112,149,0,1,125,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,father,NA
-45,female,1,130,234,0,0,175,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,auntie,NA
-41,male,1,120,157,0,1,182,0,0,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-66,female,3,150,226,0,1,114,0,2.6,0,0,2,1,Normal blood sugar and cholesterol,auntie,NA
-41,male,1,110,235,0,1,153,0,0,2,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-57,female,1,130,236,0,0,174,0,0,1,1,2,0,Normal blood sugar and cholesterol,Grandfather,NA
-39,female,2,138,220,0,1,152,0,0,1,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-61,male,0,138,166,0,0,125,1,3.6,1,1,2,0,Normal blood sugar and cholesterol,Aunt,NA
-47,male,0,112,204,0,1,143,0,0.1,2,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-66,female,3,150,226,0,1,114,0,2.6,0,0,2,1,Normal blood sugar and cholesterol,mother,NA
-35,male,1,122,192,0,1,174,0,0,2,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-29,male,1,130,204,0,0,202,0,0,2,0,2,1,Normal blood sugar and cholesterol,Father,NA
-52,male,0,125,212,0,1,168,0,1,2,2,3,0,Normal blood sugar and cholesterol,Grandfather,NA
-58,male,0,100,234,0,1,156,0,0.1,2,1,3,0,Normal blood sugar and cholesterol,aunt,NA
-43,male,0,120,177,0,0,120,1,2.5,1,0,3,0,Normal blood sugar and cholesterol,uncle,NA
-60,male,2,140,185,0,0,155,0,3,1,0,2,0,Normal blood sugar and cholesterol,Grandmother,NA
-58,male,2,105,240,0,0,154,1,0.6,1,0,3,1,Normal blood sugar and cholesterol,mother,NA
-63,female,1,140,195,0,1,179,0,0,2,2,2,1,Normal blood sugar and cholesterol,grandmother,NA
-39,male,0,118,219,0,1,140,0,1.2,1,0,3,0,Normal blood sugar and cholesterol,mother,NA
-50,female,2,120,219,0,1,158,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,uncle,NA
-67,male,2,152,212,0,0,150,0,0.8,1,0,3,0,Normal blood sugar and cholesterol,mother,NA
-66,male,0,112,212,0,0,132,1,0.1,2,1,2,0,Normal blood sugar and cholesterol,Auntie,NA
-41,male,2,130,214,0,0,168,0,2,1,0,2,1,Normal blood sugar and cholesterol,father,NA
-35,male,0,120,198,0,1,130,1,1.6,1,0,3,0,Normal blood sugar and cholesterol,aunt,NA
-57,male,0,110,201,0,1,126,1,1.5,1,0,1,1,Normal blood sugar and cholesterol,Uncle,NA
-51,male,2,94,227,0,1,154,1,0,2,1,3,1,Normal blood sugar and cholesterol,aunt,NA
-58,male,0,128,216,0,0,131,1,2.2,1,3,3,0,Normal blood sugar and cholesterol,Aunt,NA
-57,male,2,128,229,0,0,150,0,0.4,1,1,3,0,Normal blood sugar and cholesterol,Uncle,NA
-56,male,1,130,221,0,0,163,0,0,2,0,3,1,Normal blood sugar and cholesterol,Uncle,NA
-35,male,0,120,198,0,1,130,1,1.6,1,0,3,0,Normal blood sugar and cholesterol,Grandfather,NA
-45,female,1,112,160,0,1,138,0,0,1,0,2,1,Normal blood sugar and cholesterol,grandmother,NA
-66,female,3,150,226,0,1,114,0,2.6,0,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-51,male,3,125,213,0,0,125,1,1.4,2,1,2,1,Normal blood sugar and cholesterol,Aunt,NA
-55,female,0,128,205,0,2,130,1,2,1,1,3,0,Normal blood sugar and cholesterol,Auntie,NA
-68,female,2,120,211,0,0,115,0,1.5,1,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-56,male,1,130,221,0,0,163,0,0,2,0,3,1,Normal blood sugar and cholesterol,Grandfather,NA
-44,male,1,120,220,0,1,170,0,0,2,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-52,male,0,112,230,0,1,160,0,0,2,1,2,0,Normal blood sugar and cholesterol,grandmother,NA
-51,male,2,94,227,0,1,154,1,0,2,1,3,1,Normal blood sugar and cholesterol,auntie,NA
-44,female,2,108,141,0,1,175,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,grandmother,NA
-50,male,2,129,196,0,1,163,0,0,2,0,2,1,Normal blood sugar and cholesterol,grandmother,NA
-59,male,0,110,239,0,0,142,1,1.2,1,1,3,0,Normal blood sugar and cholesterol,uncle,NA
-67,male,0,120,229,0,0,129,1,2.6,1,2,3,0,Normal blood sugar and cholesterol,grandfather,NA
-44,male,2,140,235,0,0,180,0,0,2,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-58,male,1,125,220,0,1,144,0,0.4,1,4,3,1,Normal blood sugar and cholesterol,uncle,NA
-51,male,2,100,222,0,1,143,1,1.2,1,0,2,1,Normal blood sugar and cholesterol,father,NA
-44,male,2,120,226,0,1,169,0,0,2,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-58,male,1,125,220,0,1,144,0,0.4,1,4,3,1,Normal blood sugar and cholesterol,Aunt,NA
-65,male,0,120,177,0,1,140,0,0.4,2,0,3,1,Normal blood sugar and cholesterol,father,NA
-66,male,0,160,228,0,0,138,0,2.3,2,0,1,1,Normal blood sugar and cholesterol,auntie,NA
-46,female,1,105,204,0,1,172,0,0,2,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-56,male,1,130,221,0,0,163,0,0,2,0,3,1,Normal blood sugar and cholesterol,aunt,NA
-63,male,0,140,187,0,0,144,1,4,2,2,3,0,Normal blood sugar and cholesterol,Auntie,NA
-41,male,1,135,203,0,1,132,0,0,1,0,1,1,Normal blood sugar and cholesterol,Uncle,NA
-45,female,0,138,236,0,0,152,1,0.2,1,0,2,1,Normal blood sugar and cholesterol,Father,NA
-65,female,0,150,225,0,0,114,0,1,1,3,3,0,Normal blood sugar and cholesterol,mother,NA
-51,male,2,100,222,0,1,143,1,1.2,1,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-59,male,3,134,204,0,1,162,0,0.8,2,2,2,0,Normal blood sugar and cholesterol,Father,NA
-34,female,1,118,210,0,1,192,0,0.7,2,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-44,male,0,120,169,0,1,144,1,2.8,0,0,1,0,Normal blood sugar and cholesterol,Grandfather,NA
-58,male,0,146,218,0,1,105,0,2,1,1,3,0,Normal blood sugar and cholesterol,grandfather,NA
-56,male,1,120,240,0,1,169,0,0,0,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-54,male,2,150,232,0,0,165,0,1.6,2,0,3,1,Normal blood sugar and cholesterol,Mother,NA
-54,male,0,110,239,0,1,126,1,2.8,1,1,3,0,Normal blood sugar and cholesterol,Mother,NA
-54,male,0,110,239,0,1,126,1,2.8,1,1,3,0,Normal blood sugar and cholesterol,father,NA
-61,male,3,134,234,0,1,145,0,2.6,1,2,2,0,Normal blood sugar and cholesterol,Uncle,NA
-41,male,1,135,203,0,1,132,0,0,1,0,1,1,Normal blood sugar and cholesterol,uncle,NA
-65,female,0,150,225,0,0,114,0,1,1,3,3,0,Normal blood sugar and cholesterol,Mother,NA
-67,male,0,120,229,0,0,129,1,2.6,1,2,3,0,Normal blood sugar and cholesterol,Auntie,NA
-63,female,0,124,197,0,1,136,1,0,1,0,2,0,Normal blood sugar and cholesterol,grandfather,NA
-52,male,0,112,230,0,1,160,0,0,2,1,2,0,Normal blood sugar and cholesterol,Uncle,NA
-58,female,0,130,197,0,1,131,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-53,male,0,142,226,0,0,111,1,0,2,0,3,1,Normal blood sugar and cholesterol,Grandfather,NA
-44,male,2,130,233,0,1,179,1,0.4,2,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-51,male,2,94,227,0,1,154,1,0,2,1,3,1,Normal blood sugar and cholesterol,Grandmother,NA
-54,female,2,110,214,0,1,158,0,1.6,1,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-40,male,0,110,167,0,0,114,1,2,1,0,3,0,Normal blood sugar and cholesterol,mother,NA
-58,male,2,105,240,0,0,154,1,0.6,1,0,3,1,Normal blood sugar and cholesterol,uncle,NA
-61,male,0,140,207,0,0,138,1,1.9,2,1,3,0,Normal blood sugar and cholesterol,Father,NA
-54,male,0,140,239,0,1,160,0,1.2,2,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-61,male,0,138,166,0,0,125,1,3.6,1,1,2,0,Normal blood sugar and cholesterol,Uncle,NA
-42,male,2,130,180,0,1,150,0,0,2,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-57,male,2,128,229,0,0,150,0,0.4,1,1,3,0,Normal blood sugar and cholesterol,father,NA
-44,male,2,130,233,0,1,179,1,0.4,2,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-51,male,2,100,222,0,1,143,1,1.2,1,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-58,male,1,125,220,0,1,144,0,0.4,1,4,3,1,Normal blood sugar and cholesterol,Aunt,NA
-55,male,0,140,217,0,1,111,1,5.6,0,0,3,0,Normal blood sugar and cholesterol,Uncle,NA
-49,male,2,118,149,0,0,126,0,0.8,2,3,2,0,Normal blood sugar and cholesterol,grandmother,NA
-53,female,0,138,234,0,0,160,0,0,2,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-51,male,3,125,213,0,0,125,1,1.4,2,1,2,1,Normal blood sugar and cholesterol,mother,NA
-70,male,0,145,174,0,1,125,1,2.6,0,0,3,0,Normal blood sugar and cholesterol,mother,NA
-35,female,0,138,183,0,1,182,0,1.4,2,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-58,male,2,112,230,0,0,165,0,2.5,1,1,3,0,Normal blood sugar and cholesterol,uncle,NA
-56,male,0,132,184,0,0,105,1,2.1,1,1,1,0,Normal blood sugar and cholesterol,Auntie,NA
-35,female,0,138,183,0,1,182,0,1.4,2,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-61,male,0,138,166,0,0,125,1,3.6,1,1,2,0,Normal blood sugar and cholesterol,Grandmother,NA
-67,male,0,120,229,0,0,129,1,2.6,1,2,3,0,Normal blood sugar and cholesterol,mother,NA
-68,female,2,120,211,0,0,115,0,1.5,1,0,2,1,Normal blood sugar and cholesterol,grandmother,NA
-68,female,2,120,211,0,0,115,0,1.5,1,0,2,1,Normal blood sugar and cholesterol,mother,NA
-52,male,0,112,230,0,1,160,0,0,2,1,2,0,Normal blood sugar and cholesterol,Grandmother,NA
-52,male,0,125,212,0,1,168,0,1,2,2,3,0,Normal blood sugar and cholesterol,mother,NA
-60,female,3,150,240,0,1,171,0,0.9,2,0,2,1,Normal blood sugar and cholesterol,Auntie,NA
-41,male,1,110,235,0,1,153,0,0,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-56,male,1,120,240,0,1,169,0,0,0,0,2,1,Normal blood sugar and cholesterol,Father,NA
-56,male,1,120,236,0,1,178,0,0.8,2,0,2,1,Normal blood sugar and cholesterol,father,NA
-64,male,3,170,227,0,0,155,0,0.6,1,0,3,1,Normal blood sugar and cholesterol,Mother,NA
-57,male,0,140,192,0,1,148,0,0.4,1,0,1,1,Normal blood sugar and cholesterol,auntie,NA
-60,male,0,130,206,0,0,132,1,2.4,1,2,3,0,Normal blood sugar and cholesterol,grandmother,NA
-61,male,0,140,207,0,0,138,1,1.9,2,1,3,0,Normal blood sugar and cholesterol,auntie,NA
-43,female,2,122,213,0,1,165,0,0.2,1,0,2,1,Normal blood sugar and cholesterol,Uncle,NA
-54,male,0,120,188,0,1,113,0,1.4,1,1,3,0,Normal blood sugar and cholesterol,Aunt,NA
-57,male,0,132,207,0,1,168,1,0,2,0,3,1,Normal blood sugar and cholesterol,Aunt,NA
-57,male,1,154,232,0,0,164,0,0,2,1,2,0,Normal blood sugar and cholesterol,Auntie,NA
-57,male,0,130,131,0,1,115,1,1.2,1,1,3,0,Normal blood sugar and cholesterol,Aunt,NA
-70,male,0,145,174,0,1,125,1,2.6,0,0,3,0,Normal blood sugar and cholesterol,Father,NA
-57,male,0,110,201,0,1,126,1,1.5,1,0,1,1,Normal blood sugar and cholesterol,Mother,NA
-55,female,0,128,205,0,2,130,1,2,1,1,3,0,Normal blood sugar and cholesterol,Auntie,NA
-54,male,0,110,239,0,1,126,1,2.8,1,1,3,0,Normal blood sugar and cholesterol,uncle,NA
-52,male,1,134,201,0,1,158,0,0.8,2,1,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-59,male,0,135,234,0,1,161,0,0.5,1,0,3,1,Normal blood sugar and cholesterol,Grandmother,NA
-61,male,3,134,234,0,1,145,0,2.6,1,2,2,0,Normal blood sugar and cholesterol,father,NA
-42,male,0,140,226,0,1,178,0,0,2,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-50,male,0,144,200,0,0,126,1,0.9,1,0,3,0,Normal blood sugar and cholesterol,father,NA
-50,male,2,140,233,0,1,163,0,0.6,1,1,3,0,Normal blood sugar and cholesterol,Uncle,NA
-35,male,0,120,198,0,1,130,1,1.6,1,0,3,0,Normal blood sugar and cholesterol,Uncle,NA
-45,male,0,104,208,0,0,148,1,3,1,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-66,male,0,112,212,0,0,132,1,0.1,2,1,2,0,Normal blood sugar and cholesterol,Uncle,NA
-59,male,3,134,204,0,1,162,0,0.8,2,2,2,0,Normal blood sugar and cholesterol,auntie,NA
-38,male,3,120,231,0,1,182,1,3.8,1,0,3,0,Normal blood sugar and cholesterol,grandfather,NA
-39,male,0,118,219,0,1,140,0,1.2,1,0,3,0,Normal blood sugar and cholesterol,Auntie,NA
-58,male,0,146,218,0,1,105,0,2,1,1,3,0,Normal blood sugar and cholesterol,Aunt,NA
-54,male,0,140,239,0,1,160,0,1.2,2,0,2,1,Normal blood sugar and cholesterol,grandfather,NA
-57,male,0,130,131,0,1,115,1,1.2,1,1,3,0,Normal blood sugar and cholesterol,auntie,NA
-54,male,0,110,206,0,0,108,1,0,1,1,2,0,Normal blood sugar and cholesterol,Mother,NA
-60,male,0,130,206,0,0,132,1,2.4,1,2,3,0,Normal blood sugar and cholesterol,Father,NA
-40,male,0,152,223,0,1,181,0,0,2,0,3,0,Normal blood sugar and cholesterol,father,NA
-38,male,3,120,231,0,1,182,1,3.8,1,0,3,0,Normal blood sugar and cholesterol,Auntie,NA
-42,male,2,130,180,0,1,150,0,0,2,0,2,1,Normal blood sugar and cholesterol,mother,NA
-56,male,1,120,240,0,1,169,0,0,0,0,2,1,Normal blood sugar and cholesterol,Grandfather,NA
-53,male,0,142,226,0,0,111,1,0,2,0,3,1,Normal blood sugar and cholesterol,auntie,NA
-52,female,2,136,196,0,0,169,0,0.1,1,0,2,1,Normal blood sugar and cholesterol,mother,NA
-69,female,3,140,239,0,1,151,0,1.8,2,2,2,1,Normal blood sugar and cholesterol,father,NA
-65,male,0,120,177,0,1,140,0,0.4,2,0,3,1,Normal blood sugar and cholesterol,Father,NA
-56,male,3,120,193,0,0,162,0,1.9,1,0,3,1,Normal blood sugar and cholesterol,father,NA
-54,female,2,160,201,0,1,163,0,0,2,1,2,1,Normal blood sugar and cholesterol,father,NA
-70,male,0,145,174,0,1,125,1,2.6,0,0,3,0,Normal blood sugar and cholesterol,auntie,NA
-57,male,0,132,207,0,1,168,1,0,2,0,3,1,Normal blood sugar and cholesterol,auntie,NA
-45,female,0,138,236,0,0,152,1,0.2,1,0,2,1,Normal blood sugar and cholesterol,mother,NA
-62,male,2,130,231,0,1,146,0,1.8,1,3,3,1,Normal blood sugar and cholesterol,grandmother,NA
-50,male,2,140,233,0,1,163,0,0.6,1,1,3,0,Normal blood sugar and cholesterol,Uncle,NA
-69,female,3,140,239,0,1,151,0,1.8,2,2,2,1,Normal blood sugar and cholesterol,grandmother,NA
-52,female,2,136,196,0,0,169,0,0.1,1,0,2,1,Normal blood sugar and cholesterol,aunt,NA
-44,female,2,108,141,0,1,175,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,auntie,NA
-76,female,2,140,197,0,2,116,0,1.1,1,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-38,male,2,138,175,0,1,173,0,0,2,4,2,1,Normal blood sugar and cholesterol,Uncle,NA
-52,male,3,118,186,0,0,190,0,0,1,0,1,1,Normal blood sugar and cholesterol,Aunt,NA
-43,male,0,110,211,0,1,161,0,0,2,0,3,1,Normal blood sugar and cholesterol,auntie,NA
-39,male,0,118,219,0,1,140,0,1.2,1,0,3,0,Normal blood sugar and cholesterol,auntie,NA
-44,male,0,110,197,0,0,177,0,0,2,1,2,0,Normal blood sugar and cholesterol,Auntie,NA
-57,male,0,140,192,0,1,148,0,0.4,1,0,1,1,Normal blood sugar and cholesterol,Father,NA
-39,male,0,118,219,0,1,140,0,1.2,1,0,3,0,Normal blood sugar and cholesterol,Auntie,NA
-67,female,0,106,223,0,1,142,0,0.3,2,2,2,1,Normal blood sugar and cholesterol,Father,NA
-59,male,0,135,234,0,1,161,0,0.5,1,0,3,1,Normal blood sugar and cholesterol,Uncle,NA
-62,male,2,130,231,0,1,146,0,1.8,1,3,3,1,Normal blood sugar and cholesterol,auntie,NA
-57,male,1,154,232,0,0,164,0,0,2,1,2,0,Normal blood sugar and cholesterol,Grandfather,NA
-56,male,1,120,236,0,1,178,0,0.8,2,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-59,male,0,110,239,0,0,142,1,1.2,1,1,3,0,Normal blood sugar and cholesterol,uncle,NA
-54,male,0,120,188,0,1,113,0,1.4,1,1,3,0,Normal blood sugar and cholesterol,mother,NA
-64,male,0,145,212,0,0,132,0,2,1,2,1,0,Normal blood sugar and cholesterol,father,NA
-42,male,0,140,226,0,1,178,0,0,2,0,2,1,Normal blood sugar and cholesterol,Father,NA
-66,male,0,112,212,0,0,132,1,0.1,2,1,2,0,Normal blood sugar and cholesterol,Grandmother,NA
-55,female,0,128,205,0,2,130,1,2,1,1,3,0,Normal blood sugar and cholesterol,grandmother,NA
-56,male,3,120,193,0,0,162,0,1.9,1,0,3,1,Normal blood sugar and cholesterol,mother,NA
-40,male,0,152,223,0,1,181,0,0,2,0,3,0,Normal blood sugar and cholesterol,aunt,NA
-48,male,1,110,229,0,1,168,0,1,0,0,3,0,Normal blood sugar and cholesterol,Grandmother,NA
-44,female,2,108,141,0,1,175,0,0.6,1,0,2,1,Normal blood sugar and cholesterol,Grandmother,NA
-58,male,0,128,216,0,0,131,1,2.2,1,3,3,0,Normal blood sugar and cholesterol,aunt,NA
-41,male,0,110,172,0,0,158,0,0,2,0,3,0,Normal blood sugar and cholesterol,grandmother,NA
-47,male,0,112,204,0,1,143,0,0.1,2,0,2,1,Normal blood sugar and cholesterol,Mother,NA
-59,male,1,140,221,0,1,164,1,0,2,0,2,1,Normal blood sugar and cholesterol,Aunt,NA
-54,male,0,120,188,0,1,113,0,1.4,1,1,3,0,Normal blood sugar and cholesterol,Uncle,NA
-58,female,0,100,248,0,0,122,0,1,1,0,2,1,High Cholesterol,uncle,NA
-58,male,0,114,318,0,2,140,0,4.4,0,3,1,0,High Cholesterol,Mother,Lovastatin
-55,male,0,160,289,0,0,145,1,0.8,1,1,3,0,High Cholesterol,grandmother,NA
-46,male,0,120,249,0,0,144,0,0.8,2,0,3,0,High Cholesterol,Grandfather,Atorvastatin
-54,male,0,122,286,0,0,116,1,3.2,1,2,2,0,High Cholesterol,Auntie,NA
-51,male,0,140,298,0,1,122,1,4.2,1,3,3,0,High Cholesterol,Uncle,Simvastatin
-51,female,2,140,308,0,0,142,0,1.5,2,1,2,1,High Cholesterol,Aunt,Simvastatin
-54,male,0,124,266,0,0,109,1,2.2,1,1,3,0,High Cholesterol,uncle,Simvastatin
-50,female,1,120,244,0,1,162,0,1.1,2,0,2,1,High Cholesterol,uncle,Simvastatin
-63,female,2,135,252,0,0,172,0,0,2,0,2,1,High Cholesterol,Uncle,NA
-61,female,0,145,307,0,0,146,1,1,1,0,3,0,High Cholesterol,Father,Lovastatin
-55,female,0,180,327,0,2,117,1,3.4,1,0,2,0,High Cholesterol,Aunt,Lovastatin
-50,female,1,120,244,0,1,162,0,1.1,2,0,2,1,High Cholesterol,Aunt,Atorvastatin
-70,male,2,160,269,0,1,112,1,2.9,1,1,3,0,High Cholesterol,Auntie,NA
-59,male,0,138,271,0,0,182,0,0,2,0,2,1,High Cholesterol,aunt,NA
-64,male,0,128,263,0,1,105,1,0.2,1,1,3,1,High Cholesterol,Uncle,Lovastatin
-65,female,2,160,360,0,0,151,0,0.8,2,0,2,1,High Cholesterol,uncle,Atorvastatin
-54,male,2,120,258,0,0,147,0,0.4,1,0,3,1,High Cholesterol,mother,Atorvastatin
-61,female,0,130,330,0,0,169,0,0,2,0,2,0,High Cholesterol,Father,NA
-46,male,0,120,249,0,0,144,0,0.8,2,0,3,0,High Cholesterol,Uncle,Atorvastatin
-55,female,1,132,342,0,1,166,0,1.2,2,0,2,1,High Cholesterol,Auntie,Lovastatin
-66,female,2,146,278,0,0,152,0,0,1,1,2,1,High Cholesterol,grandfather,NA
-57,female,0,140,241,0,1,123,1,0.2,1,0,3,0,High Cholesterol,grandmother,Simvastatin
-48,male,1,130,245,0,0,180,0,0.2,1,0,2,1,High Cholesterol,uncle,NA
-66,female,2,146,278,0,0,152,0,0,1,1,2,1,High Cholesterol,Auntie,Lovastatin
-67,male,0,100,299,0,0,125,1,0.9,1,2,2,0,High Cholesterol,Aunt,Lovastatin
-59,male,3,170,288,0,0,159,0,0.2,1,0,3,0,High Cholesterol,aunt,NA
-42,male,0,136,315,0,1,125,1,1.8,1,0,1,0,High Cholesterol,mother,Atorvastatin
-59,male,0,170,326,0,0,140,1,3.4,0,0,3,0,High Cholesterol,uncle,Simvastatin
-47,male,2,138,257,0,0,156,0,0,2,0,2,1,High Cholesterol,grandmother,NA
-59,female,0,174,249,0,1,143,1,0,1,0,2,0,High Cholesterol,grandmother,Lovastatin
-62,female,0,140,268,0,0,160,0,3.6,0,2,2,0,High Cholesterol,father,Simvastatin
-54,female,2,108,267,0,0,167,0,0,2,0,2,1,High Cholesterol,Uncle,Lovastatin
-57,female,0,128,303,0,0,159,0,0,2,1,2,1,High Cholesterol,Aunt,Lovastatin
-53,male,0,123,282,0,1,95,1,2,1,2,3,0,High Cholesterol,father,Atorvastatin
-65,male,0,110,248,0,0,158,0,0.6,2,2,1,0,High Cholesterol,mother,Atorvastatin
-54,male,1,108,309,0,1,156,0,0,2,0,3,1,High Cholesterol,Grandfather,Atorvastatin
-47,male,2,138,257,0,0,156,0,0,2,0,2,1,High Cholesterol,aunt,NA
-47,male,0,110,275,0,0,118,1,1,1,1,2,0,High Cholesterol,Aunt,NA
-51,male,0,140,299,0,1,173,1,1.6,2,0,3,0,High Cholesterol,aunt,Lovastatin
-62,male,1,120,281,0,0,103,0,1.4,1,1,3,0,High Cholesterol,Father,Simvastatin
-57,male,0,110,335,0,1,143,1,3,1,1,3,0,High Cholesterol,Father,Lovastatin
-61,female,0,145,307,0,0,146,1,1,1,0,3,0,High Cholesterol,Grandfather,Lovastatin
-63,male,0,130,254,0,0,147,0,1.4,1,1,3,0,High Cholesterol,Father,Lovastatin
-42,male,1,120,295,0,1,162,0,0,2,0,2,1,High Cholesterol,Aunt,Lovastatin
-54,male,1,108,309,0,1,156,0,0,2,0,3,1,High Cholesterol,uncle,NA
-60,male,0,145,282,0,0,142,1,2.8,1,2,3,0,High Cholesterol,Aunt,Lovastatin
-61,male,0,120,260,0,1,140,1,3.6,1,1,3,0,High Cholesterol,Mother,Simvastatin
-66,male,0,120,302,0,0,151,0,0.4,1,0,2,1,High Cholesterol,auntie,NA
-51,female,2,130,256,0,0,149,0,0.5,2,0,2,1,High Cholesterol,uncle,Lovastatin
-54,male,1,108,309,0,1,156,0,0,2,0,3,1,High Cholesterol,auntie,Lovastatin
-55,female,1,132,342,0,1,166,0,1.2,2,0,2,1,High Cholesterol,Father,Lovastatin
-64,female,0,180,325,0,1,154,1,0,2,0,2,1,High Cholesterol,Grandfather,Atorvastatin
-47,male,2,138,257,0,0,156,0,0,2,0,2,1,High Cholesterol,Grandfather,Lovastatin
-57,male,0,152,274,0,1,88,1,1.2,1,1,3,0,High Cholesterol,Grandmother,NA
-51,female,2,120,295,0,0,157,0,0.6,2,0,2,1,High Cholesterol,father,Simvastatin
-39,male,2,140,321,0,0,182,0,0,2,0,2,1,High Cholesterol,Aunt,Atorvastatin
-58,male,0,114,318,0,2,140,0,4.4,0,3,1,0,High Cholesterol,auntie,Simvastatin
-54,male,1,192,283,0,0,195,0,0,2,1,3,0,High Cholesterol,auntie,Atorvastatin
-58,male,0,125,300,0,0,171,0,0,2,2,3,0,High Cholesterol,Aunt,NA
-54,male,2,120,258,0,0,147,0,0.4,1,0,3,1,High Cholesterol,father,Lovastatin
-54,male,1,108,309,0,1,156,0,0,2,0,3,1,High Cholesterol,uncle,Lovastatin
-54,male,2,120,258,0,0,147,0,0.4,1,0,3,1,High Cholesterol,Mother,Simvastatin
-67,female,2,115,564,0,0,160,0,1.6,1,0,3,1,High Cholesterol,Father,Atorvastatin
-77,male,0,125,304,0,0,162,1,0,2,3,2,0,High Cholesterol,father,Atorvastatin
-77,male,0,125,304,0,0,162,1,0,2,3,2,0,High Cholesterol,grandfather,Simvastatin
-48,male,0,124,274,0,0,166,0,0.5,1,0,3,0,High Cholesterol,Uncle,NA
-59,male,0,170,326,0,0,140,1,3.4,0,0,3,0,High Cholesterol,Grandmother,Lovastatin
-57,female,0,120,354,0,1,163,1,0.6,2,0,2,1,High Cholesterol,Grandfather,NA
-43,male,2,130,315,0,1,162,0,1.9,2,1,2,1,High Cholesterol,Grandfather,Atorvastatin
-43,male,0,150,247,0,1,171,0,1.5,2,0,2,1,High Cholesterol,father,Simvastatin
-64,male,0,120,246,0,0,96,1,2.2,0,1,2,0,High Cholesterol,Uncle,Simvastatin
-56,female,0,134,409,0,0,150,1,1.9,1,2,3,0,High Cholesterol,Mother,Simvastatin
-60,male,0,140,293,0,0,170,0,1.2,1,2,3,0,High Cholesterol,grandfather,Atorvastatin
-45,male,1,128,308,0,0,170,0,0,2,0,2,1,High Cholesterol,Uncle,Simvastatin
-63,male,0,130,254,0,0,147,0,1.4,1,1,3,0,High Cholesterol,Grandfather,Lovastatin
-64,male,2,125,309,0,1,131,1,1.8,1,0,3,0,High Cholesterol,auntie,Simvastatin
-41,male,2,112,250,0,1,179,0,0,2,0,2,1,High Cholesterol,Grandfather,Lovastatin
-67,female,2,115,564,0,0,160,0,1.6,1,0,3,1,High Cholesterol,Grandmother,Atorvastatin
-67,male,0,160,286,0,0,108,1,1.5,1,3,2,0,High Cholesterol,Grandfather,Lovastatin
-45,male,0,115,260,0,0,185,0,0,2,0,2,1,High Cholesterol,mother,Atorvastatin
-60,female,2,102,318,0,1,160,0,0,2,1,2,1,High Cholesterol,father,Lovastatin
-66,female,2,146,278,0,0,152,0,0,1,1,2,1,High Cholesterol,Mother,Lovastatin
-42,male,3,148,244,0,0,178,0,0.8,2,2,2,1,High Cholesterol,father,Simvastatin
-41,male,2,112,250,0,1,179,0,0,2,0,2,1,High Cholesterol,Father,NA
-62,male,1,120,281,0,0,103,0,1.4,1,1,3,0,High Cholesterol,Mother,Atorvastatin
-67,male,0,100,299,0,0,125,1,0.9,1,2,2,0,High Cholesterol,Mother,NA
-50,male,0,150,243,0,0,128,0,2.6,1,0,3,0,High Cholesterol,Grandmother,Lovastatin
-43,male,2,130,315,0,1,162,0,1.9,2,1,2,1,High Cholesterol,Father,Lovastatin
-45,male,1,128,308,0,0,170,0,0,2,0,2,1,High Cholesterol,Uncle,NA
-49,male,1,130,266,0,1,171,0,0.6,2,0,2,1,High Cholesterol,auntie,Simvastatin
-65,male,0,135,254,0,0,127,0,2.8,1,1,3,0,High Cholesterol,Uncle,NA
-46,male,0,140,311,0,1,120,1,1.8,1,2,3,0,High Cholesterol,uncle,NA
-54,male,0,122,286,0,0,116,1,3.2,1,2,2,0,High Cholesterol,Uncle,Simvastatin
-63,male,0,130,254,0,0,147,0,1.4,1,1,3,0,High Cholesterol,Father,NA
-51,male,0,140,261,0,0,186,1,0,2,0,2,1,High Cholesterol,grandfather,Atorvastatin
-44,female,2,118,242,0,1,149,0,0.3,1,1,2,1,High Cholesterol,father,NA
-58,male,0,125,300,0,0,171,0,0,2,2,3,0,High Cholesterol,mother,NA
-60,male,0,125,258,0,0,141,1,2.8,1,1,3,0,High Cholesterol,Grandmother,Atorvastatin
-41,female,1,126,306,0,1,163,0,0,2,0,2,1,High Cholesterol,mother,Simvastatin
-49,female,0,130,269,0,1,163,0,0,2,0,2,1,High Cholesterol,father,Atorvastatin
-57,male,1,124,261,0,1,141,0,0.3,2,0,3,0,High Cholesterol,father,NA
-62,female,0,150,244,0,1,154,1,1.4,1,0,2,0,High Cholesterol,Auntie,Atorvastatin
-54,male,1,192,283,0,0,195,0,0,2,1,3,0,High Cholesterol,auntie,Lovastatin
-46,male,0,140,311,0,1,120,1,1.8,1,2,3,0,High Cholesterol,uncle,Simvastatin
-47,male,0,110,275,0,0,118,1,1,1,1,2,0,High Cholesterol,uncle,Simvastatin
-55,male,0,132,353,0,1,132,1,1.2,1,1,3,0,High Cholesterol,uncle,Lovastatin
-62,female,0,140,394,0,0,157,0,1.2,1,0,2,1,High Cholesterol,Father,NA
-64,female,0,180,325,0,1,154,1,0,2,0,2,1,High Cholesterol,Father,Atorvastatin
-66,male,0,120,302,0,0,151,0,0.4,1,0,2,1,High Cholesterol,uncle,Lovastatin
-55,female,1,132,342,0,1,166,0,1.2,2,0,2,1,High Cholesterol,Mother,Lovastatin
-53,male,0,123,282,0,1,95,1,2,1,2,3,0,High Cholesterol,uncle,Simvastatin
-44,male,1,120,263,0,1,173,0,0,2,0,3,1,High Cholesterol,grandfather,Simvastatin
-55,male,0,160,289,0,0,145,1,0.8,1,1,3,0,High Cholesterol,uncle,NA
-64,female,2,140,313,0,1,133,0,0.2,2,0,3,1,High Cholesterol,Aunt,Atorvastatin
-71,female,1,160,302,0,1,162,0,0.4,2,2,2,1,High Cholesterol,Aunt,Simvastatin
-58,female,2,120,340,0,1,172,0,0,2,0,2,1,High Cholesterol,aunt,Atorvastatin
-58,male,0,128,259,0,0,130,1,3,1,2,3,0,High Cholesterol,uncle,NA
-67,male,0,100,299,0,0,125,1,0.9,1,2,2,0,High Cholesterol,Aunt,Atorvastatin
-58,male,0,150,270,0,0,111,1,0.8,2,0,3,0,High Cholesterol,Father,Simvastatin
-52,male,1,120,325,0,1,172,0,0.2,2,0,2,1,High Cholesterol,Father,NA
-55,female,1,132,342,0,1,166,0,1.2,2,0,2,1,High Cholesterol,uncle,Simvastatin
-60,male,0,145,282,0,0,142,1,2.8,1,2,3,0,High Cholesterol,Mother,Simvastatin
-62,male,0,120,267,0,1,99,1,1.8,1,2,3,0,High Cholesterol,Mother,Simvastatin
-44,female,2,118,242,0,1,149,0,0.3,1,1,2,1,High Cholesterol,Uncle,Lovastatin
-56,female,1,140,294,0,0,153,0,1.3,1,0,2,1,High Cholesterol,Auntie,Atorvastatin
-61,male,0,120,260,0,1,140,1,3.6,1,1,3,0,High Cholesterol,uncle,NA
-70,male,2,160,269,0,1,112,1,2.9,1,1,3,0,High Cholesterol,grandfather,Simvastatin
-74,female,1,120,269,0,0,121,1,0.2,2,1,2,1,High Cholesterol,Father,Lovastatin
-42,male,3,148,244,0,0,178,0,0.8,2,2,2,1,High Cholesterol,grandfather,Simvastatin
-64,female,2,140,313,0,1,133,0,0.2,2,0,3,1,High Cholesterol,Father,NA
-63,female,2,135,252,0,0,172,0,0,2,0,2,1,High Cholesterol,Father,Atorvastatin
-53,female,0,130,264,0,0,143,0,0.4,1,0,2,1,High Cholesterol,Aunt,Lovastatin
-48,female,2,130,275,0,1,139,0,0.2,2,0,2,1,High Cholesterol,Grandfather,Atorvastatin
-45,male,0,142,309,0,0,147,1,0,1,3,3,0,High Cholesterol,uncle,Simvastatin
-66,male,1,160,246,0,1,120,1,0,1,3,1,0,High Cholesterol,father,Simvastatin
-48,male,1,130,245,0,0,180,0,0.2,1,0,2,1,High Cholesterol,Aunt,NA
-56,female,1,140,294,0,0,153,0,1.3,1,0,2,1,High Cholesterol,aunt,Atorvastatin
-54,male,1,192,283,0,0,195,0,0,2,1,3,0,High Cholesterol,Father,Simvastatin
-57,male,0,150,276,0,0,112,1,0.6,1,1,1,0,High Cholesterol,Grandmother,Atorvastatin
-70,male,0,130,322,0,0,109,0,2.4,1,3,2,0,High Cholesterol,Grandfather,Atorvastatin
-63,female,0,108,269,0,1,169,1,1.8,1,2,2,0,High Cholesterol,auntie,Atorvastatin
-37,male,2,130,250,0,1,187,0,3.5,0,0,2,1,High Cholesterol,Grandfather,NA
-58,male,0,150,270,0,0,111,1,0.8,2,0,3,0,High Cholesterol,Father,Simvastatin
-54,male,2,125,273,0,0,152,0,0.5,0,1,2,1,High Cholesterol,Aunt,Simvastatin
-60,male,0,130,253,0,1,144,1,1.4,2,1,3,0,High Cholesterol,father,NA
-65,female,2,155,269,0,1,148,0,0.8,2,0,2,1,High Cholesterol,mother,Atorvastatin
-66,male,1,160,246,0,1,120,1,0,1,3,1,0,High Cholesterol,grandmother,Simvastatin
-50,male,0,150,243,0,0,128,0,2.6,1,0,3,0,High Cholesterol,grandmother,NA
-54,female,2,108,267,0,0,167,0,0,2,0,2,1,High Cholesterol,uncle,NA
-62,female,2,130,263,0,1,97,0,1.2,1,1,3,0,High Cholesterol,Uncle,NA
-66,male,0,120,302,0,0,151,0,0.4,1,0,2,1,High Cholesterol,Uncle,NA
-57,male,0,110,335,0,1,143,1,3,1,1,3,0,High Cholesterol,mother,NA
-57,male,1,124,261,0,1,141,0,0.3,2,0,3,0,High Cholesterol,Auntie,Lovastatin
-46,female,0,138,243,0,0,152,1,0,1,0,2,1,High Cholesterol,Mother,Lovastatin
-67,male,0,160,286,0,0,108,1,1.5,1,3,2,0,High Cholesterol,Aunt,Lovastatin
-55,male,0,132,353,0,1,132,1,1.2,1,1,3,0,High Cholesterol,Mother,Lovastatin
-58,male,1,120,284,0,0,160,0,1.8,1,0,2,0,High Cholesterol,Grandfather,Atorvastatin
-64,female,0,130,303,0,1,122,0,2,1,2,2,1,High Cholesterol,auntie,Atorvastatin
-58,male,0,150,270,0,0,111,1,0.8,2,0,3,0,High Cholesterol,grandmother,Lovastatin
-35,male,0,126,282,0,0,156,1,0,2,0,3,0,High Cholesterol,aunt,Atorvastatin
-77,male,0,125,304,0,0,162,1,0,2,3,2,0,High Cholesterol,Uncle,Lovastatin
-64,male,0,120,246,0,0,96,1,2.2,0,1,2,0,High Cholesterol,auntie,Simvastatin
-45,male,3,110,264,0,1,132,0,1.2,1,0,3,0,High Cholesterol,Mother,NA
-66,female,2,146,278,0,0,152,0,0,1,1,2,1,High Cholesterol,Aunt,Lovastatin
-70,male,1,156,245,0,0,143,0,0,2,0,2,1,High Cholesterol,Grandfather,Atorvastatin
-46,female,0,138,243,0,0,152,1,0,1,0,2,1,High Cholesterol,Uncle,Lovastatin
-57,male,0,150,276,0,0,112,1,0.6,1,1,1,0,High Cholesterol,Aunt,NA
-70,male,0,130,322,0,0,109,0,2.4,1,3,2,0,High Cholesterol,Grandmother,Atorvastatin
-59,male,3,170,288,0,0,159,0,0.2,1,0,3,0,High Cholesterol,aunt,Atorvastatin
-54,male,2,125,273,0,0,152,0,0.5,0,1,2,1,High Cholesterol,Auntie,Lovastatin
-65,female,2,160,360,0,0,151,0,0.8,2,0,2,1,High Cholesterol,Mother,Atorvastatin
-57,female,0,128,303,0,0,159,0,0,2,1,2,1,High Cholesterol,grandfather,Simvastatin
-42,female,0,102,265,0,0,122,0,0.6,1,0,2,1,High Cholesterol,Aunt,Atorvastatin
-57,female,0,120,354,0,1,163,1,0.6,2,0,2,1,High Cholesterol,Grandfather,NA
-45,male,0,142,309,0,0,147,1,0,1,3,3,0,High Cholesterol,Uncle,Atorvastatin
-51,female,0,130,305,0,1,142,1,1.2,1,0,3,0,High Cholesterol,mother,Lovastatin
-47,male,2,108,243,0,1,152,0,0,2,0,2,0,High Cholesterol,grandfather,NA
-60,female,2,102,318,0,1,160,0,0,2,1,2,1,High Cholesterol,grandmother,Lovastatin
-37,male,2,130,250,0,1,187,0,3.5,0,0,2,1,High Cholesterol,Grandfather,Lovastatin
-41,female,2,112,268,0,0,172,1,0,2,0,2,1,High Cholesterol,Uncle,Atorvastatin
-57,female,0,120,354,0,1,163,1,0.6,2,0,2,1,High Cholesterol,uncle,Lovastatin
-59,female,0,174,249,0,1,143,1,0,1,0,2,0,High Cholesterol,Mother,Atorvastatin
-47,male,2,130,253,0,1,179,0,0,2,0,2,1,High Cholesterol,Uncle,NA
-58,male,1,120,284,0,0,160,0,1.8,1,0,2,0,High Cholesterol,Grandmother,NA
-62,female,0,150,244,0,1,154,1,1.4,1,0,2,0,High Cholesterol,Auntie,NA
-60,male,0,140,293,0,0,170,0,1.2,1,2,3,0,High Cholesterol,Auntie,NA
-57,male,0,152,274,0,1,88,1,1.2,1,1,3,0,High Cholesterol,aunt,Lovastatin
-47,male,2,130,253,0,1,179,0,0,2,0,2,1,High Cholesterol,grandmother,Simvastatin
-55,male,0,160,289,0,0,145,1,0.8,1,1,3,0,High Cholesterol,father,Atorvastatin
-51,female,2,120,295,0,0,157,0,0.6,2,0,2,1,High Cholesterol,Father,Atorvastatin
-63,female,0,150,407,0,0,154,0,4,1,3,3,0,High Cholesterol,auntie,Atorvastatin
-49,female,1,134,271,0,1,162,0,0,1,0,2,1,High Cholesterol,Uncle,Lovastatin
-49,female,1,134,271,0,1,162,0,0,1,0,2,1,High Cholesterol,Mother,Simvastatin
-47,male,2,108,243,0,1,152,0,0,2,0,2,0,High Cholesterol,grandfather,Simvastatin
-43,male,0,150,247,0,1,171,0,1.5,2,0,2,1,High Cholesterol,mother,Atorvastatin
-51,male,0,140,261,0,0,186,1,0,2,0,2,1,High Cholesterol,Aunt,NA
-69,male,2,140,254,0,0,146,0,2,1,3,3,0,High Cholesterol,Uncle,Lovastatin
-67,female,2,115,564,0,0,160,0,1.6,1,0,3,1,High Cholesterol,Mother,NA
-47,male,0,110,275,0,0,118,1,1,1,1,2,0,High Cholesterol,Father,Atorvastatin
-67,male,0,160,286,0,0,108,1,1.5,1,3,2,0,High Cholesterol,father,Simvastatin
-64,female,2,140,313,0,1,133,0,0.2,2,0,3,1,High Cholesterol,Aunt,NA
-39,male,2,140,321,0,0,182,0,0,2,0,2,1,High Cholesterol,mother,Atorvastatin
-51,female,0,130,305,0,1,142,1,1.2,1,0,3,0,High Cholesterol,Father,Atorvastatin
-63,female,0,150,407,0,0,154,0,4,1,3,3,0,High Cholesterol,Mother,Atorvastatin
-51,male,0,140,298,0,1,122,1,4.2,1,3,3,0,High Cholesterol,Grandfather,Atorvastatin
-65,male,0,110,248,0,0,158,0,0.6,2,2,1,0,High Cholesterol,mother,Simvastatin
-62,male,1,120,281,0,0,103,0,1.4,1,1,3,0,High Cholesterol,Father,NA
-65,male,0,135,254,0,0,127,0,2.8,1,1,3,0,High Cholesterol,Father,NA
-57,female,0,128,303,0,0,159,0,0,2,1,2,1,High Cholesterol,grandfather,NA
-64,male,2,125,309,0,1,131,1,1.8,1,0,3,0,High Cholesterol,Uncle,Atorvastatin
-55,male,0,132,353,0,1,132,1,1.2,1,1,3,0,High Cholesterol,Father,Lovastatin
-47,male,2,108,243,0,1,152,0,0,2,0,2,0,High Cholesterol,mother,Atorvastatin
-44,female,2,118,242,0,1,149,0,0.3,1,1,2,1,High Cholesterol,Grandfather,Lovastatin
-61,male,0,120,260,0,1,140,1,3.6,1,1,3,0,High Cholesterol,Mother,Lovastatin
-55,female,0,180,327,0,2,117,1,3.4,1,0,2,0,High Cholesterol,grandmother,Atorvastatin
-44,male,0,112,290,0,0,153,0,0,2,1,2,0,High Cholesterol,Mother,NA
-67,female,2,152,277,0,1,172,0,0,2,1,2,1,High Cholesterol,Grandfather,Simvastatin
-51,female,2,130,256,0,0,149,0,0.5,2,0,2,1,High Cholesterol,Uncle,Simvastatin
-59,male,3,178,270,0,0,145,0,4.2,0,0,3,1,High Cholesterol,Mother,Simvastatin
-60,female,0,150,258,0,0,157,0,2.6,1,2,3,0,High Cholesterol,Grandmother,Atorvastatin
-65,female,2,155,269,0,1,148,0,0.8,2,0,2,1,High Cholesterol,Grandfather,Atorvastatin
-54,female,2,108,267,0,0,167,0,0,2,0,2,1,High Cholesterol,Mother,Atorvastatin
-52,male,1,120,325,0,1,172,0,0.2,2,0,2,1,High Cholesterol,father,NA
-46,male,0,120,249,0,0,144,0,0.8,2,0,3,0,High Cholesterol,grandmother,NA
-58,male,0,128,259,0,0,130,1,3,1,2,3,0,High Cholesterol,Uncle,Simvastatin
-62,female,0,140,394,0,0,157,0,1.2,1,0,2,1,High Cholesterol,Auntie,Atorvastatin
-54,male,2,125,273,0,0,152,0,0.5,0,1,2,1,High Cholesterol,mother,NA
-70,male,0,130,322,0,0,109,0,2.4,1,3,2,0,High Cholesterol,Uncle,Atorvastatin
-51,female,2,120,295,0,0,157,0,0.6,2,0,2,1,High Cholesterol,Father,Atorvastatin
-68,male,2,118,277,0,1,151,0,1,2,1,3,1,High Cholesterol,Grandfather,Lovastatin
-69,male,2,140,254,0,0,146,0,2,1,3,3,0,High Cholesterol,grandmother,Simvastatin
-54,male,0,122,286,0,0,116,1,3.2,1,2,2,0,High Cholesterol,Grandfather,Lovastatin
-65,female,2,155,269,0,1,148,0,0.8,2,0,2,1,High Cholesterol,Auntie,Atorvastatin
-44,male,0,112,290,0,0,153,0,0,2,1,2,0,High Cholesterol,Father,Simvastatin
-50,female,0,110,254,0,0,159,0,0,2,0,2,1,High Cholesterol,Auntie,NA
-60,male,0,145,282,0,0,142,1,2.8,1,2,3,0,High Cholesterol,aunt,Simvastatin
-44,male,0,112,290,0,0,153,0,0,2,1,2,0,High Cholesterol,Aunt,Simvastatin
-60,male,0,125,258,0,0,141,1,2.8,1,1,3,0,High Cholesterol,grandfather,Atorvastatin
-43,male,0,150,247,0,1,171,0,1.5,2,0,2,1,High Cholesterol,father,Simvastatin
-70,male,0,130,322,0,0,109,0,2.4,1,3,2,0,High Cholesterol,grandfather,Simvastatin
-62,female,0,140,394,0,0,157,0,1.2,1,0,2,1,High Cholesterol,father,Simvastatin
-55,male,1,130,262,0,1,155,0,0,2,0,2,1,High Cholesterol,auntie,Simvastatin
-55,male,0,132,353,0,1,132,1,1.2,1,1,3,0,High Cholesterol,Grandfather,NA
-64,male,2,125,309,0,1,131,1,1.8,1,0,3,0,High Cholesterol,Father,NA
-61,female,0,145,307,0,0,146,1,1,1,0,3,0,High Cholesterol,Grandmother,Simvastatin
-54,male,0,122,286,0,0,116,1,3.2,1,2,2,0,High Cholesterol,Grandfather,Simvastatin
-74,female,1,120,269,0,0,121,1,0.2,2,1,2,1,High Cholesterol,auntie,Lovastatin
-63,female,0,108,269,0,1,169,1,1.8,1,2,2,0,High Cholesterol,Mother,Simvastatin
-70,male,2,160,269,0,1,112,1,2.9,1,1,3,0,High Cholesterol,aunt,NA
-63,female,0,108,269,0,1,169,1,1.8,1,2,2,0,High Cholesterol,Father,Lovastatin
-58,male,1,120,284,0,0,160,0,1.8,1,0,2,0,High Cholesterol,grandfather,Lovastatin
-62,female,2,130,263,0,1,97,0,1.2,1,1,3,0,High Cholesterol,Mother,Simvastatin
-46,male,0,140,311,0,1,120,1,1.8,1,2,3,0,High Cholesterol,uncle,Atorvastatin
-58,female,2,120,340,0,1,172,0,0,2,0,2,1,High Cholesterol,auntie,Lovastatin
-47,male,2,130,253,0,1,179,0,0,2,0,2,1,High Cholesterol,grandfather,Lovastatin
-42,male,0,136,315,0,1,125,1,1.8,1,0,1,0,High Cholesterol,father,NA
-55,female,0,180,327,0,2,117,1,3.4,1,0,2,0,High Cholesterol,Uncle,Simvastatin
-51,female,0,130,305,0,1,142,1,1.2,1,0,3,0,High Cholesterol,grandfather,Lovastatin
-43,male,0,115,303,0,1,181,0,1.2,1,0,2,1,High Cholesterol,Grandmother,Atorvastatin
-41,female,1,126,306,0,1,163,0,0,2,0,2,1,High Cholesterol,Uncle,NA
-49,male,1,130,266,0,1,171,0,0.6,2,0,2,1,High Cholesterol,grandmother,NA
-65,male,0,110,248,0,0,158,0,0.6,2,2,1,0,High Cholesterol,father,Lovastatin
-57,male,0,152,274,0,1,88,1,1.2,1,1,3,0,High Cholesterol,Mother,Atorvastatin
-59,male,3,178,270,0,0,145,0,4.2,0,0,3,1,High Cholesterol,Uncle,Lovastatin
-69,male,2,140,254,0,0,146,0,2,1,3,3,0,High Cholesterol,grandmother,Simvastatin
-45,male,3,110,264,0,1,132,0,1.2,1,0,3,0,High Cholesterol,father,Simvastatin
-49,male,1,130,266,0,1,171,0,0.6,2,0,2,1,High Cholesterol,Father,Lovastatin
-53,female,0,130,264,0,0,143,0,0.4,1,0,2,1,High Cholesterol,grandmother,Atorvastatin
-59,female,0,174,249,0,1,143,1,0,1,0,2,0,High Cholesterol,uncle,Lovastatin
-58,female,2,120,340,0,1,172,0,0,2,0,2,1,High Cholesterol,Grandfather,NA
-46,female,0,138,243,0,0,152,1,0,1,0,2,1,High Cholesterol,grandfather,Atorvastatin
-56,female,0,134,409,0,0,150,1,1.9,1,2,3,0,High Cholesterol,grandmother,Lovastatin
-64,male,0,128,263,0,1,105,1,0.2,1,1,3,1,High Cholesterol,mother,Simvastatin
-50,male,0,150,243,0,0,128,0,2.6,1,0,3,0,High Cholesterol,Mother,Simvastatin
-47,male,2,108,243,0,1,152,0,0,2,0,2,0,High Cholesterol,Grandmother,Simvastatin
-64,female,0,130,303,0,1,122,0,2,1,2,2,1,High Cholesterol,Father,Lovastatin
-62,male,0,120,267,0,1,99,1,1.8,1,2,3,0,High Cholesterol,father,Simvastatin
-41,female,1,126,306,0,1,163,0,0,2,0,2,1,High Cholesterol,Father,Atorvastatin
-64,male,2,125,309,0,1,131,1,1.8,1,0,3,0,High Cholesterol,mother,Lovastatin
-59,male,0,138,271,0,0,182,0,0,2,0,2,1,High Cholesterol,Father,Simvastatin
-58,male,0,114,318,0,2,140,0,4.4,0,3,1,0,High Cholesterol,Aunt,NA
-58,female,0,100,248,0,0,122,0,1,1,0,2,1,High Cholesterol,Auntie,Simvastatin
-57,male,1,124,261,0,1,141,0,0.3,2,0,3,0,High Cholesterol,Mother,Lovastatin
-66,male,1,160,246,0,1,120,1,0,1,3,1,0,High Cholesterol,Auntie,NA
-61,female,0,130,330,0,0,169,0,0,2,0,2,0,High Cholesterol,Uncle,Simvastatin
-68,male,2,118,277,0,1,151,0,1,2,1,3,1,High Cholesterol,Auntie,Atorvastatin
-54,male,2,120,258,0,0,147,0,0.4,1,0,3,1,High Cholesterol,grandfather,Atorvastatin
-60,male,0,130,253,0,1,144,1,1.4,2,1,3,0,High Cholesterol,auntie,Simvastatin
-63,male,0,130,254,0,0,147,0,1.4,1,1,3,0,High Cholesterol,Mother,Atorvastatin
-41,female,2,112,268,0,0,172,1,0,2,0,2,1,High Cholesterol,auntie,NA
-42,male,1,120,295,0,1,162,0,0,2,0,2,1,High Cholesterol,aunt,Atorvastatin
-59,male,0,170,326,0,0,140,1,3.4,0,0,3,0,High Cholesterol,Uncle,Simvastatin
-63,female,0,150,407,0,0,154,0,4,1,3,3,0,High Cholesterol,Auntie,Simvastatin
-58,male,0,125,300,0,0,171,0,0,2,2,3,0,High Cholesterol,father,Lovastatin
-55,female,1,135,250,0,0,161,0,1.4,1,0,2,1,High Cholesterol,grandfather,Atorvastatin
-35,male,0,126,282,0,0,156,1,0,2,0,3,0,High Cholesterol,auntie,Atorvastatin
-35,male,0,126,282,0,0,156,1,0,2,0,3,0,High Cholesterol,Father,Lovastatin
-71,female,1,160,302,0,1,162,0,0.4,2,2,2,1,High Cholesterol,grandmother,NA
-56,female,1,140,294,0,0,153,0,1.3,1,0,2,1,High Cholesterol,mother,Simvastatin
-45,male,3,110,264,0,1,132,0,1.2,1,0,3,0,High Cholesterol,Aunt,Atorvastatin
-70,male,1,156,245,0,0,143,0,0,2,0,2,1,High Cholesterol,Auntie,NA
-55,female,1,135,250,0,0,161,0,1.4,1,0,2,1,High Cholesterol,grandfather,Atorvastatin
-64,male,2,140,335,0,1,158,0,0,2,0,2,0,High Cholesterol,Mother,NA
-45,male,0,115,260,0,0,185,0,0,2,0,2,1,High Cholesterol,Father,NA
-67,female,2,152,277,0,1,172,0,0,2,1,2,1,High Cholesterol,Auntie,Lovastatin
-74,female,1,120,269,0,0,121,1,0.2,2,1,2,1,High Cholesterol,Aunt,Lovastatin
-60,female,0,150,258,0,0,157,0,2.6,1,2,3,0,High Cholesterol,father,NA
-48,male,0,124,274,0,0,166,0,0.5,1,0,3,0,High Cholesterol,mother,Atorvastatin
-46,male,0,140,311,0,1,120,1,1.8,1,2,3,0,High Cholesterol,father,NA
-55,female,1,135,250,0,0,161,0,1.4,1,0,2,1,High Cholesterol,grandfather,Lovastatin
-58,male,0,125,300,0,0,171,0,0,2,2,3,0,High Cholesterol,Grandfather,NA
-52,male,0,128,255,0,1,161,1,0,2,1,3,0,High Cholesterol,Grandmother,Lovastatin
-41,female,2,112,268,0,0,172,1,0,2,0,2,1,High Cholesterol,Grandfather,Atorvastatin
-60,female,2,102,318,0,1,160,0,0,2,1,2,1,High Cholesterol,aunt,Atorvastatin
-64,male,2,140,335,0,1,158,0,0,2,0,2,0,High Cholesterol,grandmother,Simvastatin
-55,male,1,130,262,0,1,155,0,0,2,0,2,1,High Cholesterol,auntie,NA
-65,female,2,160,360,0,0,151,0,0.8,2,0,2,1,High Cholesterol,Grandfather,NA
-48,male,1,130,245,0,0,180,0,0.2,1,0,2,1,High Cholesterol,Father,Simvastatin
-51,female,2,130,256,0,0,149,0,0.5,2,0,2,1,High Cholesterol,grandfather,Atorvastatin
-64,male,0,120,246,0,0,96,1,2.2,0,1,2,0,High Cholesterol,Father,Lovastatin
-61,female,0,130,330,0,0,169,0,0,2,0,2,0,High Cholesterol,father,Lovastatin
-57,male,0,150,276,0,0,112,1,0.6,1,1,1,0,High Cholesterol,grandfather,Simvastatin
-49,female,0,130,269,0,1,163,0,0,2,0,2,1,High Cholesterol,aunt,Atorvastatin
-57,male,0,110,335,0,1,143,1,3,1,1,3,0,High Cholesterol,father,NA
-57,male,0,110,335,0,1,143,1,3,1,1,3,0,High Cholesterol,father,Simvastatin
-62,female,0,150,244,0,1,154,1,1.4,1,0,2,0,High Cholesterol,Auntie,Atorvastatin
-48,female,2,130,275,0,1,139,0,0.2,2,0,2,1,High Cholesterol,Father,Lovastatin
-61,female,0,145,307,0,0,146,1,1,1,0,3,0,High Cholesterol,father,Lovastatin
-53,male,0,123,282,0,1,95,1,2,1,2,3,0,High Cholesterol,Grandfather,NA
-64,female,0,130,303,0,1,122,0,2,1,2,2,1,High Cholesterol,Grandmother,NA
-55,male,0,160,289,0,0,145,1,0.8,1,1,3,0,High Cholesterol,Aunt,NA
-51,male,0,140,298,0,1,122,1,4.2,1,3,3,0,High Cholesterol,grandmother,Simvastatin
-62,male,1,120,281,0,0,103,0,1.4,1,1,3,0,High Cholesterol,Aunt,Atorvastatin
-59,male,3,170,288,0,0,159,0,0.2,1,0,3,0,High Cholesterol,Auntie,NA
-43,male,0,115,303,0,1,181,0,1.2,1,0,2,1,High Cholesterol,auntie,NA
-57,male,0,150,276,0,0,112,1,0.6,1,1,1,0,High Cholesterol,Father,Lovastatin
-57,male,1,124,261,0,1,141,0,0.3,2,0,3,0,High Cholesterol,father,NA
-62,female,0,140,268,0,0,160,0,3.6,0,2,2,0,High Cholesterol,grandmother,Simvastatin
-70,male,1,156,245,0,0,143,0,0,2,0,2,1,High Cholesterol,Father,Atorvastatin
-45,male,0,115,260,0,0,185,0,0,2,0,2,1,High Cholesterol,Grandmother,Simvastatin
-42,male,3,148,244,0,0,178,0,0.8,2,2,2,1,High Cholesterol,grandmother,NA
-62,female,0,140,268,0,0,160,0,3.6,0,2,2,0,High Cholesterol,grandmother,Lovastatin
-60,male,0,130,253,0,1,144,1,1.4,2,1,3,0,High Cholesterol,grandfather,Atorvastatin
-63,female,2,135,252,0,0,172,0,0,2,0,2,1,High Cholesterol,Auntie,NA
-54,male,0,124,266,0,0,109,1,2.2,1,1,3,0,High Cholesterol,aunt,Atorvastatin
-68,male,2,118,277,0,1,151,0,1,2,1,3,1,High Cholesterol,auntie,NA
-42,male,0,136,315,0,1,125,1,1.8,1,0,1,0,High Cholesterol,auntie,Atorvastatin
-51,male,0,140,261,0,0,186,1,0,2,0,2,1,High Cholesterol,uncle,NA
-59,male,3,160,273,0,0,125,0,0,2,0,2,0,High Cholesterol,Aunt,NA
-60,male,0,140,293,0,0,170,0,1.2,1,2,3,0,High Cholesterol,Aunt,Lovastatin
-52,male,0,128,255,0,1,161,1,0,2,1,3,0,High Cholesterol,mother,Lovastatin
-58,male,1,120,284,0,0,160,0,1.8,1,0,2,0,High Cholesterol,Auntie,Simvastatin
-37,male,2,130,250,0,1,187,0,3.5,0,0,2,1,High Cholesterol,uncle,Simvastatin
-52,male,0,128,255,0,1,161,1,0,2,1,3,0,High Cholesterol,grandfather,Simvastatin
-43,male,0,115,303,0,1,181,0,1.2,1,0,2,1,High Cholesterol,Grandmother,Lovastatin
-51,male,0,140,299,0,1,173,1,1.6,2,0,3,0,High Cholesterol,Auntie,NA
-64,male,2,140,335,0,1,158,0,0,2,0,2,0,High Cholesterol,father,Lovastatin
-59,male,3,170,288,0,0,159,0,0.2,1,0,3,0,High Cholesterol,grandfather,Atorvastatin
-59,male,3,160,273,0,0,125,0,0,2,0,2,0,High Cholesterol,mother,Atorvastatin
-41,male,2,112,250,0,1,179,0,0,2,0,2,1,High Cholesterol,aunt,NA
-48,female,2,130,275,0,1,139,0,0.2,2,0,2,1,High Cholesterol,Grandfather,NA
-39,male,2,140,321,0,0,182,0,0,2,0,2,1,High Cholesterol,Grandmother,Lovastatin
-59,male,3,160,273,0,0,125,0,0,2,0,2,0,High Cholesterol,Uncle,NA
-59,male,0,138,271,0,0,182,0,0,2,0,2,1,High Cholesterol,Uncle,Simvastatin
-48,male,0,124,274,0,0,166,0,0.5,1,0,3,0,High Cholesterol,aunt,Simvastatin
-61,male,0,120,260,0,1,140,1,3.6,1,1,3,0,High Cholesterol,Grandmother,Lovastatin
-60,female,0,150,258,0,0,157,0,2.6,1,2,3,0,High Cholesterol,mother,Atorvastatin
-63,female,0,150,407,0,0,154,0,4,1,3,3,0,High Cholesterol,auntie,NA
-64,female,0,180,325,0,1,154,1,0,2,0,2,1,High Cholesterol,grandfather,Atorvastatin
-51,male,0,140,299,0,1,173,1,1.6,2,0,3,0,High Cholesterol,grandfather,Lovastatin
-62,female,2,130,263,0,1,97,0,1.2,1,1,3,0,High Cholesterol,Aunt,Lovastatin
-59,male,3,178,270,0,0,145,0,4.2,0,0,3,1,High Cholesterol,Father,Atorvastatin
-42,female,0,102,265,0,0,122,0,0.6,1,0,2,1,High Cholesterol,Grandfather,Atorvastatin
-42,female,0,102,265,0,0,122,0,0.6,1,0,2,1,High Cholesterol,Grandmother,Atorvastatin
-62,female,0,140,268,0,0,160,0,3.6,0,2,2,0,High Cholesterol,Aunt,Atorvastatin
-55,male,1,130,262,0,1,155,0,0,2,0,2,1,High Cholesterol,aunt,Simvastatin
-64,male,0,120,246,0,0,96,1,2.2,0,1,2,0,High Cholesterol,Auntie,NA
-50,female,1,120,244,0,1,162,0,1.1,2,0,2,1,High Cholesterol,Grandfather,Lovastatin
-62,male,0,120,267,0,1,99,1,1.8,1,2,3,0,High Cholesterol,grandmother,Simvastatin
-46,male,0,120,249,0,0,144,0,0.8,2,0,3,0,High Cholesterol,Mother,Lovastatin
-65,male,0,135,254,0,0,127,0,2.8,1,1,3,0,High Cholesterol,Grandmother,Atorvastatin
-47,male,2,130,253,0,1,179,0,0,2,0,2,1,High Cholesterol,grandfather,Lovastatin
-44,male,1,120,263,0,1,173,0,0,2,0,3,1,High Cholesterol,grandfather,Simvastatin
-61,female,0,130,330,0,0,169,0,0,2,0,2,0,High Cholesterol,Auntie,NA
-54,male,0,124,266,0,0,109,1,2.2,1,1,3,0,High Cholesterol,Uncle,Atorvastatin
-65,male,0,135,254,0,0,127,0,2.8,1,1,3,0,High Cholesterol,Father,Lovastatin
-51,female,2,140,308,0,0,142,0,1.5,2,1,2,1,High Cholesterol,Father,Simvastatin
-43,male,2,130,315,0,1,162,0,1.9,2,1,2,1,High Cholesterol,uncle,Simvastatin
-64,male,2,140,335,0,1,158,0,0,2,0,2,0,High Cholesterol,Aunt,Simvastatin
-49,female,1,134,271,0,1,162,0,0,1,0,2,1,High Cholesterol,aunt,Atorvastatin
-57,female,0,140,241,0,1,123,1,0.2,1,0,3,0,High Cholesterol,aunt,Lovastatin
-67,female,2,152,277,0,1,172,0,0,2,1,2,1,High Cholesterol,grandfather,Atorvastatin
-67,male,0,160,286,0,0,108,1,1.5,1,3,2,0,High Cholesterol,mother,Simvastatin
-62,female,2,130,263,0,1,97,0,1.2,1,1,3,0,High Cholesterol,Auntie,Atorvastatin
-53,female,0,130,264,0,0,143,0,0.4,1,0,2,1,High Cholesterol,Mother,Atorvastatin
-49,female,0,130,269,0,1,163,0,0,2,0,2,1,High Cholesterol,Uncle,Simvastatin
-58,female,0,100,248,0,0,122,0,1,1,0,2,1,High Cholesterol,auntie,Simvastatin
-57,female,0,140,241,0,1,123,1,0.2,1,0,3,0,High Cholesterol,Mother,Atorvastatin
-58,male,0,128,259,0,0,130,1,3,1,2,3,0,High Cholesterol,Grandfather,NA
-52,male,1,120,325,0,1,172,0,0.2,2,0,2,1,High Cholesterol,auntie,Lovastatin
-63,female,0,108,269,0,1,169,1,1.8,1,2,2,0,High Cholesterol,grandmother,NA
-45,male,0,142,309,0,0,147,1,0,1,3,3,0,High Cholesterol,Uncle,Atorvastatin
-64,male,0,128,263,0,1,105,1,0.2,1,1,3,1,High Cholesterol,Grandmother,NA
-55,female,0,180,327,0,2,117,1,3.4,1,0,2,0,High Cholesterol,Mother,NA
-60,male,0,140,293,0,0,170,0,1.2,1,2,3,0,High Cholesterol,Grandmother,NA
-71,female,1,160,302,0,1,162,0,0.4,2,2,2,1,High Cholesterol,uncle,Atorvastatin
-50,female,0,110,254,0,0,159,0,0,2,0,2,1,High Cholesterol,mother,Atorvastatin
-44,male,1,120,263,0,1,173,0,0,2,0,3,1,High Cholesterol,aunt,Simvastatin
-56,female,0,134,409,0,0,150,1,1.9,1,2,3,0,High Cholesterol,Auntie,Simvastatin
-42,male,0,136,315,0,1,125,1,1.8,1,0,1,0,High Cholesterol,Auntie,Lovastatin
-51,female,2,140,308,0,0,142,0,1.5,2,1,2,1,High Cholesterol,uncle,NA
-42,male,1,120,295,0,1,162,0,0,2,0,2,1,High Cholesterol,aunt,Lovastatin
-51,male,0,140,299,0,1,173,1,1.6,2,0,3,0,High Cholesterol,Father,Simvastatin
-45,male,1,128,308,0,0,170,0,0,2,0,2,1,High Cholesterol,Grandfather,Lovastatin
-58,male,0,114,318,0,2,140,0,4.4,0,3,1,0,High Cholesterol,aunt,NA
-53,male,0,123,282,0,1,95,1,2,1,2,3,0,High Cholesterol,Mother,Atorvastatin
-60,male,0,125,258,0,0,141,1,2.8,1,1,3,0,High Cholesterol,grandfather,Atorvastatin
-47,male,0,110,275,0,0,118,1,1,1,1,2,0,High Cholesterol,Uncle,Atorvastatin
-50,female,0,110,254,0,0,159,0,0,2,0,2,1,High Cholesterol,Mother,Atorvastatin
-53,male,0,140,203,1,0,155,1,3.1,0,0,3,0,Diabetic,uncle,Sulfonylurea
-62,female,0,138,294,1,1,106,0,1.9,1,3,2,0,Diabetic,Mother,Sulfonylurea
-43,female,0,132,341,1,0,136,1,3,1,0,3,0,Diabetic,aunt,NA
-52,male,0,128,204,1,1,156,1,1,1,0,0,0,Diabetic,Grandmother,Sulfonylurea
-58,male,2,140,211,1,0,165,0,0,2,0,2,1,Diabetic,grandmother,Sulfonylurea
-58,female,1,136,319,1,0,152,0,0,2,2,2,0,Diabetic,uncle,Metformin
-56,male,2,130,256,1,0,142,1,0.6,1,1,1,0,Diabetic,Aunt,NA
-66,female,0,178,228,1,1,165,1,1,1,2,3,0,Diabetic,mother,NA
-60,male,0,117,230,1,1,160,1,1.4,2,2,3,0,Diabetic,mother,NA
-58,female,3,150,283,1,0,162,0,1,2,0,2,1,Diabetic,Grandmother,Insulin
-59,male,2,150,212,1,1,157,0,1.6,2,0,2,1,Diabetic,grandmother,Insulin
-53,male,2,130,197,1,0,152,0,1.2,0,0,2,1,Diabetic,Uncle,Sulfonylurea
-56,male,0,125,249,1,0,144,1,1.2,1,1,2,0,Diabetic,Grandfather,NA
-48,male,0,130,256,1,0,150,1,0,2,2,3,0,Diabetic,Grandfather,Metformin
-48,male,2,124,255,1,1,175,0,0,2,2,2,1,Diabetic,auntie,Insulin
-58,male,2,140,211,1,0,165,0,0,2,0,2,1,Diabetic,Aunt,Metformin
-68,male,0,144,193,1,1,141,0,3.4,1,2,3,0,Diabetic,grandfather,Sulfonylurea
-62,male,1,128,208,1,0,140,0,0,2,0,2,1,Diabetic,Father,Metformin
-57,male,2,150,126,1,1,173,0,0.2,2,1,3,1,Diabetic,Auntie,Sulfonylurea
-48,male,0,130,256,1,0,150,1,0,2,2,3,0,Diabetic,Mother,Sulfonylurea
-59,male,2,126,218,1,1,134,0,2.2,1,1,1,0,Diabetic,grandmother,Sulfonylurea
-65,female,2,140,417,1,0,157,0,0.8,2,1,2,1,Diabetic,Mother,NA
-53,male,2,130,197,1,0,152,0,1.2,0,0,2,1,Diabetic,Grandfather,NA
-58,female,0,170,225,1,0,146,1,2.8,1,2,1,0,Diabetic,father,Sulfonylurea
-52,male,3,152,298,1,1,178,0,1.2,1,0,3,1,Diabetic,uncle,NA
-63,male,0,130,330,1,0,132,1,1.8,2,3,3,0,Diabetic,Mother,Sulfonylurea
-56,male,0,125,249,1,0,144,1,1.2,1,1,2,0,Diabetic,Grandfather,Metformin
-56,male,0,130,283,1,0,103,1,1.6,0,0,3,0,Diabetic,grandfather,Sulfonylurea
-56,female,0,200,288,1,0,133,1,4,0,2,3,0,Diabetic,Father,Metformin
-56,male,0,130,283,1,0,103,1,1.6,0,0,3,0,Diabetic,Grandfather,Metformin
-57,male,0,165,289,1,0,124,0,1,1,3,3,0,Diabetic,Aunt,Sulfonylurea
-56,male,0,125,249,1,0,144,1,1.2,1,1,2,0,Diabetic,grandmother,Metformin
-69,male,3,160,234,1,0,131,0,0.1,1,1,2,1,Diabetic,grandfather,Insulin
-59,male,2,150,212,1,1,157,0,1.6,2,0,2,1,Diabetic,Father,Sulfonylurea
-52,male,3,152,298,1,1,178,0,1.2,1,0,3,1,Diabetic,mother,NA
-59,male,2,126,218,1,1,134,0,2.2,1,1,1,0,Diabetic,uncle,Metformin
-42,male,2,120,240,1,1,194,0,0.8,0,0,3,1,Diabetic,aunt,NA
-52,male,1,128,205,1,1,184,0,0,2,0,2,1,Diabetic,grandfather,Sulfonylurea
-66,female,0,178,228,1,1,165,1,1,1,2,3,0,Diabetic,Aunt,NA
-60,male,0,117,230,1,1,160,1,1.4,2,2,3,0,Diabetic,Father,Sulfonylurea
-54,female,1,132,288,1,0,159,1,0,2,1,2,1,Diabetic,Uncle,NA
-51,male,2,125,245,1,0,166,0,2.4,1,0,2,1,Diabetic,Mother,Sulfonylurea
-57,male,0,165,289,1,0,124,0,1,1,3,3,0,Diabetic,Auntie,NA
-58,female,0,170,225,1,0,146,1,2.8,1,2,1,0,Diabetic,Mother,NA
-71,female,2,110,265,1,0,130,0,0,2,1,2,1,Diabetic,aunt,Sulfonylurea
-56,male,0,130,283,1,0,103,1,1.6,0,0,3,0,Diabetic,father,Sulfonylurea
-71,female,2,110,265,1,0,130,0,0,2,1,2,1,Diabetic,Uncle,Insulin
-61,male,2,150,243,1,1,137,1,1,1,0,2,1,Diabetic,Auntie,Insulin
-59,male,2,150,212,1,1,157,0,1.6,2,0,2,1,Diabetic,mother,Sulfonylurea
-56,female,0,200,288,1,0,133,1,4,0,2,3,0,Diabetic,father,Metformin
-59,male,2,126,218,1,1,134,0,2.2,1,1,1,0,Diabetic,Aunt,Sulfonylurea
-48,male,0,130,256,1,0,150,1,0,2,2,3,0,Diabetic,father,Sulfonylurea
-57,male,2,150,126,1,1,173,0,0.2,2,1,3,1,Diabetic,Auntie,NA
-56,male,2,130,256,1,0,142,1,0.6,1,1,1,0,Diabetic,aunt,Metformin
-52,male,2,172,199,1,1,162,0,0.5,2,0,3,1,Diabetic,Mother,Metformin
-43,male,0,132,247,1,0,143,1,0.1,1,4,3,0,Diabetic,Auntie,Sulfonylurea
-59,male,0,164,176,1,0,90,0,1,1,2,1,0,Diabetic,Grandmother,Sulfonylurea
-53,male,2,130,246,1,0,173,0,0,2,3,2,1,Diabetic,Aunt,NA
-53,male,2,130,246,1,0,173,0,0,2,3,2,1,Diabetic,Father,Sulfonylurea
-43,female,0,132,341,1,0,136,1,3,1,0,3,0,Diabetic,Grandfather,Metformin
-63,male,3,145,233,1,0,150,0,2.3,0,0,1,1,Diabetic,Father,NA
-58,female,1,136,319,1,0,152,0,0,2,2,2,0,Diabetic,mother,Metformin
-63,male,0,130,330,1,0,132,1,1.8,2,3,3,0,Diabetic,uncle,Sulfonylurea
-68,male,2,180,274,1,0,150,1,1.6,1,0,3,0,Diabetic,aunt,Metformin
-63,male,3,145,233,1,0,150,0,2.3,0,0,1,1,Diabetic,auntie,Metformin
-56,male,2,130,256,1,0,142,1,0.6,1,1,1,0,Diabetic,mother,NA
-58,male,2,140,211,1,0,165,0,0,2,0,2,1,Diabetic,Uncle,NA
-56,male,0,125,249,1,0,144,1,1.2,1,1,2,0,Diabetic,Auntie,NA
-58,female,1,136,319,1,0,152,0,0,2,2,2,0,Diabetic,Grandmother,Insulin
-43,male,0,132,247,1,0,143,1,0.1,1,4,3,0,Diabetic,Uncle,NA
-52,male,1,128,205,1,1,184,0,0,2,0,2,1,Diabetic,Mother,Sulfonylurea
-53,male,2,130,246,1,0,173,0,0,2,3,2,1,Diabetic,mother,Metformin
-66,female,0,178,228,1,1,165,1,1,1,2,3,0,Diabetic,auntie,Sulfonylurea
-69,male,3,160,234,1,0,131,0,0.1,1,1,2,1,Diabetic,Grandfather,NA
-48,male,2,124,255,1,1,175,0,0,2,2,2,1,Diabetic,uncle,Metformin
-61,male,2,150,243,1,1,137,1,1,1,0,2,1,Diabetic,Mother,Sulfonylurea
-57,male,2,150,126,1,1,173,0,0.2,2,1,3,1,Diabetic,Aunt,Metformin
-57,male,0,165,289,1,0,124,0,1,1,3,3,0,Diabetic,grandmother,NA
-54,female,1,132,288,1,0,159,1,0,2,1,2,1,Diabetic,aunt,Sulfonylurea
-61,male,2,150,243,1,1,137,1,1,1,0,2,1,Diabetic,Grandmother,Insulin
-51,male,2,125,245,1,0,166,0,2.4,1,0,2,1,Diabetic,uncle,Insulin
-68,male,2,180,274,1,0,150,1,1.6,1,0,3,0,Diabetic,mother,Metformin
-56,female,0,200,288,1,0,133,1,4,0,2,3,0,Diabetic,Father,Metformin
-54,female,1,132,288,1,0,159,1,0,2,1,2,1,Diabetic,Auntie,Metformin
-69,male,3,160,234,1,0,131,0,0.1,1,1,2,1,Diabetic,father,NA
-43,female,0,132,341,1,0,136,1,3,1,0,3,0,Diabetic,father,NA
-53,male,2,130,197,1,0,152,0,1.2,0,0,2,1,Diabetic,aunt,NA
-67,male,0,125,254,1,1,163,0,0.2,1,2,3,0,Diabetic,auntie,Insulin
-42,male,2,120,240,1,1,194,0,0.8,0,0,3,1,Diabetic,Uncle,Insulin
-54,female,2,135,304,1,1,170,0,0,2,0,2,1,Diabetic,Aunt,Metformin
-52,male,3,152,298,1,1,178,0,1.2,1,0,3,1,Diabetic,Father,Metformin
-46,male,1,101,197,1,1,156,0,0,2,0,3,1,Diabetic,grandmother,Sulfonylurea
-59,male,0,164,176,1,0,90,0,1,1,2,1,0,Diabetic,uncle,Metformin
-71,female,2,110,265,1,0,130,0,0,2,1,2,1,Diabetic,uncle,Insulin
-43,female,0,132,341,1,0,136,1,3,1,0,3,0,Diabetic,Auntie,Insulin
-58,female,0,170,225,1,0,146,1,2.8,1,2,1,0,Diabetic,auntie,Insulin
-48,male,0,130,256,1,0,150,1,0,2,2,3,0,Diabetic,father,Insulin
-62,female,0,138,294,1,1,106,0,1.9,1,3,2,0,Diabetic,Aunt,Metformin
-65,male,3,138,282,1,0,174,0,1.4,1,1,2,0,Diabetic,Grandfather,Sulfonylurea
-65,male,3,138,282,1,0,174,0,1.4,1,1,2,0,Diabetic,Aunt,Insulin
-56,male,0,130,283,1,0,103,1,1.6,0,0,3,0,Diabetic,father,Insulin
-65,female,2,140,417,1,0,157,0,0.8,2,1,2,1,Diabetic,grandfather,Insulin
-63,male,0,130,330,1,0,132,1,1.8,2,3,3,0,Diabetic,uncle,Sulfonylurea
-68,male,2,180,274,1,0,150,1,1.6,1,0,3,0,Diabetic,auntie,Metformin
-59,male,0,164,176,1,0,90,0,1,1,2,1,0,Diabetic,aunt,Sulfonylurea
-52,male,0,128,204,1,1,156,1,1,1,0,0,0,Diabetic,Grandmother,NA
-56,female,0,200,288,1,0,133,1,4,0,2,3,0,Diabetic,Grandfather,Sulfonylurea
-54,female,2,135,304,1,1,170,0,0,2,0,2,1,Diabetic,Aunt,NA
-53,male,0,140,203,1,0,155,1,3.1,0,0,3,0,Diabetic,Auntie,Insulin
-60,female,2,120,178,1,1,96,0,0,2,0,2,1,Diabetic,Aunt,NA
-56,male,2,130,256,1,0,142,1,0.6,1,1,1,0,Diabetic,Aunt,Insulin
-52,male,0,108,233,1,1,147,0,0.1,2,3,3,1,Diabetic,Father,Metformin
-52,male,0,128,204,1,1,156,1,1,1,0,0,0,Diabetic,Auntie,Insulin
-63,male,0,130,330,1,0,132,1,1.8,2,3,3,0,Diabetic,mother,Insulin
-60,male,0,117,230,1,1,160,1,1.4,2,2,3,0,Diabetic,uncle,Sulfonylurea
-48,male,2,124,255,1,1,175,0,0,2,2,2,1,Diabetic,mother,Insulin
-58,female,3,150,283,1,0,162,0,1,2,0,2,1,Diabetic,Grandfather,Sulfonylurea
-68,male,0,144,193,1,1,141,0,3.4,1,2,3,0,Diabetic,father,Metformin
-46,male,1,101,197,1,1,156,0,0,2,0,3,1,Diabetic,Aunt,NA
-71,female,2,110,265,1,0,130,0,0,2,1,2,1,Diabetic,Father,Sulfonylurea
-67,male,0,125,254,1,1,163,0,0.2,1,2,3,0,Diabetic,Grandmother,Sulfonylurea
-62,female,0,138,294,1,1,106,0,1.9,1,3,2,0,Diabetic,aunt,Insulin
-68,male,0,144,193,1,1,141,0,3.4,1,2,3,0,Diabetic,Grandmother,NA
-60,female,2,120,178,1,1,96,0,0,2,0,2,1,Diabetic,mother,Sulfonylurea
-62,male,1,128,208,1,0,140,0,0,2,0,2,1,Diabetic,Auntie,Sulfonylurea
-63,male,3,145,233,1,0,150,0,2.3,0,0,1,1,Diabetic,aunt,Sulfonylurea
-53,male,0,140,203,1,0,155,1,3.1,0,0,3,0,Diabetic,grandfather,Sulfonylurea
-62,male,1,128,208,1,0,140,0,0,2,0,2,1,Diabetic,Auntie,Sulfonylurea
-58,female,0,170,225,1,0,146,1,2.8,1,2,1,0,Diabetic,Grandmother,Insulin
-52,male,2,172,199,1,1,162,0,0.5,2,0,3,1,Diabetic,Grandfather,Sulfonylurea
-58,female,3,150,283,1,0,162,0,1,2,0,2,1,Diabetic,father,Insulin
-65,male,3,138,282,1,0,174,0,1.4,1,1,2,0,Diabetic,mother,Insulin
-46,male,1,101,197,1,1,156,0,0,2,0,3,1,Diabetic,Mother,NA
-57,male,0,165,289,1,0,124,0,1,1,3,3,0,Diabetic,Auntie,NA
-52,male,0,128,204,1,1,156,1,1,1,0,0,0,Diabetic,Grandmother,NA
-59,male,2,126,218,1,1,134,0,2.2,1,1,1,0,Diabetic,Grandmother,Sulfonylurea
-58,female,1,136,319,1,0,152,0,0,2,2,2,0,Diabetic,Father,NA
-42,male,2,120,240,1,1,194,0,0.8,0,0,3,1,Diabetic,aunt,Sulfonylurea
-66,female,0,178,228,1,1,165,1,1,1,2,3,0,Diabetic,uncle,Sulfonylurea
-54,female,2,135,304,1,1,170,0,0,2,0,2,1,Diabetic,Auntie,NA
-65,female,2,140,417,1,0,157,0,0.8,2,1,2,1,Diabetic,Father,Metformin
-52,male,0,108,233,1,1,147,0,0.1,2,3,3,1,Diabetic,auntie,Insulin
-60,female,2,120,178,1,1,96,0,0,2,0,2,1,Diabetic,aunt,NA
-53,male,0,140,203,1,0,155,1,3.1,0,0,3,0,Diabetic,Grandmother,Sulfonylurea
-52,male,2,172,199,1,1,162,0,0.5,2,0,3,1,Diabetic,Grandmother,NA
-51,male,2,125,245,1,0,166,0,2.4,1,0,2,1,Diabetic,auntie,Insulin
-52,male,1,128,205,1,1,184,0,0,2,0,2,1,Diabetic,aunt,Sulfonylurea
-60,male,0,117,230,1,1,160,1,1.4,2,2,3,0,Diabetic,Grandfather,NA
-43,male,0,132,247,1,0,143,1,0.1,1,4,3,0,Diabetic,Mother,Sulfonylurea
-67,male,0,125,254,1,1,163,0,0.2,1,2,3,0,Diabetic,aunt,NA
-52,male,0,108,233,1,1,147,0,0.1,2,3,3,1,Diabetic,mother,NA
-58,male,2,140,211,1,0,165,0,0,2,0,2,1,Diabetic,auntie,Metformin
-65,male,3,138,282,1,0,174,0,1.4,1,1,2,0,Diabetic,Grandfather,Metformin
+patient_id,family_history,health_status,medication_hx
+1,Auntie,Normal blood sugar and cholesterol,felodipine
+2,auntie,Diabetic,glimepiride
+3,grandfather,Normal blood sugar and cholesterol,Acebutolol
+4,Grandfather,Normal blood sugar and cholesterol,
+5,Aunt,Diabetic & High Cholesterol,"simvastatin, glimepiride"
+6,Grandfather,High Cholesterol,atorvastatin
+7,Aunt,High Cholesterol,
+8,auntie,High Cholesterol,"felodipine, aspirin"
+9,auntie,High Cholesterol,
+10,Auntie,High Cholesterol,"amlodipine, simvastatin"
+11,Mother,Normal blood sugar and cholesterol,
+12,Father,Diabetic & High Cholesterol,"felodipine, simvastatin, aspirin"
+13,grandfather,Normal blood sugar and cholesterol,
+14,Grandfather,High Cholesterol,"felodipine, atorvastatin, nitrates"
+15,Father,Diabetic,"felodipine, insulin, Metoprolol"
+16,Grandmother,Normal blood sugar and cholesterol,
+17,grandfather,High Cholesterol,"felodipine, simvastatin"
+18,aunt,High Cholesterol,"isradipine, lovastatin"
+19,Mother,High Cholesterol,
+20,grandmother,Diabetic,metformin
+21,uncle,Normal blood sugar and cholesterol,isradipine
+22,Grandmother,Normal blood sugar and cholesterol,
+23,Aunt,Normal blood sugar and cholesterol,
+24,Grandfather,High Cholesterol,isradipine
+25,Father,Normal blood sugar and cholesterol,
+26,Aunt,High Cholesterol,atorvastatin
+27,grandmother,Normal blood sugar and cholesterol,"isradipine, nitrates"
+28,aunt,Diabetic & High Cholesterol,"isradipine, insulin"
+29,father,Diabetic & High Cholesterol,"felodipine, simvastatin, metformin, Acebutolol"
+30,Auntie,High Cholesterol,"simvastatin, aspirin"
+31,Aunt,Normal blood sugar and cholesterol,Acebutolol
+32,uncle,High Cholesterol,
+33,aunt,Normal blood sugar and cholesterol,"isradipine, aspirin"
+34,grandmother,High Cholesterol,"felodipine, atorvastatin, nitrates"
+35,mother,Normal blood sugar and cholesterol,felodipine
+36,Grandfather,Normal blood sugar and cholesterol,amlodipine
+37,Auntie,Normal blood sugar and cholesterol,"amlodipine, aspirin"
+38,Father,High Cholesterol,"amlodipine, simvastatin"
+39,Father,High Cholesterol,"isradipine, simvastatin, aspirin"
+40,uncle,Normal blood sugar and cholesterol,isradipine
+41,Mother,High Cholesterol,"isradipine, lovastatin"
+42,grandfather,High Cholesterol,atorvastatin
+43,father,High Cholesterol,"felodipine, simvastatin"
+44,Grandmother,High Cholesterol,atorvastatin
+45,grandfather,High Cholesterol,simvastatin
+46,Aunt,Normal blood sugar and cholesterol,amlodipine
+47,Uncle,Normal blood sugar and cholesterol,
+48,aunt,Diabetic,"glimepiride, Metoprolol"
+49,Auntie,High Cholesterol,"isradipine, simvastatin"
+50,Grandfather,Diabetic,Metoprolol
+51,Mother,Diabetic & High Cholesterol,"amlodipine, glimepiride"
+52,Mother,High Cholesterol,"isradipine, atorvastatin, Metoprolol"
+53,Aunt,Normal blood sugar and cholesterol,amlodipine
+54,grandfather,Normal blood sugar and cholesterol,
+55,Father,Normal blood sugar and cholesterol,"isradipine, Acebutolol"
+56,Mother,Normal blood sugar and cholesterol,felodipine
+57,Auntie,Normal blood sugar and cholesterol,
+58,Aunt,High Cholesterol,"felodipine, simvastatin"
+59,father,Normal blood sugar and cholesterol,
+60,grandfather,Normal blood sugar and cholesterol,
+61,Auntie,Normal blood sugar and cholesterol,amlodipine
+62,mother,High Cholesterol,"isradipine, atorvastatin"
+63,Father,High Cholesterol,atorvastatin
+64,Aunt,Diabetic,amlodipine
+65,aunt,Normal blood sugar and cholesterol,isradipine
+66,Grandmother,High Cholesterol,"felodipine, lovastatin"
+67,uncle,Diabetic,"amlodipine, glyburide"
+68,Grandmother,High Cholesterol,simvastatin
+69,Uncle,Normal blood sugar and cholesterol,
+70,auntie,Normal blood sugar and cholesterol,isradipine
+71,Mother,High Cholesterol,"amlodipine, lovastatin, nitrates"
+72,mother,Normal blood sugar and cholesterol,"amlodipine, Acebutolol"
+73,uncle,Diabetic & High Cholesterol,"isradipine, simvastatin, glyburide"
+74,mother,Normal blood sugar and cholesterol,Acebutolol
+75,Aunt,Diabetic & High Cholesterol,"amlodipine, metformin"
+76,grandmother,High Cholesterol,
+77,Father,Diabetic & High Cholesterol,atorvastatin
+78,aunt,Normal blood sugar and cholesterol,"amlodipine, nitrates"
+79,uncle,Normal blood sugar and cholesterol,amlodipine
+80,Uncle,Normal blood sugar and cholesterol,amlodipine
+81,Grandfather,Normal blood sugar and cholesterol,amlodipine
+82,mother,Normal blood sugar and cholesterol,
+83,father,Normal blood sugar and cholesterol,isradipine
+84,Aunt,Normal blood sugar and cholesterol,felodipine
+85,Mother,Normal blood sugar and cholesterol,
+86,aunt,Normal blood sugar and cholesterol,
+87,aunt,Diabetic,"isradipine, metformin"
+88,uncle,High Cholesterol,"amlodipine, simvastatin"
+89,grandfather,High Cholesterol,amlodipine
+90,Father,Diabetic,"felodipine, insulin"
+91,aunt,High Cholesterol,lovastatin
+92,grandmother,Normal blood sugar and cholesterol,amlodipine
+93,mother,Normal blood sugar and cholesterol,amlodipine
+94,Father,Normal blood sugar and cholesterol,aspirin
+95,Grandmother,Diabetic,glyburide
+96,aunt,Normal blood sugar and cholesterol,nitrates
+97,Grandfather,High Cholesterol,"amlodipine, atorvastatin"
+98,grandfather,High Cholesterol,"atorvastatin, Metoprolol"
+99,grandfather,High Cholesterol,atorvastatin
+100,Uncle,Normal blood sugar and cholesterol,felodipine
+101,father,Normal blood sugar and cholesterol,isradipine
+102,Mother,Diabetic,glyburide
+103,aunt,High Cholesterol,simvastatin
+104,Aunt,High Cholesterol,atorvastatin
+105,Uncle,Normal blood sugar and cholesterol,
+106,uncle,High Cholesterol,"lovastatin, Acebutolol"
+107,uncle,High Cholesterol,"isradipine, lovastatin, Metoprolol"
+108,Grandmother,High Cholesterol,lovastatin
+109,Auntie,Normal blood sugar and cholesterol,felodipine
+110,aunt,Normal blood sugar and cholesterol,
+111,father,Normal blood sugar and cholesterol,
+112,uncle,Normal blood sugar and cholesterol,"felodipine, nitrates"
+113,grandmother,Diabetic & High Cholesterol,"simvastatin, rosiglitazone, aspirin"
+114,Auntie,High Cholesterol,"atorvastatin, Metoprolol"
+115,auntie,Diabetic,"felodipine, glyburide"
+116,Mother,High Cholesterol,"isradipine, lovastatin, Acebutolol"
+117,uncle,High Cholesterol,"felodipine, simvastatin"
+118,aunt,Normal blood sugar and cholesterol,Metoprolol
+119,Mother,Normal blood sugar and cholesterol,felodipine
+120,Father,High Cholesterol,atorvastatin
+121,grandfather,High Cholesterol,
+122,Father,Normal blood sugar and cholesterol,Acebutolol
+123,Grandfather,High Cholesterol,"felodipine, lovastatin, nitrates"
+124,aunt,Diabetic & High Cholesterol,"simvastatin, insulin"
+125,Grandfather,High Cholesterol,"atorvastatin, Acebutolol"
+126,grandfather,Normal blood sugar and cholesterol,amlodipine
+127,Aunt,High Cholesterol,simvastatin
+128,Aunt,Diabetic,glyburide
+129,auntie,Normal blood sugar and cholesterol,isradipine
+130,Aunt,Normal blood sugar and cholesterol,
+131,aunt,Normal blood sugar and cholesterol,amlodipine
+132,Mother,High Cholesterol,felodipine
+133,Auntie,Normal blood sugar and cholesterol,isradipine
+134,Auntie,Normal blood sugar and cholesterol,amlodipine
+135,grandfather,High Cholesterol,
+136,Uncle,Diabetic,"isradipine, glyburide, aspirin"
+137,grandfather,High Cholesterol,amlodipine
+138,aunt,High Cholesterol,"amlodipine, simvastatin, Acebutolol"
+139,Grandfather,High Cholesterol,"isradipine, atorvastatin"
+140,Grandfather,Normal blood sugar and cholesterol,
+141,Aunt,High Cholesterol,"isradipine, lovastatin"
+142,Uncle,Normal blood sugar and cholesterol,isradipine
+143,grandfather,Normal blood sugar and cholesterol,isradipine
+144,aunt,Normal blood sugar and cholesterol,
+145,grandmother,Normal blood sugar and cholesterol,
+146,Grandmother,Normal blood sugar and cholesterol,
+147,grandfather,High Cholesterol,lovastatin
+148,grandmother,Normal blood sugar and cholesterol,
+149,grandmother,Diabetic & High Cholesterol,"simvastatin, glyburide"
+150,father,High Cholesterol,"felodipine, atorvastatin"
+151,Grandmother,High Cholesterol,simvastatin
+152,Mother,High Cholesterol,"amlodipine, simvastatin"
+153,Uncle,High Cholesterol,"amlodipine, lovastatin"
+154,Grandfather,High Cholesterol,atorvastatin
+155,Aunt,Diabetic & High Cholesterol,"felodipine, lovastatin, glyburide, Metoprolol"
+156,aunt,High Cholesterol,simvastatin
+157,Auntie,Normal blood sugar and cholesterol,"amlodipine, Acebutolol"
+158,father,High Cholesterol,lovastatin
+159,Father,High Cholesterol,lovastatin
+160,aunt,Normal blood sugar and cholesterol,
+161,Aunt,High Cholesterol,"amlodipine, lovastatin, aspirin"
+162,aunt,Normal blood sugar and cholesterol,nitrates
+163,Grandmother,High Cholesterol,"atorvastatin, Metoprolol"
+164,Grandfather,High Cholesterol,lovastatin
+165,Uncle,Diabetic & High Cholesterol,"isradipine, simvastatin, insulin, nitrates"
+166,mother,High Cholesterol,"amlodipine, aspirin"
+167,Grandfather,Normal blood sugar and cholesterol,"felodipine, Metoprolol"
+168,grandfather,High Cholesterol,"lovastatin, Metoprolol"
+169,Father,High Cholesterol,"felodipine, simvastatin"
+170,grandmother,Normal blood sugar and cholesterol,
+171,Father,High Cholesterol,felodipine
+172,Aunt,Diabetic & High Cholesterol,"felodipine, simvastatin, rosiglitazone, nitrates"
+173,auntie,Normal blood sugar and cholesterol,
+174,Uncle,Normal blood sugar and cholesterol,
+175,grandfather,Normal blood sugar and cholesterol,Metoprolol
+176,Grandfather,Diabetic & High Cholesterol,glyburide
+177,Mother,Diabetic & High Cholesterol,"felodipine, lovastatin, insulin, Acebutolol"
+178,grandmother,High Cholesterol,lovastatin
+179,auntie,Normal blood sugar and cholesterol,
+180,auntie,High Cholesterol,"isradipine, atorvastatin, aspirin"
+181,grandmother,Normal blood sugar and cholesterol,isradipine
+182,Grandfather,Normal blood sugar and cholesterol,
+183,grandfather,High Cholesterol,amlodipine
+184,uncle,Normal blood sugar and cholesterol,isradipine
+185,grandmother,High Cholesterol,felodipine
+186,grandfather,Diabetic & High Cholesterol,"isradipine, rosiglitazone"
+187,Father,Normal blood sugar and cholesterol,aspirin
+188,Auntie,Diabetic & High Cholesterol,"felodipine, atorvastatin, metformin, nitrates"
+189,Father,High Cholesterol,
+190,Aunt,High Cholesterol,simvastatin
+191,father,High Cholesterol,
+192,uncle,Normal blood sugar and cholesterol,
+193,Auntie,High Cholesterol,lovastatin
+194,auntie,Diabetic,"isradipine, glyburide"
+195,mother,High Cholesterol,"atorvastatin, nitrates"
+196,Uncle,Diabetic,"isradipine, glimepiride"
+197,Aunt,Normal blood sugar and cholesterol,
+198,Grandmother,High Cholesterol,simvastatin
+199,aunt,High Cholesterol,simvastatin
+200,uncle,Normal blood sugar and cholesterol,"felodipine, nitrates"
+201,Father,Normal blood sugar and cholesterol,
+202,Uncle,Normal blood sugar and cholesterol,
+203,mother,Diabetic & High Cholesterol,"isradipine, atorvastatin"
+204,grandmother,Normal blood sugar and cholesterol,amlodipine
+205,grandfather,High Cholesterol,
+206,aunt,High Cholesterol,"amlodipine, simvastatin"
+207,Uncle,Diabetic,"felodipine, glyburide"
+208,auntie,High Cholesterol,simvastatin
+209,mother,Normal blood sugar and cholesterol,isradipine
+210,uncle,High Cholesterol,lovastatin
+211,uncle,Diabetic,
+212,Uncle,High Cholesterol,"atorvastatin, aspirin"
+213,Uncle,High Cholesterol,"felodipine, atorvastatin"
+214,mother,High Cholesterol,lovastatin
+215,father,High Cholesterol,"felodipine, atorvastatin"
+216,uncle,High Cholesterol,isradipine
+217,Mother,High Cholesterol,lovastatin
+218,auntie,Normal blood sugar and cholesterol,
+219,grandmother,High Cholesterol,"isradipine, atorvastatin, Acebutolol"
+220,Father,High Cholesterol,"isradipine, Metoprolol"
+221,Auntie,Normal blood sugar and cholesterol,felodipine
+222,mother,High Cholesterol,"isradipine, lovastatin"
+223,grandmother,Normal blood sugar and cholesterol,nitrates
+224,grandmother,Normal blood sugar and cholesterol,
+225,Father,High Cholesterol,"isradipine, nitrates"
+226,Grandfather,Normal blood sugar and cholesterol,felodipine
+227,aunt,Normal blood sugar and cholesterol,
+228,Aunt,High Cholesterol,atorvastatin
+229,Auntie,Diabetic,"amlodipine, rosiglitazone"
+230,father,Diabetic,"amlodipine, aspirin"
+231,aunt,High Cholesterol,simvastatin
+232,Mother,Normal blood sugar and cholesterol,
+233,father,High Cholesterol,"amlodipine, nitrates"
+234,Father,High Cholesterol,"felodipine, simvastatin"
+235,Aunt,High Cholesterol,"amlodipine, simvastatin"
+236,Auntie,Normal blood sugar and cholesterol,felodipine
+237,grandfather,Normal blood sugar and cholesterol,
+238,grandmother,High Cholesterol,"isradipine, lovastatin"
+239,Auntie,Diabetic,"rosiglitazone, nitrates"
+240,Grandmother,High Cholesterol,"isradipine, simvastatin, Acebutolol"
+241,aunt,Diabetic & High Cholesterol,"felodipine, lovastatin, metformin, Metoprolol"
+242,Aunt,Normal blood sugar and cholesterol,
+243,grandmother,Normal blood sugar and cholesterol,felodipine
+244,Father,Normal blood sugar and cholesterol,
+245,uncle,Diabetic & High Cholesterol,"lovastatin, insulin"
+246,Father,Normal blood sugar and cholesterol,felodipine
+247,uncle,High Cholesterol,
+248,Grandfather,High Cholesterol,"amlodipine, atorvastatin"
+249,auntie,Normal blood sugar and cholesterol,felodipine
+250,father,Normal blood sugar and cholesterol,felodipine
+251,Aunt,High Cholesterol,"atorvastatin, Acebutolol"
+252,Grandfather,Normal blood sugar and cholesterol,
+253,Uncle,High Cholesterol,"felodipine, Metoprolol"
+254,Uncle,Diabetic & High Cholesterol,"amlodipine, atorvastatin, insulin"
+255,Mother,Normal blood sugar and cholesterol,Metoprolol
+256,Grandfather,High Cholesterol,
+257,aunt,Normal blood sugar and cholesterol,amlodipine
+258,Grandmother,High Cholesterol,"isradipine, atorvastatin, Metoprolol"
+259,aunt,Normal blood sugar and cholesterol,Metoprolol
+260,uncle,High Cholesterol,simvastatin
+261,mother,Normal blood sugar and cholesterol,
+262,Father,Normal blood sugar and cholesterol,
+263,auntie,Normal blood sugar and cholesterol,felodipine
+264,Mother,High Cholesterol,simvastatin
+265,auntie,Diabetic,"metformin, nitrates"
+266,uncle,Normal blood sugar and cholesterol,Acebutolol
+267,Aunt,High Cholesterol,"isradipine, Acebutolol"
+268,Grandfather,Normal blood sugar and cholesterol,
+269,Father,Normal blood sugar and cholesterol,
+270,grandfather,Diabetic & High Cholesterol,"lovastatin, glimepiride"
+271,uncle,Normal blood sugar and cholesterol,
+272,grandfather,High Cholesterol,simvastatin
+273,grandmother,Normal blood sugar and cholesterol,
+274,father,Normal blood sugar and cholesterol,aspirin
+275,Grandmother,Normal blood sugar and cholesterol,felodipine
+276,Mother,Diabetic & High Cholesterol,"atorvastatin, Acebutolol"
+277,Uncle,Normal blood sugar and cholesterol,Metoprolol
+278,father,Normal blood sugar and cholesterol,
+279,uncle,High Cholesterol,"isradipine, Acebutolol"
+280,auntie,Normal blood sugar and cholesterol,
+281,Aunt,Normal blood sugar and cholesterol,amlodipine
+282,uncle,Normal blood sugar and cholesterol,
+283,Mother,Normal blood sugar and cholesterol,felodipine
+284,mother,Normal blood sugar and cholesterol,Acebutolol
+285,Grandmother,Normal blood sugar and cholesterol,felodipine
+286,Grandfather,Diabetic & High Cholesterol,"atorvastatin, glimepiride"
+287,Aunt,High Cholesterol,"felodipine, simvastatin"
+288,grandfather,High Cholesterol,isradipine
+289,uncle,High Cholesterol,
+290,Uncle,Normal blood sugar and cholesterol,felodipine
+291,father,Normal blood sugar and cholesterol,felodipine
+292,Grandfather,High Cholesterol,"amlodipine, simvastatin, Metoprolol"
+293,uncle,Diabetic & High Cholesterol,"simvastatin, glyburide, nitrates"
+294,Auntie,Diabetic,rosiglitazone
+295,Aunt,Diabetic & High Cholesterol,"felodipine, simvastatin, rosiglitazone, Acebutolol"
+296,grandmother,High Cholesterol,"simvastatin, Metoprolol"
+297,Aunt,Normal blood sugar and cholesterol,
+298,aunt,High Cholesterol,"amlodipine, lovastatin, Metoprolol"
+299,Mother,Normal blood sugar and cholesterol,amlodipine
+300,Auntie,High Cholesterol,simvastatin
+301,uncle,Normal blood sugar and cholesterol,
+302,Aunt,Normal blood sugar and cholesterol,aspirin
+303,Auntie,High Cholesterol,"isradipine, atorvastatin"
+304,auntie,High Cholesterol,"isradipine, atorvastatin, nitrates"
+305,grandfather,Normal blood sugar and cholesterol,amlodipine
+306,auntie,High Cholesterol,"simvastatin, nitrates"
+307,Uncle,High Cholesterol,atorvastatin
+308,Grandfather,Normal blood sugar and cholesterol,
+309,Uncle,Diabetic,
+310,father,High Cholesterol,simvastatin
+311,Grandmother,High Cholesterol,"lovastatin, Acebutolol"
+312,Grandfather,Diabetic & High Cholesterol,"glyburide, nitrates"
+313,father,High Cholesterol,"felodipine, nitrates"
+314,Uncle,High Cholesterol,atorvastatin
+315,uncle,Normal blood sugar and cholesterol,"amlodipine, Acebutolol"
+316,grandfather,High Cholesterol,felodipine
+317,Auntie,High Cholesterol,"isradipine, atorvastatin"
+318,Grandmother,High Cholesterol,"felodipine, lovastatin"
+319,Mother,Normal blood sugar and cholesterol,felodipine
+320,Auntie,Normal blood sugar and cholesterol,amlodipine
+321,auntie,High Cholesterol,isradipine
+322,Auntie,High Cholesterol,atorvastatin
+323,father,High Cholesterol,"felodipine, atorvastatin"
+324,Grandfather,High Cholesterol,"isradipine, Acebutolol"
+325,Uncle,High Cholesterol,"felodipine, lovastatin"
+326,Uncle,High Cholesterol,isradipine
+327,Grandfather,High Cholesterol,"isradipine, atorvastatin"
+328,aunt,High Cholesterol,simvastatin
+329,Father,High Cholesterol,"amlodipine, simvastatin"
+330,grandfather,Normal blood sugar and cholesterol,felodipine
+331,Uncle,Normal blood sugar and cholesterol,
+332,Aunt,High Cholesterol,"lovastatin, aspirin"
+333,Father,High Cholesterol,"felodipine, simvastatin"
+334,Mother,Normal blood sugar and cholesterol,
+335,Auntie,Normal blood sugar and cholesterol,"felodipine, nitrates"
+336,grandmother,High Cholesterol,"amlodipine, atorvastatin"
+337,father,Diabetic,
+338,Mother,High Cholesterol,"isradipine, lovastatin"
+339,Auntie,Diabetic & High Cholesterol,"felodipine, atorvastatin, metformin, nitrates"
+340,father,High Cholesterol,"isradipine, simvastatin, Acebutolol"
+341,aunt,Normal blood sugar and cholesterol,felodipine
+342,mother,Normal blood sugar and cholesterol,
+343,Mother,High Cholesterol,"amlodipine, simvastatin"
+344,father,Diabetic,"isradipine, rosiglitazone"
+345,Mother,Normal blood sugar and cholesterol,
+346,mother,High Cholesterol,Metoprolol
+347,aunt,High Cholesterol,"amlodipine, lovastatin"
+348,Mother,High Cholesterol,lovastatin
+349,Auntie,Diabetic & High Cholesterol,"amlodipine, lovastatin, rosiglitazone, Acebutolol"
+350,Grandfather,High Cholesterol,amlodipine
+351,mother,High Cholesterol,lovastatin
+352,auntie,Normal blood sugar and cholesterol,"amlodipine, nitrates"
+353,mother,High Cholesterol,atorvastatin
+354,father,Normal blood sugar and cholesterol,nitrates
+355,grandfather,High Cholesterol,simvastatin
+356,Grandfather,High Cholesterol,"isradipine, nitrates"
+357,Uncle,Diabetic,insulin
+358,uncle,High Cholesterol,"amlodipine, atorvastatin, Acebutolol"
+359,uncle,Normal blood sugar and cholesterol,
+360,Grandfather,Normal blood sugar and cholesterol,amlodipine
+361,grandfather,Normal blood sugar and cholesterol,isradipine
+362,mother,Normal blood sugar and cholesterol,
+363,Aunt,Normal blood sugar and cholesterol,isradipine
+364,grandmother,Diabetic & High Cholesterol,"felodipine, atorvastatin, insulin"
+365,father,Normal blood sugar and cholesterol,isradipine
+366,grandmother,Diabetic & High Cholesterol,"amlodipine, metformin"
+367,uncle,Normal blood sugar and cholesterol,
+368,auntie,Normal blood sugar and cholesterol,
+369,grandmother,Normal blood sugar and cholesterol,nitrates
+370,uncle,Normal blood sugar and cholesterol,
+371,grandfather,Diabetic & High Cholesterol,"felodipine, lovastatin, glimepiride, Metoprolol"
+372,Grandfather,High Cholesterol,"amlodipine, simvastatin"
+373,Uncle,Normal blood sugar and cholesterol,
+374,uncle,High Cholesterol,atorvastatin
+375,grandfather,Normal blood sugar and cholesterol,"felodipine, Acebutolol"
+376,Father,Normal blood sugar and cholesterol,isradipine
+377,uncle,Normal blood sugar and cholesterol,"isradipine, nitrates"
+378,Father,High Cholesterol,"amlodipine, lovastatin"
+379,grandmother,Normal blood sugar and cholesterol,
+380,Mother,Normal blood sugar and cholesterol,
+381,Father,Normal blood sugar and cholesterol,
+382,father,Normal blood sugar and cholesterol,isradipine
+383,Grandmother,Normal blood sugar and cholesterol,Metoprolol
+384,father,High Cholesterol,"isradipine, simvastatin"
+385,Grandfather,High Cholesterol,
+386,Aunt,Normal blood sugar and cholesterol,
+387,Auntie,Normal blood sugar and cholesterol,
+388,auntie,High Cholesterol,"amlodipine, simvastatin, aspirin"
+389,Grandfather,High Cholesterol,"atorvastatin, Metoprolol"
+390,aunt,Diabetic,glimepiride
+391,father,Diabetic & High Cholesterol,"felodipine, simvastatin, rosiglitazone"
+392,Father,High Cholesterol,simvastatin
+393,uncle,Normal blood sugar and cholesterol,
+394,Aunt,Normal blood sugar and cholesterol,felodipine
+395,mother,Diabetic & High Cholesterol,"amlodipine, lovastatin, metformin"
+396,Grandmother,High Cholesterol,"felodipine, simvastatin"
+397,Father,Diabetic & High Cholesterol,"amlodipine, lovastatin, Metoprolol"
+398,Auntie,Normal blood sugar and cholesterol,aspirin
+399,grandfather,Normal blood sugar and cholesterol,
+400,grandmother,Diabetic,insulin
+401,uncle,Normal blood sugar and cholesterol,
+402,Uncle,Normal blood sugar and cholesterol,
+403,mother,High Cholesterol,isradipine
+404,Grandfather,Normal blood sugar and cholesterol,
+405,Aunt,Normal blood sugar and cholesterol,"felodipine, Acebutolol"
+406,mother,Diabetic & High Cholesterol,"glyburide, aspirin"
+407,auntie,Diabetic,"amlodipine, rosiglitazone"
+408,aunt,Normal blood sugar and cholesterol,
+409,uncle,High Cholesterol,"amlodipine, atorvastatin, Metoprolol"
+410,Grandfather,Normal blood sugar and cholesterol,
+411,uncle,Normal blood sugar and cholesterol,
+412,aunt,Diabetic & High Cholesterol,"amlodipine, simvastatin, glyburide, nitrates"
+413,grandfather,High Cholesterol,"felodipine, Metoprolol"
+414,grandmother,High Cholesterol,"isradipine, lovastatin"
+415,Uncle,High Cholesterol,"felodipine, atorvastatin"
+416,grandfather,Normal blood sugar and cholesterol,isradipine
+417,Mother,High Cholesterol,atorvastatin
+418,uncle,Normal blood sugar and cholesterol,
+419,aunt,Normal blood sugar and cholesterol,felodipine
+420,mother,High Cholesterol,isradipine
+421,auntie,High Cholesterol,"isradipine, atorvastatin"
+422,aunt,High Cholesterol,simvastatin
+423,father,High Cholesterol,"simvastatin, aspirin"
+424,aunt,Diabetic & High Cholesterol,"amlodipine, lovastatin, glyburide"
+425,Auntie,High Cholesterol,"simvastatin, aspirin"
+426,uncle,High Cholesterol,"isradipine, simvastatin"
+427,Uncle,Normal blood sugar and cholesterol,amlodipine
+428,Grandmother,Normal blood sugar and cholesterol,felodipine
+429,grandfather,Diabetic & High Cholesterol,"metformin, Metoprolol"
+430,aunt,High Cholesterol,atorvastatin
+431,Father,Normal blood sugar and cholesterol,
+432,Mother,Normal blood sugar and cholesterol,
+433,mother,High Cholesterol,lovastatin
+434,Father,High Cholesterol,"amlodipine, atorvastatin"
+435,Uncle,High Cholesterol,"lovastatin, Metoprolol"
+436,Uncle,High Cholesterol,"simvastatin, Metoprolol"
+437,father,High Cholesterol,aspirin
+438,Father,Normal blood sugar and cholesterol,nitrates
+439,Father,High Cholesterol,"felodipine, lovastatin"
+440,Aunt,High Cholesterol,atorvastatin
+441,Grandfather,High Cholesterol,nitrates
+442,Mother,High Cholesterol,simvastatin
+443,Grandfather,High Cholesterol,"felodipine, atorvastatin, Metoprolol"
+444,Grandfather,Normal blood sugar and cholesterol,
+445,Aunt,High Cholesterol,"felodipine, simvastatin"
+446,grandmother,Diabetic,glyburide
+447,uncle,Diabetic & High Cholesterol,"felodipine, atorvastatin, glimepiride"
+448,Auntie,High Cholesterol,"isradipine, atorvastatin, aspirin"
+449,Mother,High Cholesterol,
+450,Grandfather,Normal blood sugar and cholesterol,
+451,Grandfather,High Cholesterol,simvastatin
+452,grandfather,High Cholesterol,"amlodipine, atorvastatin"
+453,auntie,Diabetic,"felodipine, glyburide, nitrates"
+454,uncle,High Cholesterol,lovastatin
+455,father,Normal blood sugar and cholesterol,isradipine
+456,Grandfather,Diabetic,"amlodipine, rosiglitazone"
+457,Uncle,High Cholesterol,atorvastatin
+458,Mother,Normal blood sugar and cholesterol,
+459,grandmother,High Cholesterol,"isradipine, simvastatin"
+460,father,High Cholesterol,"felodipine, atorvastatin, Acebutolol"
+461,uncle,High Cholesterol,felodipine
+462,uncle,Diabetic & High Cholesterol,lovastatin
+463,Auntie,Normal blood sugar and cholesterol,
+464,Mother,Normal blood sugar and cholesterol,
+465,aunt,High Cholesterol,simvastatin
+466,mother,Normal blood sugar and cholesterol,felodipine
+467,Uncle,Normal blood sugar and cholesterol,
+468,Mother,High Cholesterol,
+469,auntie,Diabetic & High Cholesterol,"isradipine, insulin, nitrates"
+470,Grandmother,High Cholesterol,"felodipine, atorvastatin, aspirin"
+471,auntie,Normal blood sugar and cholesterol,felodipine
+472,Uncle,High Cholesterol,simvastatin
+473,aunt,Normal blood sugar and cholesterol,felodipine
+474,Father,Normal blood sugar and cholesterol,amlodipine
+475,father,Normal blood sugar and cholesterol,
+476,Grandfather,Diabetic,"isradipine, metformin"
+477,uncle,Diabetic & High Cholesterol,"isradipine, simvastatin, glimepiride"
+478,grandmother,Normal blood sugar and cholesterol,isradipine
+479,uncle,High Cholesterol,amlodipine
+480,Grandmother,Normal blood sugar and cholesterol,"felodipine, aspirin"
+481,uncle,High Cholesterol,"isradipine, atorvastatin, aspirin"
+482,Grandfather,High Cholesterol,lovastatin
+483,aunt,High Cholesterol,"simvastatin, aspirin"
+484,Grandfather,Normal blood sugar and cholesterol,amlodipine
+485,uncle,High Cholesterol,lovastatin
+486,Auntie,High Cholesterol,atorvastatin
+487,Father,Normal blood sugar and cholesterol,
+488,Uncle,High Cholesterol,isradipine
+489,uncle,Diabetic & High Cholesterol,"isradipine, lovastatin, metformin, Acebutolol"
+490,Auntie,Diabetic & High Cholesterol,"amlodipine, lovastatin, aspirin"
+491,mother,High Cholesterol,atorvastatin
+492,Grandfather,Normal blood sugar and cholesterol,amlodipine
+493,Grandmother,High Cholesterol,"amlodipine, Metoprolol"
+494,Aunt,High Cholesterol,"simvastatin, aspirin"
+495,Auntie,Diabetic & High Cholesterol,"felodipine, atorvastatin, metformin"
+496,grandmother,Normal blood sugar and cholesterol,felodipine
+497,Uncle,Diabetic & High Cholesterol,"felodipine, simvastatin, metformin"
+498,aunt,Normal blood sugar and cholesterol,felodipine
+499,father,Normal blood sugar and cholesterol,amlodipine
+500,grandmother,Normal blood sugar and cholesterol,Metoprolol
+501,Grandfather,Normal blood sugar and cholesterol,
+502,Aunt,Normal blood sugar and cholesterol,felodipine
+503,mother,Normal blood sugar and cholesterol,aspirin
+504,father,Normal blood sugar and cholesterol,felodipine
+505,Uncle,High Cholesterol,simvastatin
+506,Mother,High Cholesterol,lovastatin
+507,grandfather,High Cholesterol,"simvastatin, nitrates"
+508,Mother,Normal blood sugar and cholesterol,amlodipine
+509,father,Diabetic & High Cholesterol,"rosiglitazone, Acebutolol"
+510,uncle,High Cholesterol,"felodipine, atorvastatin, Metoprolol"
+511,Grandfather,Diabetic & High Cholesterol,"amlodipine, atorvastatin, insulin, Metoprolol"
+512,Uncle,Normal blood sugar and cholesterol,
+513,Mother,High Cholesterol,atorvastatin
+514,Grandfather,Normal blood sugar and cholesterol,nitrates
+515,auntie,Normal blood sugar and cholesterol,
+516,Grandfather,Normal blood sugar and cholesterol,
+517,grandfather,Normal blood sugar and cholesterol,"amlodipine, aspirin"
+518,auntie,Normal blood sugar and cholesterol,
+519,uncle,Normal blood sugar and cholesterol,
+520,Father,Normal blood sugar and cholesterol,isradipine
+521,Mother,Normal blood sugar and cholesterol,"amlodipine, nitrates"
+522,auntie,Normal blood sugar and cholesterol,
+523,Mother,High Cholesterol,"felodipine, atorvastatin"
+524,Father,Normal blood sugar and cholesterol,
+525,Mother,Normal blood sugar and cholesterol,
+526,grandmother,High Cholesterol,"amlodipine, lovastatin"
+527,grandfather,Normal blood sugar and cholesterol,felodipine
+528,grandmother,Normal blood sugar and cholesterol,amlodipine
+529,auntie,High Cholesterol,"amlodipine, atorvastatin"
+530,aunt,Diabetic,"isradipine, metformin"
+531,Grandmother,High Cholesterol,felodipine
+532,uncle,High Cholesterol,felodipine
+533,grandmother,Normal blood sugar and cholesterol,"felodipine, nitrates"
+534,Mother,Normal blood sugar and cholesterol,amlodipine
+535,Grandmother,High Cholesterol,atorvastatin
+536,grandmother,Normal blood sugar and cholesterol,amlodipine
+537,Uncle,Normal blood sugar and cholesterol,
+538,Mother,High Cholesterol,
+539,father,High Cholesterol,atorvastatin
+540,Grandfather,Normal blood sugar and cholesterol,felodipine
+541,Aunt,High Cholesterol,felodipine
+542,auntie,Normal blood sugar and cholesterol,isradipine
+543,grandfather,High Cholesterol,"amlodipine, simvastatin"
+544,auntie,Normal blood sugar and cholesterol,amlodipine
+545,Aunt,High Cholesterol,"amlodipine, simvastatin"
+546,Grandfather,Normal blood sugar and cholesterol,
+547,Aunt,High Cholesterol,simvastatin
+548,uncle,Normal blood sugar and cholesterol,
+549,aunt,High Cholesterol,
+550,Uncle,High Cholesterol,lovastatin
+551,grandmother,High Cholesterol,lovastatin
+552,auntie,High Cholesterol,"amlodipine, simvastatin, nitrates"
+553,uncle,Diabetic & High Cholesterol,"amlodipine, atorvastatin, Acebutolol"
+554,Father,Diabetic,insulin
+555,aunt,Normal blood sugar and cholesterol,
+556,Aunt,Diabetic & High Cholesterol,"felodipine, atorvastatin"
+557,Aunt,Normal blood sugar and cholesterol,"felodipine, nitrates"
+558,grandmother,Normal blood sugar and cholesterol,isradipine
+559,Auntie,Normal blood sugar and cholesterol,
+560,Grandmother,Normal blood sugar and cholesterol,
+561,Father,Normal blood sugar and cholesterol,felodipine
+562,Father,High Cholesterol,"felodipine, simvastatin"
+563,mother,Normal blood sugar and cholesterol,
+564,aunt,High Cholesterol,atorvastatin
+565,Auntie,Normal blood sugar and cholesterol,Metoprolol
+566,aunt,Normal blood sugar and cholesterol,felodipine
+567,Grandmother,High Cholesterol,simvastatin
+568,Grandfather,Normal blood sugar and cholesterol,isradipine
+569,Uncle,Normal blood sugar and cholesterol,isradipine
+570,auntie,Diabetic,glimepiride
+571,father,Diabetic & High Cholesterol,lovastatin
+572,Auntie,High Cholesterol,"isradipine, simvastatin"
+573,Father,Normal blood sugar and cholesterol,
+574,Grandmother,High Cholesterol,simvastatin
+575,Uncle,High Cholesterol,"felodipine, simvastatin, Metoprolol"
+576,Aunt,High Cholesterol,"isradipine, atorvastatin"
+577,Mother,Diabetic & High Cholesterol,"amlodipine, glimepiride"
+578,Mother,High Cholesterol,"isradipine, atorvastatin"
+579,grandfather,High Cholesterol,simvastatin
+580,grandfather,Normal blood sugar and cholesterol,
+581,Aunt,Diabetic,rosiglitazone
+582,Grandmother,Normal blood sugar and cholesterol,
+583,aunt,High Cholesterol,atorvastatin
+584,father,Normal blood sugar and cholesterol,Metoprolol
+585,Mother,High Cholesterol,"felodipine, atorvastatin, Metoprolol"
+586,Uncle,Normal blood sugar and cholesterol,"felodipine, aspirin"
+587,grandfather,High Cholesterol,"amlodipine, Metoprolol"
+588,Grandmother,Diabetic,"felodipine, glyburide"
+589,Father,High Cholesterol,"isradipine, lovastatin, nitrates"
+590,uncle,High Cholesterol,"simvastatin, Acebutolol"
+591,Grandfather,High Cholesterol,aspirin
+592,Grandmother,High Cholesterol,"lovastatin, Metoprolol"
+593,Grandfather,High Cholesterol,"amlodipine, Metoprolol"
+594,grandfather,High Cholesterol,lovastatin
+595,Mother,Normal blood sugar and cholesterol,felodipine
+596,Aunt,Normal blood sugar and cholesterol,isradipine
+597,grandfather,Normal blood sugar and cholesterol,"felodipine, Acebutolol"
+598,Grandmother,Normal blood sugar and cholesterol,
+599,Grandmother,High Cholesterol,atorvastatin
+600,auntie,Normal blood sugar and cholesterol,
+601,aunt,High Cholesterol,isradipine
+602,Aunt,High Cholesterol,"lovastatin, Metoprolol"
+603,father,High Cholesterol,lovastatin
+604,Grandmother,Normal blood sugar and cholesterol,
+605,mother,High Cholesterol,atorvastatin
+606,grandmother,Diabetic & High Cholesterol,"lovastatin, rosiglitazone"
+607,Father,Normal blood sugar and cholesterol,Metoprolol
+608,Grandfather,High Cholesterol,"amlodipine, lovastatin, aspirin"
+609,auntie,Normal blood sugar and cholesterol,isradipine
+610,Grandfather,High Cholesterol,"amlodipine, Metoprolol"
+611,Father,Diabetic & High Cholesterol,"felodipine, rosiglitazone, nitrates"
+612,grandmother,Normal blood sugar and cholesterol,"felodipine, aspirin"
+613,mother,Diabetic,"isradipine, glimepiride"
+614,Mother,Normal blood sugar and cholesterol,"amlodipine, Metoprolol"
+615,father,High Cholesterol,"felodipine, simvastatin, Metoprolol"
+616,Grandfather,Normal blood sugar and cholesterol,
+617,Uncle,High Cholesterol,lovastatin
+618,Father,High Cholesterol,
+619,aunt,High Cholesterol,felodipine
+620,grandfather,High Cholesterol,lovastatin
+621,father,High Cholesterol,"amlodipine, atorvastatin, aspirin"
+622,Uncle,Diabetic & High Cholesterol,"atorvastatin, metformin, Metoprolol"
+623,Auntie,Diabetic & High Cholesterol,"amlodipine, simvastatin, rosiglitazone"
+624,grandmother,Normal blood sugar and cholesterol,amlodipine
+625,uncle,High Cholesterol,"isradipine, simvastatin"
+626,Auntie,High Cholesterol,"isradipine, lovastatin"
+627,Grandmother,Normal blood sugar and cholesterol,isradipine
+628,father,Normal blood sugar and cholesterol,aspirin
+629,Uncle,Normal blood sugar and cholesterol,felodipine
+630,auntie,Diabetic & High Cholesterol,"amlodipine, insulin"
+631,Father,High Cholesterol,lovastatin
+632,Grandfather,High Cholesterol,"amlodipine, simvastatin"
+633,grandfather,Normal blood sugar and cholesterol,felodipine
+634,father,Normal blood sugar and cholesterol,"isradipine, aspirin"
+635,Uncle,Normal blood sugar and cholesterol,felodipine
+636,mother,High Cholesterol,"isradipine, atorvastatin"
+637,grandfather,High Cholesterol,"amlodipine, atorvastatin, Acebutolol"
+638,Grandmother,High Cholesterol,
+639,Father,Diabetic & High Cholesterol,isradipine
+640,Father,Normal blood sugar and cholesterol,felodipine
+641,Mother,High Cholesterol,Acebutolol
+642,Grandmother,High Cholesterol,"amlodipine, lovastatin, nitrates"
+643,Grandmother,High Cholesterol,
+644,grandmother,Normal blood sugar and cholesterol,
+645,Aunt,Normal blood sugar and cholesterol,
+646,Father,High Cholesterol,"felodipine, lovastatin"
+647,auntie,High Cholesterol,atorvastatin
+648,grandmother,High Cholesterol,"felodipine, atorvastatin"
+649,Father,Normal blood sugar and cholesterol,
+650,grandmother,Normal blood sugar and cholesterol,isradipine
+651,aunt,High Cholesterol,"lovastatin, nitrates"
+652,uncle,Normal blood sugar and cholesterol,
+653,Auntie,Normal blood sugar and cholesterol,amlodipine
+654,auntie,Diabetic & High Cholesterol,"amlodipine, atorvastatin, insulin, Metoprolol"
+655,grandmother,High Cholesterol,"isradipine, atorvastatin"
+656,auntie,Normal blood sugar and cholesterol,
+657,uncle,Normal blood sugar and cholesterol,isradipine
+658,aunt,Normal blood sugar and cholesterol,
+659,mother,High Cholesterol,"felodipine, atorvastatin, aspirin"
+660,uncle,High Cholesterol,felodipine
+661,grandmother,Normal blood sugar and cholesterol,Metoprolol
+662,aunt,High Cholesterol,lovastatin
+663,Mother,Normal blood sugar and cholesterol,
+664,grandmother,High Cholesterol,
+665,Grandmother,Normal blood sugar and cholesterol,
+666,Uncle,Diabetic & High Cholesterol,"felodipine, glimepiride"
+667,Grandfather,Normal blood sugar and cholesterol,isradipine
+668,Father,High Cholesterol,atorvastatin
+669,auntie,Normal blood sugar and cholesterol,felodipine
+670,father,High Cholesterol,Acebutolol
+671,Grandmother,High Cholesterol,"amlodipine, simvastatin"
+672,grandmother,Normal blood sugar and cholesterol,isradipine
+673,Mother,High Cholesterol,atorvastatin
+674,Auntie,High Cholesterol,simvastatin
+675,aunt,Diabetic & High Cholesterol,"isradipine, atorvastatin, insulin"
+676,Grandmother,Normal blood sugar and cholesterol,
+677,Father,High Cholesterol,"isradipine, lovastatin, aspirin"
+678,father,High Cholesterol,atorvastatin
+679,Grandmother,High Cholesterol,"lovastatin, Metoprolol"
+680,Grandmother,Diabetic & High Cholesterol,"felodipine, simvastatin, aspirin"
+681,father,High Cholesterol,simvastatin
+682,Grandfather,High Cholesterol,"isradipine, lovastatin, Metoprolol"
+683,mother,Diabetic,
+684,grandmother,Normal blood sugar and cholesterol,aspirin
+685,Mother,Normal blood sugar and cholesterol,isradipine
+686,auntie,High Cholesterol,"felodipine, atorvastatin"
+687,Father,Diabetic,"felodipine, rosiglitazone"
+688,aunt,High Cholesterol,"felodipine, atorvastatin"
+689,grandmother,Diabetic & High Cholesterol,"amlodipine, atorvastatin, glyburide, Metoprolol"
+690,uncle,Diabetic & High Cholesterol,"isradipine, simvastatin, rosiglitazone"
+691,Father,Normal blood sugar and cholesterol,nitrates
+692,Mother,High Cholesterol,isradipine
+693,Mother,Diabetic,"isradipine, insulin, Metoprolol"
+694,grandfather,Normal blood sugar and cholesterol,isradipine
+695,Auntie,Normal blood sugar and cholesterol,
+696,Auntie,High Cholesterol,"isradipine, atorvastatin, aspirin"
+697,Uncle,Normal blood sugar and cholesterol,
+698,Father,Normal blood sugar and cholesterol,
+699,grandmother,Normal blood sugar and cholesterol,
+700,Grandmother,High Cholesterol,"amlodipine, Metoprolol"
+701,Auntie,Normal blood sugar and cholesterol,amlodipine
+702,Auntie,Normal blood sugar and cholesterol,nitrates
+703,grandfather,High Cholesterol,"isradipine, lovastatin"
+704,grandmother,Normal blood sugar and cholesterol,aspirin
+705,mother,Normal blood sugar and cholesterol,Acebutolol
+706,Grandfather,Normal blood sugar and cholesterol,"isradipine, aspirin"
+707,Aunt,Normal blood sugar and cholesterol,
+708,Aunt,High Cholesterol,"isradipine, simvastatin"
+709,aunt,Diabetic,insulin
+710,Auntie,High Cholesterol,atorvastatin
+711,father,Normal blood sugar and cholesterol,amlodipine
+712,Grandmother,Normal blood sugar and cholesterol,Metoprolol
+713,grandfather,Normal blood sugar and cholesterol,
+714,father,Normal blood sugar and cholesterol,amlodipine
+715,grandmother,Normal blood sugar and cholesterol,"amlodipine, nitrates"
+716,uncle,High Cholesterol,"felodipine, lovastatin"
+717,auntie,Normal blood sugar and cholesterol,"felodipine, Acebutolol"
+718,Mother,Diabetic & High Cholesterol,"isradipine, lovastatin, insulin, Metoprolol"
+719,Grandfather,High Cholesterol,felodipine
+720,mother,Diabetic,insulin
+721,father,High Cholesterol,"amlodipine, lovastatin"
+722,Aunt,High Cholesterol,simvastatin
+723,auntie,High Cholesterol,"felodipine, lovastatin"
+724,Father,Normal blood sugar and cholesterol,
+725,Grandmother,High Cholesterol,Metoprolol
+726,Grandmother,High Cholesterol,"amlodipine, simvastatin"
+727,Grandfather,High Cholesterol,amlodipine
+728,grandmother,Normal blood sugar and cholesterol,amlodipine
+729,Father,High Cholesterol,"amlodipine, atorvastatin, aspirin"
+730,aunt,High Cholesterol,"felodipine, atorvastatin"
+731,grandmother,Normal blood sugar and cholesterol,
+732,grandfather,Normal blood sugar and cholesterol,
+733,Mother,Normal blood sugar and cholesterol,
+734,aunt,Normal blood sugar and cholesterol,
+735,Uncle,Diabetic,"amlodipine, aspirin"
+736,auntie,Normal blood sugar and cholesterol,amlodipine
+737,Grandmother,Normal blood sugar and cholesterol,aspirin
+738,Mother,Normal blood sugar and cholesterol,
+739,Grandmother,High Cholesterol,"amlodipine, simvastatin"
+740,uncle,High Cholesterol,"simvastatin, Acebutolol"
+741,Father,Normal blood sugar and cholesterol,felodipine
+742,Grandfather,High Cholesterol,"atorvastatin, aspirin"
+743,grandmother,Diabetic & High Cholesterol,"amlodipine, atorvastatin, insulin, nitrates"
+744,aunt,Normal blood sugar and cholesterol,isradipine
+745,mother,High Cholesterol,atorvastatin
+746,uncle,Normal blood sugar and cholesterol,
+747,grandmother,High Cholesterol,lovastatin
+748,grandfather,Diabetic,insulin
+749,father,Normal blood sugar and cholesterol,
+750,Father,Normal blood sugar and cholesterol,felodipine
+751,Mother,High Cholesterol,"isradipine, atorvastatin"
+752,mother,High Cholesterol,"felodipine, atorvastatin"
+753,Mother,High Cholesterol,simvastatin
+754,Grandmother,Normal blood sugar and cholesterol,
+755,Auntie,High Cholesterol,"amlodipine, atorvastatin"
+756,Grandmother,Diabetic & High Cholesterol,"felodipine, atorvastatin"
+757,mother,High Cholesterol,atorvastatin
+758,grandfather,Normal blood sugar and cholesterol,felodipine
+759,Father,Normal blood sugar and cholesterol,
+760,uncle,High Cholesterol,atorvastatin
+761,auntie,High Cholesterol,"felodipine, atorvastatin, nitrates"
+762,uncle,High Cholesterol,"isradipine, atorvastatin"
+763,aunt,Normal blood sugar and cholesterol,amlodipine
+764,Aunt,Diabetic & High Cholesterol,"felodipine, lovastatin, glimepiride"
+765,Auntie,Normal blood sugar and cholesterol,"felodipine, aspirin"
+766,Grandfather,High Cholesterol,"lovastatin, Metoprolol"
+767,Grandmother,High Cholesterol,lovastatin
+768,Auntie,Diabetic,amlodipine
+769,Uncle,Diabetic,insulin
+770,grandfather,Diabetic & High Cholesterol,"lovastatin, metformin"
+771,Mother,Normal blood sugar and cholesterol,
+772,uncle,Normal blood sugar and cholesterol,Acebutolol
+773,grandmother,High Cholesterol,"amlodipine, simvastatin, Metoprolol"
+774,Father,Normal blood sugar and cholesterol,isradipine
+775,Grandmother,High Cholesterol,"amlodipine, simvastatin"
+776,Father,Normal blood sugar and cholesterol,
+777,grandfather,High Cholesterol,"felodipine, lovastatin, Metoprolol"
+778,aunt,High Cholesterol,"isradipine, Metoprolol"
+779,Grandfather,Normal blood sugar and cholesterol,felodipine
+780,Auntie,Normal blood sugar and cholesterol,
+781,Uncle,Normal blood sugar and cholesterol,nitrates
+782,Mother,Normal blood sugar and cholesterol,
+783,aunt,High Cholesterol,"felodipine, lovastatin"
+784,Grandmother,Normal blood sugar and cholesterol,
+785,Auntie,Normal blood sugar and cholesterol,amlodipine
+786,mother,High Cholesterol,"amlodipine, simvastatin, Metoprolol"
+787,Aunt,Diabetic & High Cholesterol,"felodipine, atorvastatin, metformin"
+788,Grandmother,High Cholesterol,"lovastatin, Acebutolol"
+789,father,Diabetic & High Cholesterol,"amlodipine, lovastatin"
+790,Mother,High Cholesterol,simvastatin
+791,grandfather,Normal blood sugar and cholesterol,Metoprolol
+792,father,Normal blood sugar and cholesterol,aspirin
+793,father,Diabetic,"isradipine, rosiglitazone"
+794,uncle,Diabetic,insulin
+795,Father,Normal blood sugar and cholesterol,amlodipine
+796,Father,Diabetic,"felodipine, insulin"
+797,Grandfather,Normal blood sugar and cholesterol,amlodipine
+798,Grandmother,Normal blood sugar and cholesterol,isradipine
+799,Grandfather,High Cholesterol,"isradipine, lovastatin"
+800,Aunt,High Cholesterol,simvastatin
+801,Mother,Normal blood sugar and cholesterol,
+802,Grandmother,Diabetic,amlodipine
+803,Father,Normal blood sugar and cholesterol,Metoprolol
+804,Auntie,Normal blood sugar and cholesterol,
+805,Father,Normal blood sugar and cholesterol,
+806,Mother,Normal blood sugar and cholesterol,"felodipine, aspirin"
+807,Mother,High Cholesterol,"felodipine, atorvastatin"
+808,Auntie,Normal blood sugar and cholesterol,"isradipine, aspirin"
+809,Uncle,Normal blood sugar and cholesterol,Metoprolol
+810,Grandmother,Normal blood sugar and cholesterol,
+811,aunt,Normal blood sugar and cholesterol,nitrates
+812,Uncle,High Cholesterol,"felodipine, atorvastatin"
+813,father,High Cholesterol,"amlodipine, atorvastatin"
+814,Grandmother,Diabetic,"felodipine, nitrates"
+815,father,Diabetic,glimepiride
+816,uncle,Normal blood sugar and cholesterol,
+817,Auntie,High Cholesterol,"isradipine, atorvastatin"
+818,auntie,High Cholesterol,simvastatin
+819,Aunt,High Cholesterol,"amlodipine, lovastatin"
+820,father,Diabetic,"isradipine, glimepiride, Acebutolol"
+821,Mother,Normal blood sugar and cholesterol,"amlodipine, Metoprolol"
+822,Grandmother,High Cholesterol,atorvastatin
+823,Aunt,High Cholesterol,"felodipine, Acebutolol"
+824,grandmother,Normal blood sugar and cholesterol,isradipine
+825,auntie,Normal blood sugar and cholesterol,"isradipine, nitrates"
+826,mother,High Cholesterol,"amlodipine, simvastatin"
+827,Auntie,Normal blood sugar and cholesterol,amlodipine
+828,grandmother,Normal blood sugar and cholesterol,
+829,mother,Normal blood sugar and cholesterol,"felodipine, nitrates"
+830,grandmother,High Cholesterol,"isradipine, atorvastatin, aspirin"
+831,aunt,Normal blood sugar and cholesterol,Acebutolol
+832,Uncle,Normal blood sugar and cholesterol,isradipine
+833,grandfather,High Cholesterol,atorvastatin
+834,Uncle,Normal blood sugar and cholesterol,"felodipine, Acebutolol"
+835,aunt,High Cholesterol,Metoprolol
+836,Uncle,Normal blood sugar and cholesterol,
+837,aunt,Normal blood sugar and cholesterol,felodipine
+838,Father,Diabetic,isradipine
+839,Father,Normal blood sugar and cholesterol,"isradipine, Acebutolol"
+840,father,High Cholesterol,"felodipine, simvastatin, Acebutolol"
+841,Auntie,Normal blood sugar and cholesterol,amlodipine
+842,aunt,Normal blood sugar and cholesterol,felodipine
+843,Father,Normal blood sugar and cholesterol,
+844,Auntie,High Cholesterol,"felodipine, atorvastatin"
+845,mother,High Cholesterol,"isradipine, simvastatin"
+846,grandmother,Normal blood sugar and cholesterol,"amlodipine, Acebutolol"
+847,Mother,Normal blood sugar and cholesterol,felodipine
+848,Mother,Normal blood sugar and cholesterol,
+849,uncle,Diabetic & High Cholesterol,"felodipine, simvastatin, glimepiride"
+850,Mother,High Cholesterol,"felodipine, simvastatin, Metoprolol"
+851,father,High Cholesterol,atorvastatin
+852,auntie,High Cholesterol,lovastatin
+853,Mother,High Cholesterol,"felodipine, aspirin"
+854,grandfather,Normal blood sugar and cholesterol,aspirin
+855,uncle,Diabetic & High Cholesterol,"amlodipine, atorvastatin, rosiglitazone"
+856,Grandfather,Diabetic,rosiglitazone
+857,grandmother,Normal blood sugar and cholesterol,
+858,Father,High Cholesterol,lovastatin
+859,Auntie,Normal blood sugar and cholesterol,
+860,Mother,High Cholesterol,"amlodipine, simvastatin, Acebutolol"
+861,Grandmother,Normal blood sugar and cholesterol,
+862,Auntie,High Cholesterol,atorvastatin
+863,Father,High Cholesterol,isradipine
+864,grandfather,Normal blood sugar and cholesterol,amlodipine
+865,auntie,High Cholesterol,atorvastatin
+866,auntie,Normal blood sugar and cholesterol,
+867,Father,High Cholesterol,atorvastatin
+868,auntie,Normal blood sugar and cholesterol,
+869,Father,Normal blood sugar and cholesterol,
+870,auntie,Normal blood sugar and cholesterol,
+871,Aunt,High Cholesterol,felodipine
+872,Aunt,High Cholesterol,isradipine
+873,grandmother,Normal blood sugar and cholesterol,amlodipine
+874,mother,Normal blood sugar and cholesterol,isradipine
+875,father,High Cholesterol,isradipine
+876,grandmother,Normal blood sugar and cholesterol,
+877,Mother,Normal blood sugar and cholesterol,amlodipine
+878,Grandfather,Normal blood sugar and cholesterol,amlodipine
+879,Auntie,Normal blood sugar and cholesterol,
+880,grandfather,High Cholesterol,felodipine
+881,father,Normal blood sugar and cholesterol,"felodipine, Metoprolol"
+882,grandfather,Normal blood sugar and cholesterol,
+883,auntie,Normal blood sugar and cholesterol,nitrates
+884,Uncle,High Cholesterol,isradipine
+885,Mother,Normal blood sugar and cholesterol,"amlodipine, Acebutolol"
+886,mother,Diabetic & High Cholesterol,"amlodipine, atorvastatin, glimepiride"
+887,Grandmother,High Cholesterol,"atorvastatin, Acebutolol"
+888,father,Normal blood sugar and cholesterol,Acebutolol
+889,grandfather,High Cholesterol,"isradipine, atorvastatin"
+890,Grandmother,High Cholesterol,"amlodipine, atorvastatin"
+891,father,Normal blood sugar and cholesterol,"isradipine, Metoprolol"
+892,grandmother,High Cholesterol,"felodipine, atorvastatin, nitrates"
+893,father,Normal blood sugar and cholesterol,Acebutolol
+894,uncle,Diabetic,"amlodipine, metformin, Metoprolol"
+895,father,High Cholesterol,"lovastatin, Metoprolol"
+896,Grandfather,High Cholesterol,atorvastatin
+897,Auntie,High Cholesterol,atorvastatin
+898,Father,Normal blood sugar and cholesterol,felodipine
+899,aunt,High Cholesterol,simvastatin
+900,Grandmother,Normal blood sugar and cholesterol,
+901,Grandmother,Normal blood sugar and cholesterol,felodipine
+902,Grandmother,High Cholesterol,
+903,Father,High Cholesterol,
+904,Auntie,Diabetic,rosiglitazone
+905,Auntie,High Cholesterol,atorvastatin
+906,father,High Cholesterol,Metoprolol
+907,Mother,Normal blood sugar and cholesterol,isradipine
+908,grandmother,High Cholesterol,simvastatin
+909,Aunt,High Cholesterol,simvastatin
+910,father,Normal blood sugar and cholesterol,"isradipine, Acebutolol"
+911,Auntie,Normal blood sugar and cholesterol,amlodipine
+912,father,Diabetic & High Cholesterol,"isradipine, glyburide"
+913,Mother,Normal blood sugar and cholesterol,aspirin
+914,mother,Normal blood sugar and cholesterol,Acebutolol
+915,Uncle,Normal blood sugar and cholesterol,Metoprolol
+916,Aunt,High Cholesterol,
+917,Father,High Cholesterol,"isradipine, simvastatin"
+918,Grandfather,High Cholesterol,"isradipine, simvastatin"
+919,mother,Normal blood sugar and cholesterol,
+920,grandfather,Normal blood sugar and cholesterol,aspirin
+921,Grandfather,Normal blood sugar and cholesterol,
+922,grandmother,Normal blood sugar and cholesterol,felodipine
+923,Grandmother,High Cholesterol,simvastatin
+924,father,Normal blood sugar and cholesterol,amlodipine
+925,Grandfather,High Cholesterol,"felodipine, atorvastatin"
+926,auntie,Normal blood sugar and cholesterol,"amlodipine, Acebutolol"
+927,mother,Normal blood sugar and cholesterol,
+928,Grandmother,Diabetic,glimepiride
+929,father,High Cholesterol,"felodipine, lovastatin, aspirin"
+930,Grandfather,Normal blood sugar and cholesterol,felodipine
+931,mother,High Cholesterol,"isradipine, lovastatin"
+932,Grandmother,Normal blood sugar and cholesterol,isradipine
+933,Uncle,High Cholesterol,"isradipine, lovastatin"
+934,grandmother,Normal blood sugar and cholesterol,nitrates
+935,Aunt,Normal blood sugar and cholesterol,isradipine
+936,grandfather,Normal blood sugar and cholesterol,
+937,Grandmother,High Cholesterol,isradipine
+938,Mother,High Cholesterol,amlodipine
+939,Uncle,Normal blood sugar and cholesterol,"isradipine, Metoprolol"
+940,Father,High Cholesterol,"amlodipine, simvastatin"
+941,grandmother,High Cholesterol,"isradipine, atorvastatin, Metoprolol"
+942,Auntie,Normal blood sugar and cholesterol,amlodipine
+943,Father,Normal blood sugar and cholesterol,amlodipine
+944,aunt,Normal blood sugar and cholesterol,
+945,Auntie,Diabetic,"felodipine, rosiglitazone, Metoprolol"
+946,Father,Normal blood sugar and cholesterol,
+947,auntie,High Cholesterol,isradipine
+948,aunt,Normal blood sugar and cholesterol,felodipine
+949,Auntie,Normal blood sugar and cholesterol,amlodipine
+950,Auntie,Normal blood sugar and cholesterol,"amlodipine, Acebutolol"
+951,Uncle,High Cholesterol,"simvastatin, nitrates"
+952,Uncle,High Cholesterol,"amlodipine, lovastatin"
+953,grandfather,Diabetic & High Cholesterol,simvastatin
+954,father,Normal blood sugar and cholesterol,"felodipine, Acebutolol"
+955,Grandmother,High Cholesterol,"felodipine, lovastatin"
+956,uncle,Normal blood sugar and cholesterol,felodipine
+957,auntie,High Cholesterol,felodipine
+958,Auntie,Normal blood sugar and cholesterol,isradipine
+959,Auntie,Diabetic & High Cholesterol,"amlodipine, glimepiride"
+960,Mother,Normal blood sugar and cholesterol,amlodipine
+961,grandfather,Normal blood sugar and cholesterol,isradipine
+962,Grandmother,High Cholesterol,
+963,uncle,Diabetic,glimepiride
+964,grandmother,High Cholesterol,"amlodipine, lovastatin, Acebutolol"
+965,grandfather,Normal blood sugar and cholesterol,
+966,mother,Normal blood sugar and cholesterol,amlodipine
+967,Grandfather,High Cholesterol,"amlodipine, atorvastatin, aspirin"
+968,Uncle,Diabetic,glyburide
+969,grandfather,Diabetic,"amlodipine, insulin, Metoprolol"
+970,grandmother,High Cholesterol,lovastatin
+971,aunt,Normal blood sugar and cholesterol,amlodipine
+972,uncle,Diabetic,"amlodipine, glimepiride"
+973,grandmother,Normal blood sugar and cholesterol,
+974,Mother,Diabetic & High Cholesterol,"felodipine, metformin"
+975,mother,Normal blood sugar and cholesterol,
+976,Father,Normal blood sugar and cholesterol,
+977,mother,High Cholesterol,lovastatin
+978,Father,Diabetic,"felodipine, insulin"
+979,grandfather,Normal blood sugar and cholesterol,
+980,Aunt,High Cholesterol,"atorvastatin, nitrates"
+981,Uncle,Normal blood sugar and cholesterol,isradipine
+982,Auntie,Normal blood sugar and cholesterol,
+983,mother,Normal blood sugar and cholesterol,
+984,Auntie,High Cholesterol,"isradipine, simvastatin, nitrates"
+985,Father,Normal blood sugar and cholesterol,amlodipine
+986,Uncle,Normal blood sugar and cholesterol,
+987,aunt,High Cholesterol,"felodipine, simvastatin, aspirin"
+988,Aunt,Normal blood sugar and cholesterol,
+989,Mother,High Cholesterol,"isradipine, simvastatin"
+990,Father,High Cholesterol,atorvastatin
+991,Mother,Normal blood sugar and cholesterol,
+992,grandfather,Diabetic,"insulin, Metoprolol"
+993,Aunt,High Cholesterol,atorvastatin
+994,Auntie,Diabetic & High Cholesterol,"felodipine, lovastatin, glyburide"
+995,Aunt,Normal blood sugar and cholesterol,Metoprolol
+996,Grandmother,High Cholesterol,lovastatin
+997,uncle,High Cholesterol,"isradipine, atorvastatin, aspirin"
+998,father,Normal blood sugar and cholesterol,
+999,auntie,High Cholesterol,"isradipine, nitrates"
+1000,Auntie,Diabetic & High Cholesterol,"isradipine, simvastatin, glimepiride"
+1001,Grandmother,Normal blood sugar and cholesterol,amlodipine
+1002,grandmother,Normal blood sugar and cholesterol,isradipine
+1003,Grandfather,Normal blood sugar and cholesterol,Acebutolol
+1004,auntie,Diabetic,glyburide
+1005,Mother,High Cholesterol,"isradipine, lovastatin"
+1006,grandmother,Normal blood sugar and cholesterol,aspirin
+1007,Uncle,Diabetic,amlodipine
+1008,Father,Normal blood sugar and cholesterol,
+1009,mother,High Cholesterol,lovastatin
+1010,Aunt,Normal blood sugar and cholesterol,
+1011,grandmother,High Cholesterol,"amlodipine, atorvastatin, Acebutolol"
+1012,Father,High Cholesterol,lovastatin
+1013,Father,Normal blood sugar and cholesterol,
+1014,Aunt,High Cholesterol,simvastatin
+1015,auntie,Normal blood sugar and cholesterol,
+1016,grandmother,Normal blood sugar and cholesterol,"isradipine, Metoprolol"
+1017,Aunt,Diabetic & High Cholesterol,"amlodipine, simvastatin, glimepiride"
+1018,Grandfather,High Cholesterol,"amlodipine, atorvastatin, nitrates"
+1019,grandfather,Normal blood sugar and cholesterol,
+1020,Uncle,Normal blood sugar and cholesterol,
+1021,Grandfather,Normal blood sugar and cholesterol,"isradipine, Acebutolol"
+1022,Uncle,High Cholesterol,"amlodipine, simvastatin"
+1023,Grandmother,High Cholesterol,atorvastatin
+1024,father,High Cholesterol,lovastatin
+1025,aunt,Normal blood sugar and cholesterol,

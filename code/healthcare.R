@@ -12,8 +12,16 @@ dataframe_about <- "patients" #see line 250
 path_to_data <- here::here("data", file_name)
 data <- readRDS(path_to_data)
 heart <- data #set this object as the same as dataframe_name, makes it available in the learnr chunks
-#heart_joined
-#patient_hx
+
+#join
 dataframe_join_file_name <- "phx.csv"
 dataframe_join_name <- "patient_hx"
 dataframe_join_about <- "pseudo-patient histories"
+data2 <- read_csv(here::here("data", "phx.csv"))
+heart_joined <- read_csv(here::here("data", "phx.csv")) %>%  right_join(heart, by = "patient_id")
+
+#joined
+dataframe_joined_name <- "heart_joined"
+
+#heart_joined <- read_csv(here::here("data", dataframe_join_file_name)) %>% 
+#  right_join(sym(dataframe_name), by = df_id_name)

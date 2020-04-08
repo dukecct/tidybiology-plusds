@@ -4,6 +4,7 @@ title: "aes practice"
 
 ```{r setup, include=FALSE}
 library(tidyverse)
+library(patchwork)
 ```
 
 ```{r, include=FALSE}

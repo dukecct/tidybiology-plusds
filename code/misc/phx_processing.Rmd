@@ -104,6 +104,6 @@ heart %>% count(medication_hx, sort = TRUE)
 phx <- heart %>% 
    select(patient_id, family_history, health_status, medication_hx)
 
-write_csv(phx, "phx.csv")
+write_csv(phx, here::here("data", "phx.csv"))
 ```
 
