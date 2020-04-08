@@ -141,7 +141,7 @@ round(pi, digits = 3)
 
 ```
 
-## Which one of these are numbers?
+## Which of these are numbers?
 
 ```{r num_quiz, echo=FALSE}
 question("Which of these are numbers?",
@@ -465,7 +465,7 @@ knitr::include_graphics(url)
 <center><font size = "10">"and then"</font></center>
 
 ## The Pipe {.build}
-The “pipe” is a sequence of functions, that are sequentially applied to an object  
+  The “pipe” is a sequence of functions, that are sequentially applied to an object  
 ```{r wakeup, echo=TRUE, eval=FALSE}
 wakeup(self) %>%
   put_on("clothes") %>%
@@ -473,7 +473,7 @@ wakeup(self) %>%
   go(to = "work")
 ```
   
-Alternative nested code:  
+  Alternative nested code:  
 ```{r wakeup_nested, echo=TRUE, eval=FALSE}
 go(eat(put_on(wakeup(self), "clothes"), "breakfast"), to = "work")
 ```
@@ -501,17 +501,6 @@ morning_routine <- wakeup(self) %>%
 ```
 
 ## The Pipe (Quiz III)
-What does this code do? 
-  
-```{r wakeup_quiz3, echo=TRUE, eval=FALSE}
-morning_routine <- wakeup(self) %>%
-  put_on("clothes") %>%
-  eat("breakfast") %>%
-  fmk() %>% 
-  go(to = "work")
-```
-
-## The Pipe (Quiz IV)
 What does this code do? 
 
 ``r dataframe_name` %>%`  
@@ -833,7 +822,8 @@ For example, to calculate the mean `r colnames(df_numeric_select)`, run the foll
 
 ```
   
-*remember this pair!
+*remember this pair!  
+
 ## Saving a new dataset as an object
 
 If you'd like to save the output of your wrangling as an object, you will need to use the `<-` operator
