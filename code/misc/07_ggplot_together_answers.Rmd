@@ -12,7 +12,7 @@ source(here::here("code", "healthcare.R")) #loads dataset-specific variables
 ```
 
 # Lets take a glimpse at our dataset called `heart`
-```{r, include=FALSE}
+```{r}
 glimpse(heart)
 ```
 
@@ -74,7 +74,7 @@ ggplot(heart, aes(x = age, y = thalach, color = sex)) +
   labs(x = "Patient Age", y = "HR Max during Exercise", title = "Relationship between age and Max HR during exercise", caption = "Plot by Matt")
 ```
 
-Next, use `facet_grid` to split this graph based on whether the pateint has exercise induced anging or not. Make sure to wrap your variable in `factor()` to convert the numeric into a factor variable. 
+Next, use `facet_grid` to split this graph based on whether the pateint has exercise induced angina or not. Make sure to wrap your variable in `factor()` to convert the numeric into a factor variable. 
 ```{r}
 ggplot(heart, aes(x = age, y = thalach, color = sex)) +
   geom_point() +

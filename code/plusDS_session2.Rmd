@@ -1,6 +1,6 @@
 ---
 title: "Tidybiology +DS: Session 2 "
-subtitle: "An Introduction to Biological Data Science in R"
+subtitle: "Introduction to Data Science in Health Care using R"
 author: "Matthew Hirschey, Ph.D."
 date: "April 8-9, 2020"
 output: 
@@ -20,9 +20,6 @@ library(patchwork)
 library(ggrepel)
 knitr::opts_chunk$set(echo = FALSE, 
                       fig.align="center")
-```
-
-```{r load_data, message=FALSE, warning=FALSE, include=FALSE}
 source(here::here("code", "healthcare.R")) #loads dataset-specific variables
 source(here::here("code", "bespoke.R")) #loads custom objects
 ```
@@ -102,7 +99,7 @@ df_input %>%
 **That being said, here are a few style tips:**    
 - While you can put the `+` at the beginning of the next line, it is generally put at the end of the previous line    
   
-- Arguments do not need to be explicit: this chunk of code is equivalent to the previous chunk (data, mappings)
+- Arguments do not need to be explicit: this chunk of code is equivalent to the previous chunk (w/ data, mappings)  
 `ggplot(`r dataframe_name`) +`    
 `geom_point(aes(x = `r df_numeric2_name`, y = `r df_numeric2_name`))`  
 
@@ -122,13 +119,11 @@ plot1 + plot2
 ## The `geom` is different between these plots
 `geom` is short for geometric object, which is the visual object used to represent the data  
     
-`plot1 <- `r dataframe_name` %>%`   
-  `ggplot(aes(`r df_numeric1_name`, `r df_numeric2_name`)) +`  
-  `geom_point()`   
+`plot1 <- ggplot(`r dataframe_name`) +`  
+  `geom_point(aes(`r df_numeric1_name`, `r df_numeric2_name`))`   
   
-`plot2 <- `r dataframe_name` %>%`   
-  `ggplot(aes(`r df_numeric1_name`, `r df_numeric2_name`)) +`  
-  `geom_smooth()`   
+`plot2 <-  ggplot(`r df_numeric1_name`, `r df_numeric2_name`) +`  
+  `geom_smooth(aes(`r df_numeric1_name`, `r df_numeric2_name`))`   
 
 ## Choosing your (geom)itries
 Different data types require different plot types.  
@@ -583,7 +578,7 @@ Dealing with character strings is a bit different than dealing with numbers in R
 Fortunately, the `tidyverse` as a package called `stringr` for dealing with them. 
 
 ## Stringr
-<center><iframe src = "https://stringr.tidyverse.org></iframe></center>
+<center><iframe src = "https://stringr.tidyverse.org"></iframe></center>
 
 ## Counting string {.build}
 ```{r setup_count, include=FALSE}
@@ -607,7 +602,6 @@ In this code:
 
 ```{r str_count example, echo= FALSE, warning = FALSE}
 str_count(heart_joined$health_status, "High Cholesterol")
-
 ```
 
 ## Summarizing our counts
@@ -958,21 +952,25 @@ Where were the parameters called in the code?
   
 - Workflows save time, achieve reproducibility  
 
-## Resources
+## Cheatsheet Resources
 <a href="https://rstudio.com/resources/cheatsheets" target="_blank">Cheatsheets</a><br>
 <center><iframe src="https://rstudio.com/resources/cheatsheets"></iframe></center>
 
-## Resources
-<a href="https://stackoverflow.com/questions/tagged/r" target="_blank">Stackoverflow</a><br>
-<center><iframe src="https://stackoverflow.com/questions/tagged/r"></iframe></center>
+## Stackoverflow Resources
+<a href="https://stackoverflow.com/" target="_blank">Stackoverflow.com</a><br>
+<center><iframe src="https://stackoverflow.com"></iframe></center>
 
-## Resources
+## R4DS Resources
 <a href="https://r4ds.had.co.nz" target="_blank">R for Data Science</a><br>
 <center><iframe src="https://r4ds.had.co.nz"></iframe></center>
 
-## Resources
+## Tidytuesday Resources
 <a href="https://github.com/rfordatascience/tidytuesday" target="_blank">Tidytuesday</a><br>
-<center><iframe src="https://github.com/rfordatascience/tidytuesday/blob/master/README.md"></iframe></center>
+<center><iframe src="https://github.com/rfordatascience/tidytuesday"></iframe></center>
+
+## Visualization Resources: Tidytuesday
+<a href="https://github.com/rfordatascience/tidytuesday" target="_blank">Tidytuesday</a><br>
+<center><iframe src="https://github.com/rfordatascience/tidytuesday"></iframe></center>
 
 ## Acknowledgements {.build}
 **Teaching Assistants**  
