@@ -1,6 +1,6 @@
 ---
 title: "Tidybiology +DS: Session 1 "
-subtitle: "An Introduction to Biological Data Science in R"
+subtitle: "Introduction to Data Science in Health Care using R"
 author: "Matthew Hirschey, Ph.D."
 date: "April 8-9, 2020"
 output: 
@@ -18,9 +18,6 @@ library(twitterwidget)
 library(rlang)
 knitr::opts_chunk$set(echo = FALSE, 
                       fig.align="center")
-```
-
-```{r load_data, message=FALSE, warning=FALSE, include=FALSE}
 source(here::here("code", "healthcare.R")) #loads dataset-specific variables
 source(here::here("code", "bespoke.R")) #loads custom objects
 ```
@@ -630,7 +627,7 @@ The previous code chunk does the following - it takes your dataset and then "pip
 
 The alternative to using `%>%` is running the following code
 
-filter(select(df_input, `r colnames(df_character_select)`, `r colnames(df_numeric_select)`), `r colnames(df_character_select)` == "`r df_character_filter`")
+filter(select(`r dataframe_name`, `r colnames(df_character_select)`, `r colnames(df_numeric_select)`), `r colnames(df_character_select)` == "`r df_character_filter`")
 
 Although this is only one line as opposed to three, it's both more difficult to write and more difficult to read
 

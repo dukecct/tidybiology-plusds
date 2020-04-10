@@ -12,7 +12,7 @@ source(here::here("code", "healthcare.R")) #loads dataset-specific variables
 ```
 
 # Lets take a glimpse at our dataset called `heart`
-```{r, include=FALSE}
+```{r}
 
 ```
 

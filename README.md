@@ -53,7 +53,7 @@ disease; 1 = disease)
 
 ## Links
 
-| Class     | Topic                                                                  | Code          | Recording |
-| --------- | ---------------------------------------------------------------------- | ------------- | --------- |
-| Session 1 | Intoduction to R, Data Manipulation, Data Visualization                | [LINK](code/) | [Video]() |
-| Session 2 | Advanced Data Visualization, Joining Data, Making Reproducible Reports | [LINK](code/) | [Video]() |
+| Class     | Topic                                                                  | Code                             | Recording                                   |
+| --------- | ---------------------------------------------------------------------- | -------------------------------- | ------------------------------------------- |
+| Session 1 | Intoduction to Data Science, R Fundamentals, Data Manipulation         | [LINK](code/plusDS_session1.Rmd) | [Video](https://youtu.be/B9mMdrRQd1w?t=950) |
+| Session 2 | Data Visualization, Importing and Joining, Making Reproducible Reports | [LINK](code/plusDS_session2.Rmd) | [Video](https://youtu.be/_gljPOrZ8r8)       |
